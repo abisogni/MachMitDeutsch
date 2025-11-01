@@ -15,6 +15,7 @@ function transformNoun(noun) {
     word: noun.term,
     definition: noun.gloss,
     type: 'noun',
+    level: 'specialized',  // Business/IT nouns are specialized vocabulary
     gender: noun.gender,
     plural: noun.plural,
     collection: 'Business Nouns',
@@ -27,14 +28,24 @@ function transformNoun(noun) {
 
 // Transform verb data to app schema
 function transformVerb(verb) {
+  // Map old levels to CEFR
+  const levelMap = {
+    'common': 'A2',
+    'intermediate': 'B1',
+    'expert': 'specialized'
+  };
+
   const card = {
     id: generateId(),
     word: verb.term,
     definition: verb.translations.join(' / '),
     type: 'verb',
-    level: verb.level,
+    level: levelMap[verb.level] || 'B1',
     collection: `${verb.level.charAt(0).toUpperCase() + verb.level.slice(1)} Verbs`,
     tags: verb.domain || [],
+    // Verb metadata (using defaults since original data doesn't have these)
+    verbType: 'regular',  // Would need linguistic analysis to determine
+    auxiliary: 'haben',    // Most German verbs use haben
     cardScore: 0,
     viewCount: 0,
     createdDate: new Date().toISOString()
@@ -58,6 +69,7 @@ function transformPhrase(phrase) {
     word: phrase.term,
     definition: phrase.translation,
     type: 'phrase',
+    level: 'specialized',  // Business phrases are specialized vocabulary
     collection: 'Business Phrases',
     tags: phrase.context ? phrase.context.split(' / ').map(t => t.trim()) : [],
     cardScore: 0,

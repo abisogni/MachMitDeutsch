@@ -1,15 +1,11 @@
-import { Link } from 'react-router-dom';
+import CardForm from '../components/CardForm';
 
 function NewCard() {
   return (
-    <div>
+    <div className="page-container">
       <h1>Add New Card</h1>
-      <p>Card creation form will appear here...</p>
-      <div style={{ marginTop: '1rem' }}>
-        <Link to="/manage">
-          <button>Back to Card List</button>
-        </Link>
-      </div>
+      <p className="page-description">Create a new vocabulary card for your collection.</p>
+      <CardForm mode="new" />
     </div>
   );
 }

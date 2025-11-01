@@ -15,19 +15,39 @@ A flashcard-style web application for learning German vocabulary, inspired by An
 
 ## Data Model
 
-### Card Schema
+### Card Schema (Enhanced - See [DEC-006], [DEC-009])
 
 ```javascript
 {
+  // Core fields (all card types)
   id: string,              // UUID
   word: string,            // German vocabulary word or phrase
   definition: string,      // English definition
-  type: string,            // 'noun' | 'verb' | 'adjective' | 'phrase' | 'other'
+  type: string,            // 'noun' | 'verb' | 'phrase'
+  level: string,           // 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2' | 'specialized'
+  collection: string,      // Topic grouping (e.g., "Business Vocabulary", "IT Terms")
+  tags: string[],          // Context tags (e.g., ["meetings", "integration"])
   createdDate: timestamp,  // ISO 8601 format
   cardScore: number,       // Starts at 0, +1 for correct, -1 for incorrect
   viewCount: number,       // Number of times displayed in practice mode
-  collection: string,      // High-level grouping (e.g., "A1 Vocabulary", "Work Terms")
-  tags: string[]          // Array of tags for sub-collections
+
+  // Noun-specific fields (optional)
+  gender?: string,         // 'der' | 'die' | 'das'
+  plural?: string,         // Plural ending (e.g., 'e', 'en', '-', '–')
+
+  // Verb-specific fields (optional)
+  verbType?: string,       // 'regular' | 'irregular' | 'modal' | 'separable' | 'reflexive'
+  partizipII?: string,     // Perfect participle (e.g., 'gehabt')
+  auxiliary?: string,      // 'haben' | 'sein' (for perfect tense)
+  separablePrefix?: string, // Prefix for separable verbs (e.g., 'an')
+  examples?: {             // Usage examples
+    de: string,
+    en: string
+  },
+  relatedCards?: string[], // Array of card IDs for tense variations
+
+  // Phrase-specific fields (optional)
+  context?: string         // When/where to use (e.g., "meetings / communication")
 }
 ```
 

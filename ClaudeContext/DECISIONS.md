@@ -289,6 +289,73 @@ Implement mobile-first responsive design approach:
 
 ---
 
+## [DEC-009] Universal Difficulty Level + Enhanced Verb Metadata
+
+**Date:** 2025-11-01
+**Status:** Accepted
+
+### Context
+Initial schema had `level` field only for verbs, creating inconsistency. User needs to:
+1. Practice cards by proficiency level (A1-C2) regardless of type
+2. Support specialized/technical vocabulary that doesn't fit CEFR framework
+3. Store verb metadata for future conjugation practice without overwhelming data entry
+4. Support future tense practice and verb relationship linking
+
+German verbs have complex characteristics (regular/irregular/modal/separable/reflexive) and multiple forms (Partizip II, auxiliary verbs) that affect usage and conjugation.
+
+### Decision
+
+**Add `level` field to ALL card types:**
+- A1 (Beginner)
+- A2 (Elementary)
+- B1 (Intermediate)
+- B2 (Upper Intermediate)
+- C1 (Advanced)
+- C2 (Mastery)
+- Specialized (Business/Technical vocabulary outside CEFR)
+
+**Enhance verb cards with essential metadata:**
+- `verbType`: regular | irregular | modal | separable | reflexive
+- `partizipII`: Perfect tense participle form (e.g., "gehabt")
+- `auxiliary`: "haben" or "sein" (for perfect tense)
+- `separablePrefix`: Prefix for separable verbs (e.g., "an" in "ankommen")
+- `relatedCards`: Array of card IDs for linking tense variations
+
+**Keep `collections` and `tags` orthogonal:**
+- Collections = Topic/theme grouping ("Business Vocabulary", "IT Terms")
+- Tags = Specific contexts ("meetings", "integration", "technical")
+
+### Rationale
+- **Universal difficulty**: Learners can practice by proficiency level regardless of topic
+- **Specialized category**: Handles technical jargon (e.g., "Skalierbarkeit") that may be simple grammatically but contextually advanced
+- **Essential verb data only**: Store what makes each verb unique, not full conjugation tables (50+ fields would be overwhelming)
+- **Future-proof**: Foundation for conjugation practice mode without requiring it upfront
+- **Card linking**: Enables relationship mapping for tense variations
+- **Consistent UX**: All card types have same core structure
+
+### Alternatives Considered
+- **Status quo (level only for verbs):** Rejected - inconsistent, prevents filtering by proficiency across types
+- **Full conjugation tables:** Rejected - overwhelming data entry (50+ fields per verb), most conjugations derivable from rules
+- **Difficulty in tags:** Rejected - tags are for context, not proficiency level
+- **Separate verb-tense cards with no linking:** Rejected - can't show relationships between present/past/perfect forms
+
+### Consequences
+- Positive: Consistent filtering and practice by proficiency level
+- Positive: Foundation for advanced verb practice features
+- Positive: Manageable data entry (key forms only, not full tables)
+- Positive: Supports user's goal of progressive learning (vocabulary → phrases → tenses)
+- Negative: More fields in verb form (mitigated by conditional UI)
+- Negative: Existing verb data needs level field added (minor migration)
+- Negative: Need to handle card relationships in UI (future feature)
+
+### Implementation Notes
+- Practice mode reveal: Show Partizip II and verb type when answer is correct
+- Full conjugation tables: Future feature, not MVP
+- Card linking UI: Future feature for managing tense relationships
+- Nouns keep current structure: gender + plural sufficient for vocabulary practice
+
+---
+
 ## Template for Future Decisions
 
 ```markdown
