@@ -1,0 +1,152 @@
+[
+  {
+    "term": "Können wir das bitte später besprechen?",
+    "translation": "Can we please discuss this later?",
+    "context": "general / meeting"
+  },
+  {
+    "term": "Ich möchte das genauer verstehen.",
+    "translation": "I’d like to understand this more precisely.",
+    "context": "elicitation / clarification"
+  },
+  {
+    "term": "Bitte erklären Sie mir den Prozess.",
+    "translation": "Please explain the process to me.",
+    "context": "elicitation / stakeholder"
+  },
+  {
+    "term": "Können Sie mir zeigen, wie das funktioniert?",
+    "translation": "Can you show me how this works?",
+    "context": "elicitation / stakeholder"
+  },
+  {
+    "term": "Haben Sie ein Beispiel dafür?",
+    "translation": "Do you have an example of that?",
+    "context": "elicitation / clarification"
+  },
+  {
+    "term": "Ich bin mir nicht sicher, ob ich das richtig verstanden habe.",
+    "translation": "I’m not sure if I understood that correctly.",
+    "context": "clarification"
+  },
+  {
+    "term": "Können wir das bitte noch einmal durchgehen?",
+    "translation": "Can we please go through that one more time?",
+    "context": "elicitation / clarification"
+  },
+  {
+    "term": "Wie läuft der aktuelle Prozess ab?",
+    "translation": "How does the current process work?",
+    "context": "elicitation / process mapping"
+  },
+  {
+    "term": "Wer ist für diesen Schritt verantwortlich?",
+    "translation": "Who is responsible for this step?",
+    "context": "process / accountability"
+  },
+  {
+    "term": "Gibt es Abhängigkeiten zu anderen Systemen?",
+    "translation": "Are there dependencies on other systems?",
+    "context": "integration / requirements"
+  },
+  {
+    "term": "Die Daten werden aus SAP abgerufen.",
+    "translation": "The data are retrieved from SAP.",
+    "context": "integration / data flow"
+  },
+  {
+    "term": "Das System speichert die Änderungen automatisch.",
+    "translation": "The system saves the changes automatically.",
+    "context": "integration / process"
+  },
+  {
+    "term": "Die Schnittstelle funktioniert im Test, aber nicht in der Produktion.",
+    "translation": "The interface works in testing, but not in production.",
+    "context": "integration / QA"
+  },
+  {
+    "term": "Wir müssen die Konfiguration aktualisieren.",
+    "translation": "We need to update the configuration.",
+    "context": "operations / DevOps"
+  },
+  {
+    "term": "Das ist nach der Freigabe nicht mehr änderbar.",
+    "translation": "That can no longer be changed after approval.",
+    "context": "process / control"
+  },
+  {
+    "term": "Die Benutzer können ihre Eingaben später bearbeiten.",
+    "translation": "The users can edit their entries later.",
+    "context": "user / form handling"
+  },
+  {
+    "term": "Bitte prüfen Sie die Anforderungen im Dokument.",
+    "translation": "Please review the requirements in the document.",
+    "context": "project / documentation"
+  },
+  {
+    "term": "Das Formular überträgt die Daten an den Server.",
+    "translation": "The form transfers the data to the server.",
+    "context": "integration / backend"
+  },
+  {
+    "term": "Wir müssen die Testumgebung vorbereiten.",
+    "translation": "We need to prepare the test environment.",
+    "context": "QA / setup"
+  },
+  {
+    "term": "Die Freigabe erfolgt nach dem Test.",
+    "translation": "The approval happens after testing.",
+    "context": "release / QA"
+  },
+  {
+    "term": "Können wir die nächste Besprechung verschieben?",
+    "translation": "Can we reschedule the next meeting?",
+    "context": "meetings"
+  },
+  {
+    "term": "Ich sende Ihnen das Dokument nach dem Meeting.",
+    "translation": "I’ll send you the document after the meeting.",
+    "context": "meetings / follow-up"
+  },
+  {
+    "term": "Bitte geben Sie mir bis morgen Rückmeldung.",
+    "translation": "Please give me feedback by tomorrow.",
+    "context": "project / communication"
+  },
+  {
+    "term": "Wir haben das im letzten Meeting besprochen.",
+    "translation": "We discussed that in the last meeting.",
+    "context": "project / meeting"
+  },
+  {
+    "term": "Das muss noch von der IT geprüft werden.",
+    "translation": "That still needs to be checked by IT.",
+    "context": "review / dependencies"
+  },
+  {
+    "term": "Ich arbeite gerade an der Dokumentation.",
+    "translation": "I’m currently working on the documentation.",
+    "context": "status update"
+  },
+  {
+    "term": "Wir warten auf die Freigabe von der Fachabteilung.",
+    "translation": "We are waiting for approval from the business department.",
+    "context": "project / release"
+  },
+  {
+    "term": "Könnten Sie das bitte noch einmal erklären?",
+    "translation": "Could you please explain that again?",
+    "context": "clarification"
+  },
+  {
+    "term": "Das ist im aktuellen Projektumfang nicht enthalten.",
+    "translation": "That is not included in the current project scope.",
+    "context": "requirements / scope"
+  },
+  {
+    "term": "Ich melde mich, sobald ich ein Update habe.",
+    "translation": "I’ll get back to you as soon as I have an update.",
+    "context": "communication / follow-up"
+  }
+]

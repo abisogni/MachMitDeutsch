@@ -1,0 +1,122 @@
+[
+  {
+    "term": "der Benutzer",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "user"
+  },
+  {
+    "term": "die Anforderung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "requirement / request"
+  },
+  {
+    "term": "die Schnittstelle",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "interface"
+  },
+  {
+    "term": "der Bericht",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "report"
+  },
+  {
+    "term": "die Daten",
+    "gender": "die",
+    "plural": "–",
+    "gloss": "data"
+  },
+  {
+    "term": "das System",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "system"
+  },
+  {
+    "term": "der Prozess",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "process"
+  },
+  {
+    "term": "die Anwendung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "application"
+  },
+  {
+    "term": "das Problem",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "problem"
+  },
+  {
+    "term": "die Lösung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "solution"
+  },
+  {
+    "term": "der Stakeholder",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "stakeholder"
+  },
+  {
+    "term": "das Dokument",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "document"
+  },
+  {
+    "term": "die Tabelle",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "table / spreadsheet"
+  },
+  {
+    "term": "der Auftrag",
+    "gender": "der",
+    "plural": "träge",
+    "gloss": "order / work order"
+  },
+  {
+    "term": "die Integration",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "integration"
+  },
+  {
+    "term": "die Plattform",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "platform"
+  },
+  {
+    "term": "der Datensatz",
+    "gender": "der",
+    "plural": "ätze",
+    "gloss": "data record / dataset"
+  },
+  {
+    "term": "die Umgebung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "environment (system / test)"
+  },
+  {
+    "term": "das Ablaufdiagramm",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "process flow / flow chart"
+  },
+  {
+    "term": "die Freigabe",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "approval / release"
+  }
+]

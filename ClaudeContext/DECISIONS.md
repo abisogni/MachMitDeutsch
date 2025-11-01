@@ -180,6 +180,115 @@ Implement two complementary markdown files:
 
 ---
 
+## [DEC-006] Enhanced Card Schema for Rich Vocabulary Data
+
+**Date:** 2025-11-01
+**Status:** Accepted
+
+### Context
+User provided existing vocabulary data with rich metadata (gender/plural for nouns, difficulty levels and examples for verbs, contextual usage for phrases). Initial PROJECT.md schema was too simple and would lose valuable learning information.
+
+### Decision
+Enhance card schema to preserve all rich metadata while maintaining simple core structure:
+- Core fields: `id`, `word`, `definition`, `type`, `collection`, `tags`, `cardScore`, `viewCount`, `createdDate`
+- Type-specific optional fields:
+  - Nouns: `gender` (der/die/das), `plural` (ending)
+  - Verbs: `level` (common/intermediate/expert), `examples` (de/en)
+  - Phrases: `context` (when to use)
+
+### Rationale
+- Preserves user's existing investment in curated vocabulary data
+- Richer data improves learning outcomes (gender helps with noun recall, examples show usage)
+- Optional fields maintain backward compatibility with simple cards
+- Schema mirrors real-world language learning needs
+
+### Alternatives Considered
+- **Flatten to simple schema only:** Rejected - loses valuable educational metadata
+- **Separate schemas per type:** Rejected - adds complexity to data management
+- **External metadata files:** Rejected - breaks data portability and import/export
+
+### Consequences
+- Positive: All user vocabulary data preserved, better learning experience
+- Positive: LLM card generation can produce high-quality educational content
+- Negative: Slightly more complex data model (mitigated by optional fields)
+- Negative: Forms need conditional fields based on card type
+
+---
+
+## [DEC-007] UI-First Development Approach with Mock Data
+
+**Date:** 2025-11-01
+**Status:** Accepted
+
+### Context
+User requested visual-first workflow: "I'd like to see what buttons there are and where, then connect things to the interface...seeing a pretty close to production-ready web interface, even if nothing is connected to the buttons yet."
+
+### Decision
+Implement Phase 2 (UI Development) before Phase 3 (Database Integration):
+1. Build all UI components with full styling and interactions
+2. Use mock data loaded from JSON files to populate interfaces
+3. Make everything visually complete and interactive
+4. Only after UI is validated, connect IndexedDB backend
+
+### Rationale
+- User is visual learner - seeing progress is more engaging and motivating
+- Validates UX flows and design before backend complexity
+- Easier to iterate on design with mock data vs. database constraints
+- Complete design system (STYLE.md) already exists - leverage it early
+- User can provide feedback on actual interface, not wireframes
+
+### Alternatives Considered
+- **Traditional backend-first:** Rejected - less engaging for visual learners, harder to iterate
+- **Wireframes/prototypes first:** Rejected - user wants real, functional interface
+- **Parallel UI + backend:** Rejected - context-switching overhead, harder to iterate
+
+### Consequences
+- Positive: Immediate visual progress and user engagement
+- Positive: Easy to validate UX and get feedback
+- Positive: Mock data transformers become import utilities later
+- Negative: Need to refactor from mock to real data (mitigated by consistent data structure)
+- Negative: Might discover backend constraints late (acceptable risk)
+
+---
+
+## [DEC-008] Mobile-First Responsive Design
+
+**Date:** 2025-11-01
+**Status:** Accepted
+
+### Context
+User explicitly requested: "I'd like to keep the design functional for browser AND mobile" and emphasized importance throughout session. App needs to work on desktop (development/bulk management) and mobile (on-the-go practice).
+
+### Decision
+Implement mobile-first responsive design approach:
+- Start with mobile layout as base
+- Use CSS Grid and Flexbox for adaptive layouts
+- Breakpoints: Mobile (<768px), Tablet (768-1024px), Desktop (>1024px)
+- Touch-friendly targets on mobile (minimum 44x44px)
+- Stack components vertically on mobile, horizontal on desktop
+- Test on both form factors continuously
+
+### Rationale
+- Practice mode primary use case is mobile (learn during commute, lunch break, etc.)
+- Card management benefits from desktop (larger screen for editing)
+- Modern CSS makes responsive design straightforward
+- Mobile-first ensures core functionality works on smallest screens
+
+### Alternatives Considered
+- **Desktop-only:** Rejected - user explicitly needs mobile
+- **Separate mobile app:** Rejected - maintenance overhead, not needed for MVP
+- **Desktop-first responsive:** Rejected - harder to scale down than up
+- **No responsive design:** Rejected - doesn't meet user requirements
+
+### Consequences
+- Positive: Works seamlessly across all devices
+- Positive: User can practice anywhere
+- Positive: Future-proof as mobile usage grows
+- Negative: More CSS complexity (mitigated by modern Grid/Flexbox)
+- Negative: Need to test on multiple screen sizes (acceptable)
+
+---
+
 ## Template for Future Decisions
 
 ```markdown

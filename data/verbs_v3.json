@@ -1,0 +1,535 @@
+[
+  {
+    "level": "common",
+    "term": "arbeiten",
+    "translations": [
+      "to work"
+    ],
+    "example_de": "Ich arbeite an einem neuen Integrationsprojekt.",
+    "example_en": "I am working on a new integration project.",
+    "domain": [
+      "general",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "brauchen",
+    "translations": [
+      "to need"
+    ],
+    "example_de": "Wir brauchen mehr Informationen von den Benutzern.",
+    "example_en": "We need more information from the users.",
+    "domain": [
+      "general"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "machen",
+    "translations": [
+      "to do",
+      "to make"
+    ],
+    "example_de": "Er macht einen Bericht für das Management.",
+    "example_en": "He makes a report for management.",
+    "domain": [
+      "general"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "haben",
+    "translations": [
+      "to have"
+    ],
+    "example_de": "Wir haben ein Problem mit der Schnittstelle.",
+    "example_en": "We have a problem with the interface.",
+    "domain": [
+      "general"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "sein",
+    "translations": [
+      "to be"
+    ],
+    "example_de": "Das System ist bereit für den Test.",
+    "example_en": "The system is ready for testing.",
+    "domain": [
+      "general"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bekommen",
+    "translations": [
+      "to receive",
+      "to get"
+    ],
+    "example_de": "Ich bekomme eine neue Anforderung.",
+    "example_en": "I receive a new requirement.",
+    "domain": [
+      "general"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verwenden",
+    "translations": [
+      "to use",
+      "to utilize"
+    ],
+    "example_de": "Wir verwenden SAP und Salesforce parallel.",
+    "example_en": "We use SAP and Salesforce in parallel.",
+    "domain": [
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "prüfen",
+    "translations": [
+      "to check",
+      "to verify",
+      "to test"
+    ],
+    "example_de": "Bitte prüfen Sie die Daten im System.",
+    "example_en": "Please check the data in the system.",
+    "domain": [
+      "QA",
+      "support"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "speichern",
+    "translations": [
+      "to save",
+      "to store"
+    ],
+    "example_de": "Das Formular speichert die Kundendaten automatisch.",
+    "example_en": "The form saves the customer data automatically.",
+    "domain": [
+      "data",
+      "apps"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "öffnen",
+    "translations": [
+      "to open"
+    ],
+    "example_de": "Bitte öffnen Sie das Dokument im Browser.",
+    "example_en": "Please open the document in the browser.",
+    "domain": [
+      "apps",
+      "UI"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "schließen",
+    "translations": [
+      "to close"
+    ],
+    "example_de": "Schließen Sie das Fenster nach dem Test.",
+    "example_en": "Close the window after the test.",
+    "domain": [
+      "UI"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "starten",
+    "translations": [
+      "to start",
+      "to launch"
+    ],
+    "example_de": "Das Skript startet um Mitternacht automatisch.",
+    "example_en": "The script launches automatically at midnight.",
+    "domain": [
+      "automation"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "analysieren",
+    "translations": [
+      "to analyze"
+    ],
+    "example_de": "Wir analysieren die Fehler im Log.",
+    "example_en": "We analyze the errors in the log.",
+    "domain": [
+      "analysis",
+      "support"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "entwickeln",
+    "translations": [
+      "to develop"
+    ],
+    "example_de": "Das Team entwickelt eine neue Middleware-Komponente.",
+    "example_en": "The team is developing a new middleware component.",
+    "domain": [
+      "dev",
+      "integration"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "integrieren",
+    "translations": [
+      "to integrate"
+    ],
+    "example_de": "Wir integrieren Salesforce mit SAP BTP.",
+    "example_en": "We integrate Salesforce with SAP BTP.",
+    "domain": [
+      "integration"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "validieren",
+    "translations": [
+      "to validate"
+    ],
+    "example_de": "Das System validiert alle Pflichtfelder.",
+    "example_en": "The system validates all required fields.",
+    "domain": [
+      "data",
+      "QA"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "vergleichen",
+    "translations": [
+      "to compare"
+    ],
+    "example_de": "Die Anwendung vergleicht alte und neue Datensätze.",
+    "example_en": "The application compares old and new datasets.",
+    "domain": [
+      "data"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "bearbeiten",
+    "translations": [
+      "to edit",
+      "to process"
+    ],
+    "example_de": "Die Benutzer können ihre Aufträge bearbeiten.",
+    "example_en": "Users can edit their orders.",
+    "domain": [
+      "apps",
+      "process"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "erstellen",
+    "translations": [
+      "to create",
+      "to generate"
+    ],
+    "example_de": "Wir erstellen ein neues Formular im System.",
+    "example_en": "We create a new form in the system.",
+    "domain": [
+      "dev",
+      "apps"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "löschen",
+    "translations": [
+      "to delete"
+    ],
+    "example_de": "Bitte löschen Sie alte Datensätze vor der Migration.",
+    "example_en": "Please delete old records before migration.",
+    "domain": [
+      "data"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "aktualisieren",
+    "translations": [
+      "to update"
+    ],
+    "example_de": "Wir aktualisieren die Konfiguration auf der Plattform.",
+    "example_en": "We update the configuration on the platform.",
+    "domain": [
+      "ops"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "synchronisieren",
+    "translations": [
+      "to synchronize"
+    ],
+    "example_de": "Das System synchronisiert Daten jede Nacht.",
+    "example_en": "The system synchronizes data every night.",
+    "domain": [
+      "integration"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "konfigurieren",
+    "translations": [
+      "to configure"
+    ],
+    "example_de": "Der Administrator konfiguriert das SAP-Modul.",
+    "example_en": "The administrator configures the SAP module.",
+    "domain": [
+      "setup",
+      "admin"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "dokumentieren",
+    "translations": [
+      "to document"
+    ],
+    "example_de": "Wir dokumentieren jede Entscheidung im Projekt.",
+    "example_en": "We document every decision in the project.",
+    "domain": [
+      "projects"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "benachrichtigen",
+    "translations": [
+      "to notify"
+    ],
+    "example_de": "Das System benachrichtigt den Benutzer bei einem Fehler.",
+    "example_en": "The system notifies the user when an error occurs.",
+    "domain": [
+      "alerts"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "übertragen",
+    "translations": [
+      "to transfer",
+      "to transmit"
+    ],
+    "example_de": "Das System überträgt die Daten an den Server.",
+    "example_en": "The system transfers the data to the server.",
+    "domain": [
+      "integration"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "überprüfen",
+    "translations": [
+      "to review",
+      "to inspect"
+    ],
+    "example_de": "Bitte überprüfen Sie die Anforderung vor der Freigabe.",
+    "example_en": "Please review the requirement before approval.",
+    "domain": [
+      "QA",
+      "projects"
+    ]
+  },
+  {
+    "level": "intermediate",
+    "term": "abrufen",
+    "translations": [
+      "to retrieve",
+      "to fetch"
+    ],
+    "example_de": "Die Anwendung ruft Kundendaten aus SAP ab.",
+    "example_en": "The application retrieves customer data from SAP.",
+    "domain": [
+      "data",
+      "integration"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "bereitstellen",
+    "translations": [
+      "to deploy",
+      "to provision"
+    ],
+    "example_de": "Das Team stellt die neue Version in der Cloud bereit.",
+    "example_en": "The team deploys the new version in the cloud.",
+    "domain": [
+      "devops"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "implementieren",
+    "translations": [
+      "to implement"
+    ],
+    "example_de": "Wir implementieren das neue Authentifizierungsverfahren.",
+    "example_en": "We implement the new authentication procedure.",
+    "domain": [
+      "dev",
+      "security"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "optimieren",
+    "translations": [
+      "to optimize"
+    ],
+    "example_de": "Wir optimieren den Durchsatz der Schnittstelle.",
+    "example_en": "We optimize the throughput of the interface.",
+    "domain": [
+      "performance"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "automatisieren",
+    "translations": [
+      "to automate"
+    ],
+    "example_de": "Wir automatisieren die Bereitstellung mit einer Pipeline.",
+    "example_en": "We automate deployment with a pipeline.",
+    "domain": [
+      "automation"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "migrieren",
+    "translations": [
+      "to migrate"
+    ],
+    "example_de": "Wir migrieren Daten von ECC nach S/4HANA.",
+    "example_en": "We migrate data from ECC to S/4HANA.",
+    "domain": [
+      "migration"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "debuggen",
+    "translations": [
+      "to debug"
+    ],
+    "example_de": "Die Entwickler debuggen das Fehlerprotokoll.",
+    "example_en": "The developers debug the error log.",
+    "domain": [
+      "dev"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "replizieren",
+    "translations": [
+      "to replicate"
+    ],
+    "example_de": "Die Stammdaten werden täglich repliziert.",
+    "example_en": "The master data are replicated daily.",
+    "domain": [
+      "data"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "authentifizieren",
+    "translations": [
+      "to authenticate"
+    ],
+    "example_de": "Der Server authentifiziert den Benutzer per Token.",
+    "example_en": "The server authenticates the user via token.",
+    "domain": [
+      "security"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "verschlüsseln",
+    "translations": [
+      "to encrypt"
+    ],
+    "example_de": "Wir verschlüsseln sensible Daten mit AES‑256.",
+    "example_en": "We encrypt sensitive data with AES‑256.",
+    "domain": [
+      "security"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "entschlüsseln",
+    "translations": [
+      "to decrypt"
+    ],
+    "example_de": "Das System entschlüsselt die Nachricht im Speicher.",
+    "example_en": "The system decrypts the message in memory.",
+    "domain": [
+      "security"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "überwachen",
+    "translations": [
+      "to monitor"
+    ],
+    "example_de": "Wir überwachen die API‑Latenz mit Grafana.",
+    "example_en": "We monitor API latency with Grafana.",
+    "domain": [
+      "monitoring"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "protokollieren",
+    "translations": [
+      "to log",
+      "to record"
+    ],
+    "example_de": "Das System protokolliert alle Fehlversuche.",
+    "example_en": "The system logs all failed attempts.",
+    "domain": [
+      "security",
+      "ops"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "skalieren",
+    "translations": [
+      "to scale"
+    ],
+    "example_de": "Die Anwendung skaliert automatisch bei hoher Last.",
+    "example_en": "The application scales automatically under high load.",
+    "domain": [
+      "cloud"
+    ]
+  },
+  {
+    "level": "expert",
+    "term": "benutzen",
+    "translations": [
+      "to use",
+      "to utilize"
+    ],
+    "example_de": "Die API benutzt standardisierte Endpunkte.",
+    "example_en": "The API uses standardized endpoints.",
+    "domain": [
+      "integration"
+    ]
+  }
+]
