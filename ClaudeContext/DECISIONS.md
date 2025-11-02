@@ -483,6 +483,150 @@ Implement **"Flag for Review"** toggle button in practice game with probabilisti
 
 ---
 
+## [DEC-012] Duplicate Card Detection and Prevention
+
+**Date:** 2025-11-02
+**Status:** Proposed (for Phase 3 implementation)
+
+### Context
+Users can create, edit, or import cards. Without duplicate detection:
+- Same word appears multiple times in practice (artificial inflation)
+- Scores fragment across duplicate entries (one card +5, duplicate -3)
+- Import operations create massive duplication
+- Data quality degrades over time
+
+### Decision
+Implement **duplicate detection with warning and user override**:
+
+**Detection Logic:**
+- Primary check: German word field (`word`)
+- Case-insensitive comparison: `word.toLowerCase().trim()`
+- Check on: Create, Edit (if word changed), Import
+
+**User Experience:**
+- Real-time validation as user types in form
+- Warning display: "⚠️ A card for 'das Haus' already exists"
+- Show existing card details: definition, type, current score
+- Actions: [View Card] [Continue Anyway]
+- User can override if intentional (different context/usage)
+
+**Import Behavior:**
+- Show duplicate preview before import
+- List all duplicates with existing scores
+- User choices: [Merge & Update] [Skip Duplicates] [Keep Both]
+
+### Rationale
+- **Warn, don't block**: Flexibility for edge cases (e.g., "der See" vs "die See")
+- **User autonomy**: Allow override for legitimate duplicates
+- **Data integrity**: Prevents accidental duplication while allowing intentional
+- **Import clarity**: User sees what will happen before committing
+
+### Alternatives Considered
+- **Block creation**: Too strict, no flexibility for edge cases
+- **Auto-merge**: Too aggressive, what if definitions differ?
+- **Silent duplicate**: Poor UX, user doesn't know duplicate exists
+
+### Consequences
+- Positive: Cleaner data, accurate practice frequency, better score tracking
+- Positive: User maintains control over final decision
+- Positive: Import operations are transparent and predictable
+- Negative: Adds form validation complexity
+- Negative: Need UI space for warnings
+
+### Implementation Notes
+- Form validation: Check on word field blur and before submit
+- Database query: Search existing cards by normalized word
+- UI component: Reusable warning banner with actions
+- Import flow: Duplicate detection in preview step, before database changes
+
+---
+
+## [DEC-013] Learning Readiness Feedback System
+
+**Date:** 2025-11-02
+**Status:** Proposed (for Phase 2.5/4 implementation)
+
+### Context
+Users need **data-driven encouragement** about when to add more vocabulary. Without feedback:
+- Users don't know if they're ready to expand their deck
+- No clear signal when mastery is achieved
+- Risk of adding too much too fast (overwhelming)
+- Risk of stagnating (boredom from mastered content)
+
+User insight: "If I'm getting 70% right, doesn't make sense to add more...but maybe I DO need work-specific words."
+
+### Decision
+Implement **"Learning Readiness" dashboard section with configurable thresholds**:
+
+**Readiness Criteria (per card type):**
+- Success Rate: ≥ 75% (default, user adjustable 80-100%)
+- Average Score: ≥ +2 (net positive progress)
+- Practice Depth: Each card viewed ≥ 5 times on average
+- No Extreme Strugglers: No cards with score < -5
+
+**Three Readiness States:**
+1. 🟢 **Ready to Expand** - All criteria met
+2. 🟡 **Making Progress** - Some criteria met, keep practicing
+3. 🔴 **Focus Needed** - Below thresholds, needs work
+
+**Dashboard Display:**
+```
+┌────────────────────────────────────────┐
+│ 📝 Nouns                         🟢    │
+│ • 20 cards practiced 50+ times         │
+│ • 95% success rate (19/20 correct)     │
+│ • Average score: +8                    │
+│ ✨ You're crushing nouns! Ready to add │
+│    more business vocabulary.           │
+└────────────────────────────────────────┘
+```
+
+**User Settings (Phase 4):**
+- Mastery threshold slider: 75% (min) to 100% (max)
+- Minimum practice rounds: 5 (default)
+- Always show "Add anyway" option (acknowledges user autonomy)
+
+### Rationale
+- **Data-driven**: Based on actual performance, not arbitrary
+- **Encouraging**: Positive feedback when ready, supportive when not
+- **Configurable**: Users can adjust for personal learning style
+- **Non-restrictive**: Suggestions only, never blocks user actions
+- **Contextual**: Different users have different needs (work vocab, perfectionism, etc.)
+
+### Alternatives Considered
+- **Fixed requirements**: Too rigid, doesn't account for user preferences
+- **No feedback**: Misses opportunity to guide and encourage
+- **Block adding cards**: Too restrictive, removes user autonomy
+- **Simple percentage only**: Doesn't account for practice depth or extreme strugglers
+
+### Consequences
+- Positive: Clear guidance on when to expand vocabulary
+- Positive: Celebrates achievement and encourages continued practice
+- Positive: Prevents overwhelm from adding too much too fast
+- Positive: Respects user autonomy (work-specific needs, etc.)
+- Negative: Requires practice history data (needs IndexedDB integration)
+- Negative: Threshold selection might confuse some users (provide good defaults)
+
+### Implementation Phases
+**Phase 2.5 (Next Session):**
+- Add "Learning Readiness" section to dashboard
+- Calculate metrics with mock data
+- Show status indicators and recommendations
+
+**Phase 4 (Future):**
+- User settings for threshold adjustment
+- Track practice history over time
+- Show trends: "You've improved 20% this week!"
+- Spaced repetition integration
+
+### Implementation Notes
+- Default thresholds: 75% success, 5 views avg, +2 score, -5 floor
+- Smart messages based on data patterns
+- Always show "Add cards anyway" option
+- Color coding: 🟢 Green (ready), 🟡 Yellow (progress), 🔴 Red (focus)
+
+---
+
 ## Template for Future Decisions
 
 ```markdown
