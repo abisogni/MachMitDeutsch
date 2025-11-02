@@ -124,9 +124,16 @@ export function filterCards(cards, filters) {
       return false;
     }
 
-    // Filter by type
+    // Filter by type (single)
     if (filters.type && card.type !== filters.type) {
       return false;
+    }
+
+    // Filter by types (multiple)
+    if (filters.types && filters.types.length > 0) {
+      if (!filters.types.includes(card.type)) {
+        return false;
+      }
     }
 
     // Filter by tags

@@ -1,55 +1,51 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet, useLocation } from 'react-router-dom';
+import './Layout.css';
 
 function Layout() {
+  const location = useLocation();
+
+  const isActive = (path) => {
+    if (path === '/') {
+      return location.pathname === '/';
+    }
+    return location.pathname.startsWith(path);
+  };
+
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <nav style={{
-        padding: '1rem',
-        background: '#1a1f2e',
-        borderBottom: '2px solid #2563eb'
-      }}>
-        <div style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          display: 'flex',
-          gap: '2rem',
-          alignItems: 'center'
-        }}>
-          <Link to="/" style={{
-            color: '#fff',
-            textDecoration: 'none',
-            fontSize: '1.5rem',
-            fontWeight: 'bold'
-          }}>
-            MachMitDeutsch
+    <div className="app-container">
+      <nav className="nav-header">
+        <div className="nav-container">
+          <Link to="/" className="nav-logo">
+            🇩🇪 MachMitDeutsch
           </Link>
-          <div style={{ display: 'flex', gap: '1.5rem' }}>
-            <Link to="/manage" style={{ color: '#fff', textDecoration: 'none' }}>
+          <div className="nav-links">
+            <Link
+              to="/dashboard"
+              className={`nav-link ${isActive('/dashboard') ? 'active' : ''}`}
+            >
+              Dashboard
+            </Link>
+            <Link
+              to="/manage"
+              className={`nav-link ${isActive('/manage') ? 'active' : ''}`}
+            >
               Manage Cards
             </Link>
-            <Link to="/practice/setup" style={{ color: '#fff', textDecoration: 'none' }}>
+            <Link
+              to="/practice/setup"
+              className={`nav-link ${isActive('/practice') ? 'active' : ''}`}
+            >
               Practice
             </Link>
           </div>
         </div>
       </nav>
 
-      <main style={{
-        flex: 1,
-        padding: '2rem',
-        maxWidth: '1200px',
-        margin: '0 auto',
-        width: '100%'
-      }}>
+      <main className="main-content">
         <Outlet />
       </main>
 
-      <footer style={{
-        padding: '1rem',
-        textAlign: 'center',
-        background: '#1a1f2e',
-        color: '#9ca3af'
-      }}>
+      <footer className="app-footer">
         <p>MachMitDeutsch - German Vocabulary Learning</p>
       </footer>
     </div>

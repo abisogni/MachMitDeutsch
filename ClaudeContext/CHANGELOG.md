@@ -4,9 +4,103 @@
 
 ---
 
-## 2025-11-01 - Phase 1 Complete & Phase 2 Started (Card List UI)
+## 2025-11-02 - Phase 2 Complete: Practice Modes & Difficulty Settings
 
-**Session ID:** SESSION-20251101-2100
+**Session ID:** SESSION-20251102-0800
+
+### Completed
+- **Phase 2: UI Development** - Fully complete
+  - **Practice Setup Screen**
+    - Filter system (collection, type, score range, tags)
+    - Game mode selection (Word Up! / Define It!)
+    - Difficulty mode selection (Mixed / Type-Match) [DEC-010]
+    - Real-time card count with per-type breakdown (📝 20 • ⚡ 40 • 💬 30)
+    - Start button moved to top for better UX (no scrolling required)
+    - Type-Match validation with helpful error messages
+    - Clear All Filters button
+    - Fully responsive (mobile-first design)
+  - **Practice Game Screen**
+    - Multiple choice quiz with 5 options (1 correct + 4 distractors)
+    - Progress tracking (card X of Y with progress bar)
+    - Visual feedback (green for correct, red for incorrect)
+    - Auto-advance to next card after 3 seconds
+    - "Last Card" checkbox to return to setup early
+    - Score tracking per card (+1/-1)
+    - Both game modes fully functional (Word Up! / Define It!)
+    - Difficulty modes working (Mixed vs Type-Match distractor filtering)
+    - Game mode and difficulty display in header badge
+  - **Design System Polish**
+    - Updated Layout with sticky navigation and active link states
+    - Redesigned Home page with stats cards, action cards, features grid
+    - Import page placeholder with consistent dark theme styling
+    - All components now use STYLE.md design system
+    - Mobile-first responsive design throughout
+- **Difficulty Modes** [DEC-010]
+  - Mixed Mode: Distractors from any card type (easier - context clues available)
+  - Type-Match Mode: Distractors only from same type (harder - no pattern clues)
+  - Validation: Shows warning if insufficient cards per type for Type-Match
+  - User insight: Advanced learners can use verb endings (-en) and noun structure to eliminate answers in Mixed mode
+- **UX Improvements**
+  - Start Practice button at top of setup screen (no scrolling)
+  - Per-type card counts visible in badge
+  - Clear warnings for Type-Match requirements
+  - Consistent navigation with active states
+- **Flag for Review Feature** [DEC-011]
+  - Toggle button in question section: "☆ Flag for Review" / "⭐ Reviewing"
+  - 20% probabilistic boost to reappear in current session
+  - Session-scoped (flags reset when practice ends)
+  - Independent of card scores (non-destructive)
+  - Clear labeling and orange visual indicator
+  - User can flag cards proactively before getting them wrong
+  - Mobile-responsive (full-width button on small screens)
+- **Bug Fix: Proper Randomization Algorithm**
+  - Replaced biased `sort(() => Math.random() - 0.5)` with Fisher-Yates shuffle
+  - Fixes: Same correct answer position when seeing flagged cards again
+  - Fixes: Same distractors appearing in predictable patterns
+  - Now uses true random distribution for card order and answer positions
+  - User testing revealed the pattern - correct answer stayed in same position
+
+### Modified Files
+- `src/pages/PracticeSetup.jsx` (complete rebuild with filters, modes, validation)
+- `src/styles/PracticeSetup.css` (new - dark theme practice setup)
+- `src/pages/PracticeGame.jsx` (complete rebuild with game logic, added flag feature)
+- `src/styles/PracticeGame.css` (new - dark theme game interface, flag button styles)
+- `src/components/Layout.jsx` (improved with active nav states)
+- `src/components/Layout.css` (new - proper styled navigation)
+- `src/pages/Home.jsx` (redesigned with stats and features)
+- `src/styles/Home.css` (new - hero section, action cards)
+- `src/pages/ImportCards.jsx` (styled placeholder)
+- `src/styles/ImportCards.css` (new - consistent styling)
+- `src/utils/mockData.js` (added types filter support)
+- `ClaudeContext/DECISIONS.md` (added [DEC-010] Difficulty Modes, [DEC-011] Flag for Review)
+- `ClaudeContext/CHANGELOG.md` (this file)
+
+### Next Session
+- Phase 3: Connect IndexedDB Backend
+  - Set up Dexie.js for IndexedDB management
+  - Create database schema matching card structure
+  - Replace mock data with persistent storage
+  - Implement CRUD operations (Create, Read, Update, Delete)
+  - Add import/export functionality
+  - Ensure data persistence across browser sessions
+  - Test with user's 90 existing vocabulary cards
+
+### Notes
+- **[DEC-010] Difficulty Modes**: User identified that German structural patterns (verb endings, noun articles) make Mixed mode easier. Type-Match eliminates these context clues for advanced learners.
+- **[DEC-011] Flag for Review**: User insight - "The moment I saw the card I knew I was going to be guessing" led to proactive flagging feature. Session-based approach allows immediate learning reinforcement without modifying persistent scores.
+- **Phase 2 Complete**: All UI components built and fully functional with mock data
+- **App fully interactive**: Users can browse cards, create/edit cards, practice with both game modes and difficulty levels, and flag cards for extra review
+- **No spaced repetition algorithm yet**: Cards shown in random order once per session. Flag feature provides temporary 20% boost. Full Anki-style algorithm deferred to Phase 4.
+- Dev server running at http://localhost:5173/
+- No build errors or warnings
+- Mobile-responsive across all screens
+- Ready for database integration in next phase
+
+---
+
+## 2025-11-01 - Phase 1 Complete & Phase 2: UI Development (Card List & Forms)
+
+**Session ID:** SESSION-20251101-2100 (continued to SESSION-20251101-2330)
 
 ### Completed
 - **Phase 1: Foundation Setup** - Fully complete
@@ -41,6 +135,13 @@
     - Real-time stats (total cards, filtered count)
     - Responsive grid layout for filters (inline on desktop, stacked on mobile)
     - Full mobile responsiveness
+  - **Card Form Component** - New/Edit cards with dynamic fields [DEC-009]
+    - Universal difficulty level (CEFR A1-C2 + Specialized) for all card types
+    - Type-specific conditional fields (nouns: gender/plural, verbs: metadata, phrases: context)
+    - Enhanced verb fields: verbType, partizipII, auxiliary, separablePrefix
+    - Validation and error handling
+    - Mobile-responsive form layout (2-column on desktop, stacked on mobile)
+    - Pre-populated edit mode with existing card data
 
 ### Modified Files
 - Phase 1 files (initial commit): All Vite scaffolding, routing, pages
@@ -48,9 +149,15 @@
 - `data/CARD_TEMPLATE.md` (new - LLM generation guide)
 - `data/template.json` (new - quick template)
 - `data/README.md` (new)
-- `src/utils/mockData.js` (new - data transformation utilities)
+- `src/utils/mockData.js` (updated - added level field to all types, verb metadata)
 - `src/pages/CardList.jsx` (rebuilt with full functionality)
 - `src/styles/CardList.css` (new - dark theme styles)
+- `src/components/CardForm.jsx` (new - dynamic form with conditional fields)
+- `src/pages/NewCard.jsx` (updated - uses CardForm)
+- `src/pages/EditCard.jsx` (updated - uses CardForm with pre-populated data)
+- `src/styles/CardForm.css` (new - dark theme form styles)
+- `ClaudeContext/DECISIONS.md` (added [DEC-009])
+- `ClaudeContext/PROJECT.md` (updated card schema)
 
 ### Next Session
 - Continue Phase 2: Build remaining UI components

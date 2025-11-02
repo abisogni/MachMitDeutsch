@@ -356,6 +356,133 @@ German verbs have complex characteristics (regular/irregular/modal/separable/ref
 
 ---
 
+## [DEC-010] Difficulty Modes: Mixed vs Type-Match Distractors
+
+**Date:** 2025-11-02
+**Status:** Accepted
+
+### Context
+In multiple choice practice, German has structural patterns that provide context clues making answers too easy:
+- Verbs end in -en (infinitive) or -t/-en (conjugated)
+- Nouns have articles (der/die/das) and capitalization
+- Phrases have distinct multi-word structure
+
+Advanced learners can eliminate wrong answers by pattern recognition rather than actually knowing the vocabulary. Need a way to increase difficulty for experienced users while keeping easier mode for beginners.
+
+### Decision
+Implement two difficulty modes for practice sessions:
+
+**Mixed Mode (Easier):**
+- Distractors drawn from any card type
+- Question shows German noun, answers might include verb definitions or phrases
+- Pattern recognition provides context clues (user can eliminate verbs if question is a noun)
+- Default mode for new learners
+
+**Type-Match Mode (Harder):**
+- Distractors limited to same type as correct answer
+- Question shows German noun, all 5 answers are noun definitions
+- No structural pattern clues available
+- Forces genuine vocabulary knowledge
+- Requires minimum 5 cards per type to ensure 4 distractors available
+
+### Rationale
+- **Progressive difficulty**: Learners can graduate from Mixed to Type-Match as they improve
+- **User-driven**: Learner chooses challenge level based on current skill
+- **Mimics real-world**: Type-Match simulates actual communication where context clues aren't always available
+- **Validates mastery**: Type-Match proves user knows vocabulary, not just patterns
+- **Simple implementation**: Single filter on distractor selection logic
+
+### Alternatives Considered
+- **Single difficulty only (Mixed):** Rejected - too easy for advanced learners, doesn't test true mastery
+- **Single difficulty only (Type-Match):** Rejected - too hard for beginners, requires large card counts
+- **Auto-difficulty based on score:** Rejected - removes user control, unpredictable experience
+- **Type-Match only when single type selected:** Rejected - user should be able to practice all types in Type-Match mode
+
+### Consequences
+- Positive: Accommodates both beginner and advanced learners
+- Positive: User has clear mental model of difficulty difference
+- Positive: Can practice mixed card types in Type-Match mode (nouns + verbs + phrases, but answers match question type)
+- Negative: Type-Match requires sufficient cards per type (minimum 5) - validated at practice start
+- Negative: Slightly more complex setup UI (mitigated by clear labeling)
+
+### Implementation Notes
+- Validation: Show warning if any selected type has < 5 cards in Type-Match mode
+- Display: Show per-type card breakdown in setup screen badge
+- Game screen: Display both game mode and difficulty in header badge
+- Error handling: Alert user with specific insufficient types before starting practice
+
+---
+
+## [DEC-011] Flag for Review Feature (Session-Based Spaced Repetition)
+
+**Date:** 2025-11-02
+**Status:** Accepted
+
+### Context
+Users need a way to immediately mark cards they struggle with for additional practice during a session. Current system has scoring (+1/-1) but no mechanism to prioritize difficult cards until next practice session. User insight: "The moment I saw the card I knew I was going to be guessing" - need ability to flag cards proactively before getting them wrong.
+
+Key requirements:
+- Don't want to modify scores (persistent across sessions)
+- Want temporary boost to likelihood of reappearing in current session
+- User wants ~20% increase in probability
+- Must be toggleable on/off during practice
+
+### Decision
+Implement **"Flag for Review"** toggle button in practice game with probabilistic reappearance:
+
+**UI:**
+- Toggle button in question section: "☆ Flag for Review" / "⭐ Reviewing"
+- Clear labeling explaining it boosts reappearance by 20%
+- Visual indicator when card is flagged (orange accent color)
+- Disabled after submitting answer (can only flag before answering)
+
+**Logic (Option A - Probabilistic):**
+- Maintain Set of flagged card IDs in session state
+- After each card submission, 20% chance to show a random flagged card next
+- If triggered, pick random card from flagged set (not current card)
+- Otherwise proceed to next card in normal sequence
+- Flags reset when practice session ends (not persistent)
+
+**Session-scoped:**
+- Flags are temporary (lost when returning to setup)
+- Independent of card scores (don't affect +1/-1 system)
+- Pure in-session learning aid
+
+### Rationale
+- **Proactive learning**: User can flag before getting it wrong, not reactive
+- **Non-destructive**: Doesn't modify persistent scores or data
+- **Simple mental model**: Toggle on = 20% boost, toggle off = no boost
+- **Probabilistic feels natural**: Not deterministic, mimics memory reinforcement
+- **Session-scoped appropriate**: User practicing specific weak areas right now, not long-term spaced repetition
+- **Orange color choice**: Warning/attention color, distinct from blue (correct) and red (incorrect)
+
+### Alternatives Considered
+- **Option B (Queue-based):** After finishing all cards, cycle through flagged ones
+  - Rejected: Too predictable, interrupts natural flow, user chose Option A
+- **Option C (Hybrid):** 20% chance + guaranteed review at end
+  - Rejected: Adds complexity, user preferred simpler Option A
+- **Modify scores:** Flag automatically deducts points
+  - Rejected: User explicitly didn't want to modify persistent scores
+- **Full spaced repetition algorithm:** SM-2 with intervals
+  - Deferred: Phase 4 feature, this is MVP for immediate need
+
+### Consequences
+- Positive: Users can immediately flag struggling cards
+- Positive: 20% boost is gentle but noticeable
+- Positive: Toggle is clear and discoverable in UI
+- Positive: Foundation for future full spaced repetition system
+- Negative: Session-only (flags lost when practice ends) - acceptable tradeoff for MVP
+- Negative: Probabilistic means not guaranteed to see flagged card again - acceptable, user chose this option
+
+### Implementation Notes
+- Flag state: React Set for O(1) lookups
+- 20% check: `Math.random() < 0.2` after each submission
+- Color: Orange (`#f59e0b`) for flag/review theme
+- Mobile: Full-width button, stacks below question label
+- Future: Could persist flags to IndexedDB for cross-session review queues
+
+---
+
 ## Template for Future Decisions
 
 ```markdown

@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 import CardList from './pages/CardList';
 import NewCard from './pages/NewCard';
 import EditCard from './pages/EditCard';
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="dashboard" element={<Dashboard />} />
           <Route path="manage" element={<CardList />} />
           <Route path="manage/new" element={<NewCard />} />
           <Route path="manage/edit/:id" element={<EditCard />} />

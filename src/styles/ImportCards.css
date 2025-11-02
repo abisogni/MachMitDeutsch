@@ -1,0 +1,104 @@
+/* Import Cards - Dark Theme */
+
+.import-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.import-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.import-header h1 {
+  font-size: 2rem;
+  color: #e6e8eb;
+  margin-bottom: 0.75rem;
+}
+
+.import-subtitle {
+  font-size: 1rem;
+  color: #9ca3af;
+  margin: 0;
+}
+
+.import-card {
+  background-color: #1a1f2e;
+  border: 2px dashed #4b5563;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.upload-placeholder {
+  text-align: center;
+}
+
+.upload-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.7;
+}
+
+.upload-placeholder h2 {
+  font-size: 1.5rem;
+  color: #e6e8eb;
+  margin-bottom: 1rem;
+}
+
+.upload-placeholder p {
+  color: #9ca3af;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.upload-format-info {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-style: italic;
+  padding: 1rem;
+  background-color: #252b3b;
+  border-radius: 6px;
+  border: 1px solid #374151;
+  margin-top: 1.5rem;
+}
+
+.import-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-secondary {
+  background-color: #374151;
+  color: #d1d5db;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background-color: #4b5563;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .import-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .upload-icon {
+    font-size: 3rem;
+  }
+
+  .upload-placeholder h2 {
+    font-size: 1.25rem;
+  }
+}
