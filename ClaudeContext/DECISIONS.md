@@ -627,6 +627,201 @@ Implement **"Learning Readiness" dashboard section with configurable thresholds*
 
 ---
 
+## [DEC-014] Score Reset Feature
+
+**Date:** 2025-11-02
+**Status:** Proposed (for Phase 3/4 implementation)
+
+### Context
+Users may practice a card set, achieve high scores (mastery), then shift focus to other sets for weeks. When returning to original set, memory has faded but high scores remain. In future with spaced repetition (Phase 4), stale high scores would cause rusty cards to appear less frequently than needed.
+
+User scenario: Practice "Business Nouns" → High scores → 2 weeks on "IT Verbs" → Return to "Business Nouns" → Memory degraded but scores still high.
+
+### Decision
+Implement **manual score reset with granular control**:
+
+**Reset Options:**
+- All cards (entire database)
+- By collection (e.g., "Business Nouns")
+- By type (e.g., all verbs)
+
+**What Resets:**
+- `cardScore` → 0
+- Preserve `viewCount` (analytics value)
+- Preserve `createdDate` (historical data)
+
+**UI Location:**
+- Dashboard → Collection stats → [Reset Scores]
+- Manage Cards → Bulk actions → [Reset Selected Scores]
+
+**Confirmation Dialog:**
+```
+⚠️ Reset Scores?
+
+This will set cardScore to 0 for:
+• 20 cards in "Business Nouns"
+
+View count and card data preserved.
+This action cannot be undone.
+
+[Cancel] [Reset Scores]
+```
+
+### Rationale
+- **User control**: Opt-in when needed, not automatic
+- **Granular**: Can reset specific collections/types
+- **Non-invasive**: Only affects future practice sessions
+- **Preserves history**: Keeps view count for analytics
+- **Simple**: Easy to understand and implement
+
+### Alternatives Considered
+- **Time-based decay**: Automatic score reduction after N days inactive
+  - Rejected: More complex, might confuse users, loses intentionality
+- **"Refresh Practice" mode**: Temporary score ignore
+  - Rejected: Doesn't permanently fix stale scores
+- **Smart detection + suggestion**: Detect inactivity, prompt reset
+  - Deferred: Good enhancement for Phase 4, requires tracking last practice date
+
+### Consequences
+- Positive: Solves stale score problem when returning to old sets
+- Positive: Psychological "fresh start" benefit
+- Positive: Simple to implement and understand
+- Negative: Manual action required (user must remember to reset)
+- Negative: Irreversible (acceptable with clear confirmation)
+
+### Implementation Notes
+- Reset only affects `cardScore` field
+- Preserve all other card data
+- Show count of affected cards in confirmation
+- Add to bulk actions in Manage Cards page
+- Track reset events in future analytics (optional)
+
+---
+
+## [DEC-015] Cloud Storage Migration Path: GitHub → Firebase
+
+**Date:** 2025-11-02
+**Status:** Accepted (phased implementation)
+
+### Context
+User needs multi-device sync (laptop ↔ desktop) and future multi-user support with vocabulary marketplace. Current IndexedDB is browser-local only. Need clear migration path from static site to cloud backend without massive refactor.
+
+User goals:
+1. Immediate: Sync across personal devices
+2. Near-term: Automatic cloud sync
+3. Long-term: Multi-user app with shared vocabulary marketplace
+
+### Decision
+Implement **three-phase migration**:
+
+**Phase 3 (Immediate): IndexedDB + GitHub Sync**
+- Local storage: IndexedDB (browser-specific)
+- Manual sync workflow:
+  - Export: Downloads `vocabulary.json` → User commits to GitHub
+  - Import: One-click load from `https://raw.githubusercontent.com/abisogni/MachMitDeutsch/main/data/vocabulary.json`
+- Static URL for centralized vocabulary file
+- Merge imported cards with existing local cards
+
+**Phase 4 (Near-term): Firebase Cloud Sync**
+- Migrate from IndexedDB to Firestore
+- Add Google/email authentication
+- Automatic real-time sync across devices
+- Free tier: 1GB storage, 50K reads/day (sufficient for personal use)
+- Migration effort: 2-3 days (moderate refactor)
+
+**Phase 5 (Future): Multi-User + Marketplace**
+- User accounts and profiles
+- Public vocabulary set sharing
+- Discover and import community card decks
+- Rating/review system for shared sets
+- Migration effort: 1-2 weeks (feature addition, not refactor)
+
+### Rationale
+- **GitHub hybrid (Phase 3)**: Clever intermediate solution
+  - Load is fully automated (one-click)
+  - Save is semi-automated (~30 seconds vs. 2-3 minutes email workflow)
+  - No security risks (no PAT in browser)
+  - Static URL works perfectly for personal sync
+  - Quick to implement (1-2 hours)
+- **Firebase (Phase 4)**: Best cloud migration path
+  - Similar API to IndexedDB (easy migration)
+  - Free tier generous for personal + small user base
+  - Built-in auth (no backend code needed)
+  - Scales to multi-user without rewrite
+  - Well-documented for React
+- **Phased approach**: Incremental complexity
+  - Test workflow in Phase 3 before cloud investment
+  - Each phase adds value independently
+  - No massive refactor required
+
+### Alternatives Considered
+- **Supabase**: PostgreSQL-based
+  - Rejected: Overkill for flashcards, more complex migration
+  - Better for relational data (future consideration if card linking becomes complex)
+- **PocketBase**: Self-hosted Go backend
+  - Rejected: Requires VPS management, user doesn't want hosting complexity
+  - Good for indie projects but Firebase easier for this use case
+- **Direct GitHub API writes**: Auto-commit from browser
+  - Rejected: Security risk (PAT in browser), messy commit history
+- **Skip GitHub phase, go straight to Firebase**:
+  - Rejected: User wants to test workflow before cloud commitment
+
+### Consequences
+**Phase 3 (GitHub Sync):**
+- Positive: Quick implementation, tests workflow
+- Positive: No external dependencies (free)
+- Positive: Safe (no tokens in browser)
+- Negative: Manual commit step (~30 seconds)
+- Negative: Not real-time (requires sync button click)
+
+**Phase 4 (Firebase):**
+- Positive: Automatic sync across devices
+- Positive: Foundation for multi-user
+- Positive: Free tier sufficient
+- Negative: Adds external dependency
+- Negative: 2-3 days migration effort
+
+**Phase 5 (Multi-User):**
+- Positive: Opens marketplace possibilities
+- Positive: Community-driven vocabulary expansion
+- Negative: 1-2 weeks implementation
+- Negative: Need moderation for shared content
+
+### Implementation Notes
+**Phase 3 GitHub Sync:**
+```javascript
+// Export for GitHub (download JSON)
+function exportToGitHub() {
+  const cards = await db.cards.toArray();
+  downloadJSON({ version: "1.0", cards }, 'vocabulary.json');
+}
+
+// Sync from GitHub (auto-load)
+async function syncFromGitHub() {
+  const url = 'https://raw.githubusercontent.com/abisogni/MachMitDeutsch/main/data/vocabulary.json';
+  const data = await fetch(url).then(r => r.json());
+  await mergeImportedCards(data.cards); // Merge, don't replace
+}
+```
+
+**User workflow:**
+1. Laptop: Practice → Export → Terminal: `git add/commit/push` (~30 sec)
+2. Desktop: Open app → Click "Sync from GitHub" → Done
+
+**Phase 4 Firebase Migration:**
+- Keep same function signatures (minimize UI changes)
+- Replace `db.cards.add()` with `firestore.collection('cards').add()`
+- Add authentication wrapper
+- Structure: `users/{userId}/cards/{cardId}`
+
+**Phase 5 Marketplace:**
+- Add `publicSets` collection (shared vocabulary)
+- Permissions: Read public, write own
+- Discovery UI with search/filter
+- One-click import from community sets
+
+---
+
 ## Template for Future Decisions
 
 ```markdown
