@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "exported": "2025-11-11T12:00:00Z",
+  "cards": [
+    {
+      "word": "die Schnittstelle",
+      "definition": "interface",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": ["IT", "technical"],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "haben",
+      "definition": "to have",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs",
+      "tags": ["basic", "essential"],
+      "verbType": "irregular",
+      "partizipII": "gehabt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich habe heute viele Termine.",
+        "en": "I have many appointments today."
+      }
+    },
+    {
+      "word": "Wie geht es dir?",
+      "definition": "How are you?",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases",
+      "tags": ["greeting", "daily"],
+      "context": "informal greeting"
+    }
+  ]
+}
