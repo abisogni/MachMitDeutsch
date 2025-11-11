@@ -1,0 +1,1450 @@
+{
+  "version": "1.0",
+  "exported": "2025-11-11T09:43:56.418Z",
+  "cards": [
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "general",
+        "work"
+      ],
+      "examples": {
+        "de": "Das System ist stabil.",
+        "en": "The system is stable."
+      }
+    },
+    {
+      "word": "haben",
+      "definition": "to have",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "general",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich habe heute viele Termine.",
+        "en": "I have many appointments today."
+      }
+    },
+    {
+      "word": "werden",
+      "definition": "to become, will (future aux)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Das Ticket wird morgen geschlossen.",
+        "en": "The ticket will be closed tomorrow."
+      }
+    },
+    {
+      "word": "können",
+      "definition": "can, to be able to",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Können wir um 14 Uhr sprechen?",
+        "en": "Can we talk at 2 pm?"
+      }
+    },
+    {
+      "word": "müssen",
+      "definition": "must, to have to",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "IT"
+      ],
+      "examples": {
+        "de": "Wir müssen die Daten prüfen.",
+        "en": "We have to check the data."
+      }
+    },
+    {
+      "word": "wollen",
+      "definition": "to want",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich will das später erledigen.",
+        "en": "I want to take care of that later."
+      }
+    },
+    {
+      "word": "sollen",
+      "definition": "should, to be supposed to",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir sollen den Plan anpassen.",
+        "en": "We should adjust the plan."
+      }
+    },
+    {
+      "word": "dürfen",
+      "definition": "may, to be allowed to",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Darf ich das Dokument öffnen?",
+        "en": "May I open the document?"
+      }
+    },
+    {
+      "word": "mögen",
+      "definition": "to like",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich mag klare Spezifikationen.",
+        "en": "I like clear specifications."
+      }
+    },
+    {
+      "word": "machen",
+      "definition": "to do, to make",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Er macht einen Bericht.",
+        "en": "He is making a report."
+      }
+    },
+    {
+      "word": "geben",
+      "definition": "to give",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "convo"
+      ],
+      "examples": {
+        "de": "Bitte geben Sie mir Feedback.",
+        "en": "Please give me feedback."
+      }
+    },
+    {
+      "word": "kommen",
+      "definition": "to come",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "daily"
+      ],
+      "examples": {
+        "de": "Kommst du morgen ins Büro?",
+        "en": "Are you coming to the office tomorrow?"
+      }
+    },
+    {
+      "word": "gehen",
+      "definition": "to go",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich gehe jetzt in die Besprechung.",
+        "en": "I'm going to the meeting now."
+      }
+    },
+    {
+      "word": "sehen",
+      "definition": "to see",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich sehe die Änderungen im System.",
+        "en": "I see the changes in the system."
+      }
+    },
+    {
+      "word": "lassen",
+      "definition": "to let, to leave",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "convo"
+      ],
+      "examples": {
+        "de": "Lass uns das später besprechen.",
+        "en": "Let's discuss that later."
+      }
+    },
+    {
+      "word": "stehen",
+      "definition": "to stand, to be (located)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Die Infos stehen im Dokument.",
+        "en": "The info is in the document."
+      }
+    },
+    {
+      "word": "finden",
+      "definition": "to find",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich finde den Fehler im Log.",
+        "en": "I find the error in the log."
+      }
+    },
+    {
+      "word": "bleiben",
+      "definition": "to stay, to remain",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Das Ticket bleibt offen.",
+        "en": "The ticket remains open."
+      }
+    },
+    {
+      "word": "liegen",
+      "definition": "to lie (be located)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "IT"
+      ],
+      "examples": {
+        "de": "Die Datei liegt im Ordner.",
+        "en": "The file is in the folder."
+      }
+    },
+    {
+      "word": "heißen",
+      "definition": "to be called",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo"
+      ],
+      "examples": {
+        "de": "Ich heiße Alex.",
+        "en": "My name is Alex."
+      }
+    },
+    {
+      "word": "denken",
+      "definition": "to think",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich denke, das ist machbar.",
+        "en": "I think that is feasible."
+      }
+    },
+    {
+      "word": "nehmen",
+      "definition": "to take",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "daily"
+      ],
+      "examples": {
+        "de": "Nehmen Sie bitte Platz.",
+        "en": "Please take a seat."
+      }
+    },
+    {
+      "word": "tun",
+      "definition": "to do",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "convo"
+      ],
+      "examples": {
+        "de": "Was tun wir als Nächstes?",
+        "en": "What do we do next?"
+      }
+    },
+    {
+      "word": "glauben",
+      "definition": "to believe",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich glaube, das reicht.",
+        "en": "I believe that’s enough."
+      }
+    },
+    {
+      "word": "halten",
+      "definition": "to hold, to keep",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir halten den Termin ein.",
+        "en": "We keep the appointment."
+      }
+    },
+    {
+      "word": "zeigen",
+      "definition": "to show",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "IT"
+      ],
+      "examples": {
+        "de": "Zeig mir bitte den Ablauf.",
+        "en": "Please show me the flow."
+      }
+    },
+    {
+      "word": "führen",
+      "definition": "to lead, to conduct",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Sie führt das Meeting.",
+        "en": "She is leading the meeting."
+      }
+    },
+    {
+      "word": "sprechen",
+      "definition": "to speak, to talk",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Wir sprechen nach dem Lunch.",
+        "en": "We’ll talk after lunch."
+      }
+    },
+    {
+      "word": "bringen",
+      "definition": "to bring",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich bringe den Laptop mit.",
+        "en": "I'll bring the laptop."
+      }
+    },
+    {
+      "word": "fahren",
+      "definition": "to drive, to go (vehicle)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "travel",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich fahre mit dem Zug.",
+        "en": "I take the train."
+      }
+    },
+    {
+      "word": "essen",
+      "definition": "to eat",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Wir essen um zwölf.",
+        "en": "We eat at twelve."
+      }
+    },
+    {
+      "word": "trinken",
+      "definition": "to drink",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich trinke einen Kaffee.",
+        "en": "I'm drinking a coffee."
+      }
+    },
+    {
+      "word": "schreiben",
+      "definition": "to write",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich schreibe eine E‑Mail.",
+        "en": "I'm writing an email."
+      }
+    },
+    {
+      "word": "lesen",
+      "definition": "to read",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich lese die Anforderungen.",
+        "en": "I’m reading the requirements."
+      }
+    },
+    {
+      "word": "arbeiten",
+      "definition": "to work",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "IT"
+      ],
+      "examples": {
+        "de": "Wir arbeiten an der Integration.",
+        "en": "We are working on the integration."
+      }
+    },
+    {
+      "word": "spielen",
+      "definition": "to play",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Am Abend spiele ich mit den Kindern.",
+        "en": "In the evening I play with the kids."
+      }
+    },
+    {
+      "word": "lernen",
+      "definition": "to learn",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich lerne Deutsch.",
+        "en": "I’m learning German."
+      }
+    },
+    {
+      "word": "verstehen",
+      "definition": "to understand",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich verstehe die Frage.",
+        "en": "I understand the question."
+      }
+    },
+    {
+      "word": "bekommen",
+      "definition": "to receive, to get",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich bekomme eine neue Aufgabe.",
+        "en": "I’m getting a new task."
+      }
+    },
+    {
+      "word": "beginnen",
+      "definition": "to begin, to start",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Das Meeting beginnt jetzt.",
+        "en": "The meeting starts now."
+      }
+    },
+    {
+      "word": "anfangen",
+      "definition": "to begin, to start",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir fangen mit Punkt eins an.",
+        "en": "We’re starting with item one."
+      }
+    },
+    {
+      "word": "versuchen",
+      "definition": "to try, to attempt",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich versuche, das Problem zu lösen.",
+        "en": "I’m trying to solve the problem."
+      }
+    },
+    {
+      "word": "erklären",
+      "definition": "to explain",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Können Sie das bitte erklären?",
+        "en": "Could you please explain that?"
+      }
+    },
+    {
+      "word": "laufen",
+      "definition": "to run, to walk",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Das Skript läuft jede Nacht.",
+        "en": "The script runs every night."
+      }
+    },
+    {
+      "word": "brauchen",
+      "definition": "to need",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir brauchen mehr Details.",
+        "en": "We need more details."
+      }
+    },
+    {
+      "word": "folgen",
+      "definition": "to follow",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo"
+      ],
+      "examples": {
+        "de": "Bitte folgen Sie mir.",
+        "en": "Please follow me."
+      }
+    },
+    {
+      "word": "setzen",
+      "definition": "to set, to put",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir setzen eine Priorität.",
+        "en": "We set a priority."
+      }
+    },
+    {
+      "word": "treffen",
+      "definition": "to meet",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "convo"
+      ],
+      "examples": {
+        "de": "Wir treffen uns um drei.",
+        "en": "We meet at three."
+      }
+    },
+    {
+      "word": "tragen",
+      "definition": "to carry, to wear",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich trage den Laptop.",
+        "en": "I’m carrying the laptop."
+      }
+    },
+    {
+      "word": "schaffen",
+      "definition": "to accomplish, to manage",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir schaffen das.",
+        "en": "We can do it."
+      }
+    },
+    {
+      "word": "erhalten",
+      "definition": "to receive",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Sie erhalten eine Bestätigung.",
+        "en": "You will receive a confirmation."
+      }
+    },
+    {
+      "word": "suchen",
+      "definition": "to search, to look for",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich suche den Ordner.",
+        "en": "I’m looking for the folder."
+      }
+    },
+    {
+      "word": "gehören",
+      "definition": "to belong (to)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Die Datei gehört zum Projekt.",
+        "en": "The file belongs to the project."
+      }
+    },
+    {
+      "word": "bestehen",
+      "definition": "to consist (of), to pass (exam)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Das Team besteht aus fünf Leuten.",
+        "en": "The team consists of five people."
+      }
+    },
+    {
+      "word": "benutzen",
+      "definition": "to use",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Benutzen wir die neue Vorlage.",
+        "en": "Let’s use the new template."
+      }
+    },
+    {
+      "word": "bieten",
+      "definition": "to offer, to provide",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Die Plattform bietet viele Funktionen.",
+        "en": "The platform offers many features."
+      }
+    },
+    {
+      "word": "warten",
+      "definition": "to wait",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir warten auf die Freigabe.",
+        "en": "We are waiting for approval."
+      }
+    },
+    {
+      "word": "bezahlen",
+      "definition": "to pay",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich bezahle das Ticket online.",
+        "en": "I pay for the ticket online."
+      }
+    },
+    {
+      "word": "kaufen",
+      "definition": "to buy",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily",
+        "travel"
+      ],
+      "examples": {
+        "de": "Ich kaufe eine Fahrkarte.",
+        "en": "I’m buying a ticket."
+      }
+    },
+    {
+      "word": "verkaufen",
+      "definition": "to sell",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Sie verkauft Softwarelizenzen.",
+        "en": "She sells software licenses."
+      }
+    },
+    {
+      "word": "öffnen",
+      "definition": "to open",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Bitte öffnen Sie die Datei.",
+        "en": "Please open the file."
+      }
+    },
+    {
+      "word": "schließen",
+      "definition": "to close",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "daily"
+      ],
+      "examples": {
+        "de": "Schließen Sie das Fenster.",
+        "en": "Close the window."
+      }
+    },
+    {
+      "word": "sitzen",
+      "definition": "to sit",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir sitzen im Besprechungsraum.",
+        "en": "We’re sitting in the meeting room."
+      }
+    },
+    {
+      "word": "helfen",
+      "definition": "to help",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo"
+      ],
+      "examples": {
+        "de": "Kannst du mir helfen?",
+        "en": "Can you help me?"
+      }
+    },
+    {
+      "word": "scheinen",
+      "definition": "to seem, to shine",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Es scheint zu funktionieren.",
+        "en": "It seems to work."
+      }
+    },
+    {
+      "word": "fallen",
+      "definition": "to fall",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Die Zahl fällt langsam.",
+        "en": "The number is falling slowly."
+      }
+    },
+    {
+      "word": "erreichen",
+      "definition": "to reach, to achieve",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir erreichen das Ziel.",
+        "en": "We reach the goal."
+      }
+    },
+    {
+      "word": "ziehen",
+      "definition": "to pull, to move",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Wir ziehen die Daten ins neue System.",
+        "en": "We move the data into the new system."
+      }
+    },
+    {
+      "word": "gewinnen",
+      "definition": "to win, to gain",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir gewinnen neue Kunden.",
+        "en": "We are gaining new customers."
+      }
+    },
+    {
+      "word": "verlieren",
+      "definition": "to lose",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Wir verlieren keine Daten.",
+        "en": "We are not losing any data."
+      }
+    },
+    {
+      "word": "schlafen",
+      "definition": "to sleep",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich schlafe früh heute.",
+        "en": "I’m sleeping early today."
+      }
+    },
+    {
+      "word": "leben",
+      "definition": "to live",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich lebe in der Schweiz.",
+        "en": "I live in Switzerland."
+      }
+    },
+    {
+      "word": "wohnen",
+      "definition": "to reside, to live",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich wohne in Bern.",
+        "en": "I live in Bern."
+      }
+    },
+    {
+      "word": "erinnern (sich)",
+      "definition": "to remember",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich erinnere mich an den Termin.",
+        "en": "I remember the appointment."
+      }
+    },
+    {
+      "word": "interessieren (sich)",
+      "definition": "to be interested (in)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich interessiere mich für das Projekt.",
+        "en": "I’m interested in the project."
+      }
+    },
+    {
+      "word": "vorbereiten",
+      "definition": "to prepare",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich bereite die Unterlagen vor.",
+        "en": "I’m preparing the documents."
+      }
+    },
+    {
+      "word": "teilnehmen",
+      "definition": "to participate",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich nehme am Workshop teil.",
+        "en": "I’m participating in the workshop."
+      }
+    },
+    {
+      "word": "einsteigen",
+      "definition": "to get on (train/bus)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "travel",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich steige in Olten ein.",
+        "en": "I board in Olten."
+      }
+    },
+    {
+      "word": "aussteigen",
+      "definition": "to get off (train/bus)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "travel",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich steige in Zürich aus.",
+        "en": "I get off in Zurich."
+      }
+    },
+    {
+      "word": "ankommen",
+      "definition": "to arrive",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "travel",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich komme um neun an.",
+        "en": "I arrive at nine."
+      }
+    },
+    {
+      "word": "zurückkommen",
+      "definition": "to come back",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich komme später zurück.",
+        "en": "I’ll come back later."
+      }
+    },
+    {
+      "word": "mitbringen",
+      "definition": "to bring along",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich bringe die Unterlagen mit.",
+        "en": "I’ll bring the documents along."
+      }
+    },
+    {
+      "word": "mitnehmen",
+      "definition": "to take along",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "daily"
+      ],
+      "examples": {
+        "de": "Nimm den Laptop mit.",
+        "en": "Take the laptop with you."
+      }
+    },
+    {
+      "word": "verlassen",
+      "definition": "to leave (a place)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "daily"
+      ],
+      "examples": {
+        "de": "Ich verlasse das Büro um fünf.",
+        "en": "I leave the office at five."
+      }
+    },
+    {
+      "word": "anrufen",
+      "definition": "to call (phone)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo"
+      ],
+      "examples": {
+        "de": "Ich rufe dich später an.",
+        "en": "I’ll call you later."
+      }
+    },
+    {
+      "word": "zurückrufen",
+      "definition": "to call back",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "convo",
+        "work"
+      ],
+      "examples": {
+        "de": "Ich rufe Sie gleich zurück.",
+        "en": "I’ll call you right back."
+      }
+    },
+    {
+      "word": "vereinbaren",
+      "definition": "to arrange, to agree on",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Lassen Sie uns einen Termin vereinbaren.",
+        "en": "Let’s arrange an appointment."
+      }
+    },
+    {
+      "word": "bestätigen",
+      "definition": "to confirm",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "convo"
+      ],
+      "examples": {
+        "de": "Können Sie bitte den Termin bestätigen?",
+        "en": "Could you please confirm the appointment?"
+      }
+    },
+    {
+      "word": "absagen",
+      "definition": "to cancel",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich muss das Meeting absagen.",
+        "en": "I have to cancel the meeting."
+      }
+    },
+    {
+      "word": "verschieben",
+      "definition": "to postpone, to move",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir verschieben die Besprechung.",
+        "en": "We’re postponing the meeting."
+      }
+    },
+    {
+      "word": "einladen",
+      "definition": "to invite",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work",
+        "convo"
+      ],
+      "examples": {
+        "de": "Ich lade das Team ein.",
+        "en": "I’m inviting the team."
+      }
+    },
+    {
+      "word": "akzeptieren",
+      "definition": "to accept",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Ich akzeptiere den Vorschlag.",
+        "en": "I accept the proposal."
+      }
+    },
+    {
+      "word": "ablehnen",
+      "definition": "to reject, to decline",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir lehnen die Änderung ab.",
+        "en": "We reject the change."
+      }
+    },
+    {
+      "word": "erlauben",
+      "definition": "to allow, to permit",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT"
+      ],
+      "examples": {
+        "de": "Das System erlaubt Gastzugänge.",
+        "en": "The system allows guest access."
+      }
+    },
+    {
+      "word": "verbieten",
+      "definition": "to forbid",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "daily"
+      ],
+      "examples": {
+        "de": "Das ist hier verboten.",
+        "en": "That is forbidden here."
+      }
+    },
+    {
+      "word": "erreichen",
+      "definition": "to reach, to achieve",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir erreichen bald den Meilenstein.",
+        "en": "We will reach the milestone soon."
+      }
+    },
+    {
+      "word": "benötigen",
+      "definition": "to require, to need",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "work"
+      ],
+      "examples": {
+        "de": "Wir benötigen mehr Zeit.",
+        "en": "We require more time."
+      }
+    },
+    {
+      "word": "verwenden",
+      "definition": "to use, to utilize",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT",
+        "work"
+      ],
+      "examples": {
+        "de": "Wir verwenden SAP und Salesforce.",
+        "en": "We use SAP and Salesforce."
+      }
+    },
+    {
+      "word": "übertragen",
+      "definition": "to transfer, to transmit",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT"
+      ],
+      "examples": {
+        "de": "Die App überträgt die Daten an den Server.",
+        "en": "The app transfers the data to the server."
+      }
+    },
+    {
+      "word": "speichern",
+      "definition": "to save, to store",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Top 100 Verbs",
+      "tags": [
+        "IT"
+      ],
+      "examples": {
+        "de": "Die Anwendung speichert automatisch.",
+        "en": "The application saves automatically."
+      }
+    }
+  ]
+}

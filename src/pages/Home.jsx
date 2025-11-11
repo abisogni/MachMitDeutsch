@@ -1,14 +1,17 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { loadMockCards } from '../utils/mockData';
+import { getAllCards } from '../db/database';
 import '../styles/Home.css';
 
 function Home() {
   const [cardCount, setCardCount] = useState(0);
 
   useEffect(() => {
-    const cards = loadMockCards();
-    setCardCount(cards.length);
+    const loadCardCount = async () => {
+      const cards = await getAllCards();
+      setCardCount(cards.length);
+    };
+    loadCardCount();
   }, []);
 
   return (

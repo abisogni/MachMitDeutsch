@@ -1,0 +1,2515 @@
+{
+  "version": "1.0",
+  "exported": "2025-11-11T09:43:56.416Z",
+  "cards": [
+    {
+      "word": "der Benutzer",
+      "definition": "user",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "die Anforderung",
+      "definition": "requirement / request",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Schnittstelle",
+      "definition": "interface",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Bericht",
+      "definition": "report",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Daten",
+      "definition": "data",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "–"
+    },
+    {
+      "word": "das System",
+      "definition": "system",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "der Prozess",
+      "definition": "process",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Anwendung",
+      "definition": "application",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Problem",
+      "definition": "problem",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Lösung",
+      "definition": "solution",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Stakeholder",
+      "definition": "stakeholder",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "das Dokument",
+      "definition": "document",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Tabelle",
+      "definition": "table / spreadsheet",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Auftrag",
+      "definition": "order / work order",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "träge"
+    },
+    {
+      "word": "die Integration",
+      "definition": "integration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Plattform",
+      "definition": "platform",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Datensatz",
+      "definition": "data record / dataset",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "ätze"
+    },
+    {
+      "word": "die Umgebung",
+      "definition": "environment (system / test)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Ablaufdiagramm",
+      "definition": "process flow / flow chart",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Freigabe",
+      "definition": "approval / release",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Spezifikation",
+      "definition": "specification",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Formular",
+      "definition": "form",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "das Feld",
+      "definition": "field (input)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "er"
+    },
+    {
+      "word": "die Eingabe",
+      "definition": "input / entry",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Ausgabe",
+      "definition": "output",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Fehler",
+      "definition": "error / mistake",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "das Fehlerprotokoll",
+      "definition": "error log",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Meldung",
+      "definition": "message / notification",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Ticket",
+      "definition": "ticket (support)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "s"
+    },
+    {
+      "word": "die Rückmeldung",
+      "definition": "feedback / response",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Genehmigung",
+      "definition": "approval / authorization",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Ablehnung",
+      "definition": "rejection",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Entwurf",
+      "definition": "draft",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "Entwürfe"
+    },
+    {
+      "word": "die Version",
+      "definition": "version",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Änderung",
+      "definition": "change / modification",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Anweisung",
+      "definition": "instruction",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Dokumentation",
+      "definition": "documentation",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Protokoll",
+      "definition": "minutes / log",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Sitzung",
+      "definition": "session / meeting",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Besprechung",
+      "definition": "meeting / discussion",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Termin",
+      "definition": "appointment / meeting time",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Frist",
+      "definition": "deadline",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Umfang",
+      "definition": "scope",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "Umfänge"
+    },
+    {
+      "word": "das Ziel",
+      "definition": "goal / objective",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Priorität",
+      "definition": "priority",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Aufwand",
+      "definition": "effort",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "Aufwände"
+    },
+    {
+      "word": "der Nutzen",
+      "definition": "benefit / value",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "die Voraussetzung",
+      "definition": "prerequisite / requirement",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Abhängigkeit",
+      "definition": "dependency",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Rolle",
+      "definition": "role",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Verantwortung",
+      "definition": "responsibility",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Eigentümer",
+      "definition": "owner (of process/ticket)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "der Administrator",
+      "definition": "administrator",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "en"
+    },
+    {
+      "word": "der Entwickler",
+      "definition": "developer",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "die Entwicklerin",
+      "definition": "developer (fem.)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "nen"
+    },
+    {
+      "word": "der Architekt",
+      "definition": "architect",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "en"
+    },
+    {
+      "word": "die Architektur",
+      "definition": "architecture",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Modul",
+      "definition": "module",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Komponente",
+      "definition": "component",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Schnittstellenbeschreibung",
+      "definition": "interface specification",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Verbindung",
+      "definition": "connection / link",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Latenz",
+      "definition": "latency",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Leistung",
+      "definition": "performance",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Kapazität",
+      "definition": "capacity",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Last",
+      "definition": "load",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Skalierung",
+      "definition": "scaling",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Sicherheit",
+      "definition": "security / safety",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Verschlüsselung",
+      "definition": "encryption",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Authentifizierung",
+      "definition": "authentication",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Autorisierung",
+      "definition": "authorization",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Kennwort",
+      "definition": "password (syn. Passwort)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "⸚er"
+    },
+    {
+      "word": "das Passwort",
+      "definition": "password",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "⸚er"
+    },
+    {
+      "word": "der Benutzername",
+      "definition": "username",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "n"
+    },
+    {
+      "word": "die Berechtigung",
+      "definition": "permission / privilege",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Ressource",
+      "definition": "resource",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Vorlage",
+      "definition": "template",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "das Beispiel",
+      "definition": "example",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Ausnahme",
+      "definition": "exception",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Sonderfall",
+      "definition": "special case",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "fälle"
+    },
+    {
+      "word": "die Produktionsumgebung",
+      "definition": "production environment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Testumgebung",
+      "definition": "test environment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Entwicklungsumgebung",
+      "definition": "development environment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Migration",
+      "definition": "migration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Zielsystem",
+      "definition": "target system",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "das Quellsystem",
+      "definition": "source system",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "die Stammdaten",
+      "definition": "master data (pl.)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "—"
+    },
+    {
+      "word": "die Bewegungsdaten",
+      "definition": "transaction data (pl.)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "—"
+    },
+    {
+      "word": "das Feldmapping",
+      "definition": "field mapping",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "s"
+    },
+    {
+      "word": "die Konfiguration",
+      "definition": "configuration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Protokollfile",
+      "definition": "log file",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "s"
+    },
+    {
+      "word": "die Wartung",
+      "definition": "maintenance",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Störung",
+      "definition": "incident / outage",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Ausfall",
+      "definition": "failure / outage",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "Ausfälle"
+    },
+    {
+      "word": "der Zugriff",
+      "definition": "access",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Anfrage",
+      "definition": "request / inquiry",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Antwort",
+      "definition": "answer / response",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Hinweis",
+      "definition": "note / hint",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Notiz",
+      "definition": "note",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Aufgabe",
+      "definition": "task / assignment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "das Zielbild",
+      "definition": "target picture / future state",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "er"
+    },
+    {
+      "word": "die Roadmap",
+      "definition": "roadmap",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "s"
+    },
+    {
+      "word": "der Meilenstein",
+      "definition": "milestone",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Lieferung",
+      "definition": "delivery (of work)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Abnahme",
+      "definition": "acceptance (UAT)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Testfall",
+      "definition": "test case",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "fälle"
+    },
+    {
+      "word": "der Testplan",
+      "definition": "test plan",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "pläne"
+    },
+    {
+      "word": "das Ergebnis",
+      "definition": "result / outcome",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "se"
+    },
+    {
+      "word": "die Auswirkung",
+      "definition": "impact / effect",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Ursache",
+      "definition": "cause / root cause",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Maßnahme",
+      "definition": "measure / action",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Verbesserung",
+      "definition": "improvement",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Risiko",
+      "definition": "risk",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "en"
+    },
+    {
+      "word": "die Chance",
+      "definition": "opportunity",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Vertrag",
+      "definition": "contract",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "träge"
+    },
+    {
+      "word": "die Vereinbarung",
+      "definition": "agreement",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Abteilung",
+      "definition": "department",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Fachabteilung",
+      "definition": "business department",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die IT-Abteilung",
+      "definition": "IT department",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Helpdesk",
+      "definition": "helpdesk / service desk",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "s"
+    },
+    {
+      "word": "das Anliegen",
+      "definition": "concern / request",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "die Rückfrage",
+      "definition": "follow‑up question",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Erklärung",
+      "definition": "explanation",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Übersicht",
+      "definition": "overview / summary",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Zusammenfassung",
+      "definition": "summary",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Überblick",
+      "definition": "overview",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "der Stand",
+      "definition": "status",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "stände"
+    },
+    {
+      "word": "die Kapazitätsplanung",
+      "definition": "capacity planning",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Zeit",
+      "definition": "time",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Tag",
+      "definition": "day",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Woche",
+      "definition": "week",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Monat",
+      "definition": "month",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "das Jahr",
+      "definition": "year",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "der Morgen",
+      "definition": "morning",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "der Vormittag",
+      "definition": "late morning",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "der Nachmittag",
+      "definition": "afternoon",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "der Abend",
+      "definition": "evening",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Nacht",
+      "definition": "night",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "nächte"
+    },
+    {
+      "word": "das Büro",
+      "definition": "office",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "s"
+    },
+    {
+      "word": "das Gebäude",
+      "definition": "building",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "der Raum",
+      "definition": "room",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "räume"
+    },
+    {
+      "word": "der Arbeitsplatz",
+      "definition": "workplace / desk",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "plätze"
+    },
+    {
+      "word": "der Laptop",
+      "definition": "laptop",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "s"
+    },
+    {
+      "word": "die Tastatur",
+      "definition": "keyboard",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Maus",
+      "definition": "mouse",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "mäuse"
+    },
+    {
+      "word": "der Bildschirm",
+      "definition": "screen / monitor",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "das Netzteil",
+      "definition": "power adapter",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "das Kabel",
+      "definition": "cable",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "das Internet",
+      "definition": "internet",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "das WLAN",
+      "definition": "Wi‑Fi",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "s"
+    },
+    {
+      "word": "die E‑Mail",
+      "definition": "email",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "s"
+    },
+    {
+      "word": "der Kalender",
+      "definition": "calendar",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "-"
+    },
+    {
+      "word": "der Terminplan",
+      "definition": "schedule",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "pläne"
+    },
+    {
+      "word": "die Pause",
+      "definition": "break",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "das Mittagessen",
+      "definition": "lunch",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "das Frühstück",
+      "definition": "breakfast",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "e"
+    },
+    {
+      "word": "das Abendessen",
+      "definition": "dinner",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "der Kaffee",
+      "definition": "coffee",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "s"
+    },
+    {
+      "word": "der Tee",
+      "definition": "tea",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "s"
+    },
+    {
+      "word": "das Wasser",
+      "definition": "water",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "die Flasche",
+      "definition": "bottle",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "das Glas",
+      "definition": "glass",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "gläser"
+    },
+    {
+      "word": "der Zug",
+      "definition": "train",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "züge"
+    },
+    {
+      "word": "der Bus",
+      "definition": "bus",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "se"
+    },
+    {
+      "word": "das Auto",
+      "definition": "car",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "s"
+    },
+    {
+      "word": "das Fahrrad",
+      "definition": "bicycle",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "räder"
+    },
+    {
+      "word": "der Bahnhof",
+      "definition": "train station",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "höfe"
+    },
+    {
+      "word": "die Haltestelle",
+      "definition": "stop (bus/tram)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Richtung",
+      "definition": "direction",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Verspätung",
+      "definition": "delay",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "die Stadt",
+      "definition": "city",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "städte"
+    },
+    {
+      "word": "das Dorf",
+      "definition": "village",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "dörfer"
+    },
+    {
+      "word": "die Straße",
+      "definition": "street",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "die Adresse",
+      "definition": "address",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "das Haus",
+      "definition": "house",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "häuser"
+    },
+    {
+      "word": "die Wohnung",
+      "definition": "apartment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "das Zimmer",
+      "definition": "room",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "die Küche",
+      "definition": "kitchen",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "das Bad",
+      "definition": "bathroom",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "bäder"
+    },
+    {
+      "word": "das Bett",
+      "definition": "bed",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "en"
+    },
+    {
+      "word": "der Stuhl",
+      "definition": "chair",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "stühle"
+    },
+    {
+      "word": "der Tisch",
+      "definition": "table",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "das Fenster",
+      "definition": "window",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "-"
+    },
+    {
+      "word": "die Tür",
+      "definition": "door",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Freund",
+      "definition": "friend (male)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "e"
+    },
+    {
+      "word": "die Freundin",
+      "definition": "friend (female)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "nen"
+    },
+    {
+      "word": "die Frau",
+      "definition": "wife / woman",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "en"
+    },
+    {
+      "word": "der Mann",
+      "definition": "man / husband",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "männer"
+    },
+    {
+      "word": "das Kind",
+      "definition": "child",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "das",
+      "plural": "er"
+    },
+    {
+      "word": "die Familie",
+      "definition": "family",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "n"
+    },
+    {
+      "word": "der Kollege",
+      "definition": "colleague (male)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "n"
+    },
+    {
+      "word": "die Kollegin",
+      "definition": "colleague (female)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "nen"
+    },
+    {
+      "word": "der Kunde",
+      "definition": "customer (male)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "der",
+      "plural": "n"
+    },
+    {
+      "word": "die Kundin",
+      "definition": "customer (female)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "IT & Business Vocabulary",
+      "tags": [
+        "business",
+        "IT"
+      ],
+      "gender": "die",
+      "plural": "nen"
+    }
+  ]
+}

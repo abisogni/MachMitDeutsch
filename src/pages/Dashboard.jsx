@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { loadMockCards } from '../utils/mockData';
+import { getAllCards } from '../db/database';
 import '../styles/Dashboard.css';
 
 function Dashboard() {
@@ -20,9 +20,12 @@ function Dashboard() {
   });
 
   useEffect(() => {
-    const loadedCards = loadMockCards();
-    setCards(loadedCards);
-    calculateMetrics(loadedCards);
+    const loadCards = async () => {
+      const loadedCards = await getAllCards();
+      setCards(loadedCards);
+      calculateMetrics(loadedCards);
+    };
+    loadCards();
   }, []);
 
   const calculateMetrics = (cardData) => {

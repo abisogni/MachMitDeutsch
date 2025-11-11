@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { loadMockCards, getCollections, getTags, filterCards } from '../utils/mockData';
+import { getAllCards, getCollections, getTags } from '../db/database';
 import '../styles/PracticeSetup.css';
 
 function PracticeSetup() {
@@ -32,12 +32,49 @@ function PracticeSetup() {
 
   // Load cards on mount
   useEffect(() => {
-    const cards = loadMockCards();
-    setAllCards(cards);
-    setCollections(getCollections(cards));
-    setTags(getTags(cards));
-    setFilteredCount(cards.length);
+    const loadData = async () => {
+      const cards = await getAllCards();
+      const cols = await getCollections();
+      const allTags = await getTags();
+      setAllCards(cards);
+      setCollections(cols);
+      setTags(allTags);
+      setFilteredCount(cards.length);
+    };
+    loadData();
   }, []);
+
+  // Helper function to filter cards locally
+  const filterCards = (cards, filters) => {
+    return cards.filter(card => {
+      // Collection filter
+      if (filters.collection && card.collection !== filters.collection) {
+        return false;
+      }
+
+      // Types filter
+      if (filters.types && filters.types.length > 0 && !filters.types.includes(card.type)) {
+        return false;
+      }
+
+      // Score range filters
+      if (filters.scoreMin !== undefined && card.cardScore < filters.scoreMin) {
+        return false;
+      }
+      if (filters.scoreMax !== undefined && card.cardScore > filters.scoreMax) {
+        return false;
+      }
+
+      // Tags filter
+      if (filters.tags && filters.tags.length > 0) {
+        if (!card.tags || !filters.tags.some(tag => card.tags.includes(tag))) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  };
 
   // Update filtered count whenever filters change
   useEffect(() => {

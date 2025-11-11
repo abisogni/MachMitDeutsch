@@ -1,18 +1,38 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { loadMockCards, getCollections, getTypes } from '../utils/mockData';
+import { getAllCards, getCollections, exportCards } from '../db/database';
 import '../styles/CardList.css';
 
 function CardList() {
-  const allCards = useMemo(() => loadMockCards(), []);
+  const [allCards, setAllCards] = useState([]);
+  const [collections, setCollections] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [filterType, setFilterType] = useState('');
   const [filterCollection, setFilterCollection] = useState('');
   const [sortBy, setSortBy] = useState('word');
   const [sortOrder, setSortOrder] = useState('asc');
 
-  const collections = useMemo(() => getCollections(allCards), [allCards]);
-  const types = useMemo(() => getTypes(), []);
+  const types = ['noun', 'verb', 'phrase'];
+
+  // Load cards from database
+  useEffect(() => {
+    loadCards();
+  }, []);
+
+  const loadCards = async () => {
+    setIsLoading(true);
+    try {
+      const cards = await getAllCards();
+      const cols = await getCollections();
+      setAllCards(cards);
+      setCollections(cols);
+    } catch (error) {
+      console.error('Error loading cards:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   // Filter cards
   const filteredCards = useMemo(() => {
@@ -59,6 +79,25 @@ function CardList() {
     }
   };
 
+  const handleExport = async () => {
+    try {
+      const exportData = await exportCards();
+      const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      const date = new Date().toISOString().split('T')[0];
+      a.download = `german-vocab-export-${date}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error('Error exporting cards:', error);
+      alert('Failed to export cards');
+    }
+  };
+
   const getTypeIcon = (type) => {
     switch(type) {
       case 'noun': return '📝';
@@ -67,6 +106,14 @@ function CardList() {
       default: return '📄';
     }
   };
+
+  if (isLoading) {
+    return (
+      <div className="card-list-container">
+        <div className="loading">Loading cards...</div>
+      </div>
+    );
+  }
 
   return (
     <div className="card-list-container">
@@ -85,7 +132,9 @@ function CardList() {
         <Link to="/manage/import">
           <button className="btn-secondary">📥 Import Cards</button>
         </Link>
-        <button className="btn-secondary">📤 Export Cards</button>
+        <button className="btn-secondary" onClick={handleExport}>
+          📤 Export Cards
+        </button>
       </div>
 
       <div className="filters">
@@ -186,14 +235,20 @@ function CardList() {
 
       {filteredCards.length === 0 && (
         <div className="no-results">
-          <p>No cards found matching your filters.</p>
-          <button onClick={() => {
-            setSearchTerm('');
-            setFilterType('');
-            setFilterCollection('');
-          }}>
-            Clear Filters
-          </button>
+          <p>No cards found{searchTerm || filterType || filterCollection ? ' matching your filters' : ' in the database'}.</p>
+          {allCards.length === 0 ? (
+            <Link to="/manage/import">
+              <button className="btn-primary">Import Cards to Get Started</button>
+            </Link>
+          ) : (
+            <button onClick={() => {
+              setSearchTerm('');
+              setFilterType('');
+              setFilterCollection('');
+            }}>
+              Clear Filters
+            </button>
+          )}
         </div>
       )}
     </div>

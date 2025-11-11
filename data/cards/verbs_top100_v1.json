@@ -1,0 +1,1284 @@
+[
+  {
+    "level": "common",
+    "term": "sein",
+    "translations": [
+      "to be"
+    ],
+    "example_de": "Das System ist stabil.",
+    "example_en": "The system is stable.",
+    "domain": [
+      "general",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "haben",
+    "translations": [
+      "to have"
+    ],
+    "example_de": "Ich habe heute viele Termine.",
+    "example_en": "I have many appointments today.",
+    "domain": [
+      "general",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "werden",
+    "translations": [
+      "to become",
+      "will (future aux)"
+    ],
+    "example_de": "Das Ticket wird morgen geschlossen.",
+    "example_en": "The ticket will be closed tomorrow.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "können",
+    "translations": [
+      "can",
+      "to be able to"
+    ],
+    "example_de": "Können wir um 14 Uhr sprechen?",
+    "example_en": "Can we talk at 2 pm?",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "müssen",
+    "translations": [
+      "must",
+      "to have to"
+    ],
+    "example_de": "Wir müssen die Daten prüfen.",
+    "example_en": "We have to check the data.",
+    "domain": [
+      "work",
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "wollen",
+    "translations": [
+      "to want"
+    ],
+    "example_de": "Ich will das später erledigen.",
+    "example_en": "I want to take care of that later.",
+    "domain": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "sollen",
+    "translations": [
+      "should",
+      "to be supposed to"
+    ],
+    "example_de": "Wir sollen den Plan anpassen.",
+    "example_en": "We should adjust the plan.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "dürfen",
+    "translations": [
+      "may",
+      "to be allowed to"
+    ],
+    "example_de": "Darf ich das Dokument öffnen?",
+    "example_en": "May I open the document?",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "mögen",
+    "translations": [
+      "to like"
+    ],
+    "example_de": "Ich mag klare Spezifikationen.",
+    "example_en": "I like clear specifications.",
+    "domain": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "machen",
+    "translations": [
+      "to do",
+      "to make"
+    ],
+    "example_de": "Er macht einen Bericht.",
+    "example_en": "He is making a report.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "geben",
+    "translations": [
+      "to give"
+    ],
+    "example_de": "Bitte geben Sie mir Feedback.",
+    "example_en": "Please give me feedback.",
+    "domain": [
+      "work",
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "kommen",
+    "translations": [
+      "to come"
+    ],
+    "example_de": "Kommst du morgen ins Büro?",
+    "example_en": "Are you coming to the office tomorrow?",
+    "domain": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "gehen",
+    "translations": [
+      "to go"
+    ],
+    "example_de": "Ich gehe jetzt in die Besprechung.",
+    "example_en": "I'm going to the meeting now.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "sehen",
+    "translations": [
+      "to see"
+    ],
+    "example_de": "Ich sehe die Änderungen im System.",
+    "example_en": "I see the changes in the system.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "lassen",
+    "translations": [
+      "to let",
+      "to leave"
+    ],
+    "example_de": "Lass uns das später besprechen.",
+    "example_en": "Let's discuss that later.",
+    "domain": [
+      "work",
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "stehen",
+    "translations": [
+      "to stand",
+      "to be (located)"
+    ],
+    "example_de": "Die Infos stehen im Dokument.",
+    "example_en": "The info is in the document.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "finden",
+    "translations": [
+      "to find"
+    ],
+    "example_de": "Ich finde den Fehler im Log.",
+    "example_en": "I find the error in the log.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bleiben",
+    "translations": [
+      "to stay",
+      "to remain"
+    ],
+    "example_de": "Das Ticket bleibt offen.",
+    "example_en": "The ticket remains open.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "liegen",
+    "translations": [
+      "to lie (be located)"
+    ],
+    "example_de": "Die Datei liegt im Ordner.",
+    "example_en": "The file is in the folder.",
+    "domain": [
+      "work",
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "heißen",
+    "translations": [
+      "to be called"
+    ],
+    "example_de": "Ich heiße Alex.",
+    "example_en": "My name is Alex.",
+    "domain": [
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "denken",
+    "translations": [
+      "to think"
+    ],
+    "example_de": "Ich denke, das ist machbar.",
+    "example_en": "I think that is feasible.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "nehmen",
+    "translations": [
+      "to take"
+    ],
+    "example_de": "Nehmen Sie bitte Platz.",
+    "example_en": "Please take a seat.",
+    "domain": [
+      "convo",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "tun",
+    "translations": [
+      "to do"
+    ],
+    "example_de": "Was tun wir als Nächstes?",
+    "example_en": "What do we do next?",
+    "domain": [
+      "work",
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "glauben",
+    "translations": [
+      "to believe"
+    ],
+    "example_de": "Ich glaube, das reicht.",
+    "example_en": "I believe that’s enough.",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "halten",
+    "translations": [
+      "to hold",
+      "to keep"
+    ],
+    "example_de": "Wir halten den Termin ein.",
+    "example_en": "We keep the appointment.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "zeigen",
+    "translations": [
+      "to show"
+    ],
+    "example_de": "Zeig mir bitte den Ablauf.",
+    "example_en": "Please show me the flow.",
+    "domain": [
+      "work",
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "führen",
+    "translations": [
+      "to lead",
+      "to conduct"
+    ],
+    "example_de": "Sie führt das Meeting.",
+    "example_en": "She is leading the meeting.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "sprechen",
+    "translations": [
+      "to speak",
+      "to talk"
+    ],
+    "example_de": "Wir sprechen nach dem Lunch.",
+    "example_en": "We’ll talk after lunch.",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bringen",
+    "translations": [
+      "to bring"
+    ],
+    "example_de": "Ich bringe den Laptop mit.",
+    "example_en": "I'll bring the laptop.",
+    "domain": [
+      "daily",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "fahren",
+    "translations": [
+      "to drive",
+      "to go (vehicle)"
+    ],
+    "example_de": "Ich fahre mit dem Zug.",
+    "example_en": "I take the train.",
+    "domain": [
+      "travel",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "essen",
+    "translations": [
+      "to eat"
+    ],
+    "example_de": "Wir essen um zwölf.",
+    "example_en": "We eat at twelve.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "trinken",
+    "translations": [
+      "to drink"
+    ],
+    "example_de": "Ich trinke einen Kaffee.",
+    "example_en": "I'm drinking a coffee.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "schreiben",
+    "translations": [
+      "to write"
+    ],
+    "example_de": "Ich schreibe eine E‑Mail.",
+    "example_en": "I'm writing an email.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "lesen",
+    "translations": [
+      "to read"
+    ],
+    "example_de": "Ich lese die Anforderungen.",
+    "example_en": "I’m reading the requirements.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "arbeiten",
+    "translations": [
+      "to work"
+    ],
+    "example_de": "Wir arbeiten an der Integration.",
+    "example_en": "We are working on the integration.",
+    "domain": [
+      "work",
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "spielen",
+    "translations": [
+      "to play"
+    ],
+    "example_de": "Am Abend spiele ich mit den Kindern.",
+    "example_en": "In the evening I play with the kids.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "lernen",
+    "translations": [
+      "to learn"
+    ],
+    "example_de": "Ich lerne Deutsch.",
+    "example_en": "I’m learning German.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verstehen",
+    "translations": [
+      "to understand"
+    ],
+    "example_de": "Ich verstehe die Frage.",
+    "example_en": "I understand the question.",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bekommen",
+    "translations": [
+      "to receive",
+      "to get"
+    ],
+    "example_de": "Ich bekomme eine neue Aufgabe.",
+    "example_en": "I’m getting a new task.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "beginnen",
+    "translations": [
+      "to begin",
+      "to start"
+    ],
+    "example_de": "Das Meeting beginnt jetzt.",
+    "example_en": "The meeting starts now.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "anfangen",
+    "translations": [
+      "to begin",
+      "to start"
+    ],
+    "example_de": "Wir fangen mit Punkt eins an.",
+    "example_en": "We’re starting with item one.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "versuchen",
+    "translations": [
+      "to try",
+      "to attempt"
+    ],
+    "example_de": "Ich versuche, das Problem zu lösen.",
+    "example_en": "I’m trying to solve the problem.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "erklären",
+    "translations": [
+      "to explain"
+    ],
+    "example_de": "Können Sie das bitte erklären?",
+    "example_en": "Could you please explain that?",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "laufen",
+    "translations": [
+      "to run",
+      "to walk"
+    ],
+    "example_de": "Das Skript läuft jede Nacht.",
+    "example_en": "The script runs every night.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "brauchen",
+    "translations": [
+      "to need"
+    ],
+    "example_de": "Wir brauchen mehr Details.",
+    "example_en": "We need more details.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "folgen",
+    "translations": [
+      "to follow"
+    ],
+    "example_de": "Bitte folgen Sie mir.",
+    "example_en": "Please follow me.",
+    "domain": [
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "setzen",
+    "translations": [
+      "to set",
+      "to put"
+    ],
+    "example_de": "Wir setzen eine Priorität.",
+    "example_en": "We set a priority.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "treffen",
+    "translations": [
+      "to meet"
+    ],
+    "example_de": "Wir treffen uns um drei.",
+    "example_en": "We meet at three.",
+    "domain": [
+      "work",
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "tragen",
+    "translations": [
+      "to carry",
+      "to wear"
+    ],
+    "example_de": "Ich trage den Laptop.",
+    "example_en": "I’m carrying the laptop.",
+    "domain": [
+      "daily",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "schaffen",
+    "translations": [
+      "to accomplish",
+      "to manage"
+    ],
+    "example_de": "Wir schaffen das.",
+    "example_en": "We can do it.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "erhalten",
+    "translations": [
+      "to receive"
+    ],
+    "example_de": "Sie erhalten eine Bestätigung.",
+    "example_en": "You will receive a confirmation.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "suchen",
+    "translations": [
+      "to search",
+      "to look for"
+    ],
+    "example_de": "Ich suche den Ordner.",
+    "example_en": "I’m looking for the folder.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "gehören",
+    "translations": [
+      "to belong (to)"
+    ],
+    "example_de": "Die Datei gehört zum Projekt.",
+    "example_en": "The file belongs to the project.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bestehen",
+    "translations": [
+      "to consist (of)",
+      "to pass (exam)"
+    ],
+    "example_de": "Das Team besteht aus fünf Leuten.",
+    "example_en": "The team consists of five people.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "benutzen",
+    "translations": [
+      "to use"
+    ],
+    "example_de": "Benutzen wir die neue Vorlage.",
+    "example_en": "Let’s use the new template.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bieten",
+    "translations": [
+      "to offer",
+      "to provide"
+    ],
+    "example_de": "Die Plattform bietet viele Funktionen.",
+    "example_en": "The platform offers many features.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "warten",
+    "translations": [
+      "to wait"
+    ],
+    "example_de": "Wir warten auf die Freigabe.",
+    "example_en": "We are waiting for approval.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bezahlen",
+    "translations": [
+      "to pay"
+    ],
+    "example_de": "Ich bezahle das Ticket online.",
+    "example_en": "I pay for the ticket online.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "kaufen",
+    "translations": [
+      "to buy"
+    ],
+    "example_de": "Ich kaufe eine Fahrkarte.",
+    "example_en": "I’m buying a ticket.",
+    "domain": [
+      "daily",
+      "travel"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verkaufen",
+    "translations": [
+      "to sell"
+    ],
+    "example_de": "Sie verkauft Softwarelizenzen.",
+    "example_en": "She sells software licenses.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "öffnen",
+    "translations": [
+      "to open"
+    ],
+    "example_de": "Bitte öffnen Sie die Datei.",
+    "example_en": "Please open the file.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "schließen",
+    "translations": [
+      "to close"
+    ],
+    "example_de": "Schließen Sie das Fenster.",
+    "example_en": "Close the window.",
+    "domain": [
+      "IT",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "sitzen",
+    "translations": [
+      "to sit"
+    ],
+    "example_de": "Wir sitzen im Besprechungsraum.",
+    "example_en": "We’re sitting in the meeting room.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "helfen",
+    "translations": [
+      "to help"
+    ],
+    "example_de": "Kannst du mir helfen?",
+    "example_en": "Can you help me?",
+    "domain": [
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "scheinen",
+    "translations": [
+      "to seem",
+      "to shine"
+    ],
+    "example_de": "Es scheint zu funktionieren.",
+    "example_en": "It seems to work.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "fallen",
+    "translations": [
+      "to fall"
+    ],
+    "example_de": "Die Zahl fällt langsam.",
+    "example_en": "The number is falling slowly.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "erreichen",
+    "translations": [
+      "to reach",
+      "to achieve"
+    ],
+    "example_de": "Wir erreichen das Ziel.",
+    "example_en": "We reach the goal.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "ziehen",
+    "translations": [
+      "to pull",
+      "to move"
+    ],
+    "example_de": "Wir ziehen die Daten ins neue System.",
+    "example_en": "We move the data into the new system.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "gewinnen",
+    "translations": [
+      "to win",
+      "to gain"
+    ],
+    "example_de": "Wir gewinnen neue Kunden.",
+    "example_en": "We are gaining new customers.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verlieren",
+    "translations": [
+      "to lose"
+    ],
+    "example_de": "Wir verlieren keine Daten.",
+    "example_en": "We are not losing any data.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "schlafen",
+    "translations": [
+      "to sleep"
+    ],
+    "example_de": "Ich schlafe früh heute.",
+    "example_en": "I’m sleeping early today.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "leben",
+    "translations": [
+      "to live"
+    ],
+    "example_de": "Ich lebe in der Schweiz.",
+    "example_en": "I live in Switzerland.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "wohnen",
+    "translations": [
+      "to reside",
+      "to live"
+    ],
+    "example_de": "Ich wohne in Bern.",
+    "example_en": "I live in Bern.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "erinnern (sich)",
+    "translations": [
+      "to remember"
+    ],
+    "example_de": "Ich erinnere mich an den Termin.",
+    "example_en": "I remember the appointment.",
+    "domain": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "interessieren (sich)",
+    "translations": [
+      "to be interested (in)"
+    ],
+    "example_de": "Ich interessiere mich für das Projekt.",
+    "example_en": "I’m interested in the project.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "vorbereiten",
+    "translations": [
+      "to prepare"
+    ],
+    "example_de": "Ich bereite die Unterlagen vor.",
+    "example_en": "I’m preparing the documents.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "teilnehmen",
+    "translations": [
+      "to participate"
+    ],
+    "example_de": "Ich nehme am Workshop teil.",
+    "example_en": "I’m participating in the workshop.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "einsteigen",
+    "translations": [
+      "to get on (train/bus)"
+    ],
+    "example_de": "Ich steige in Olten ein.",
+    "example_en": "I board in Olten.",
+    "domain": [
+      "travel",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "aussteigen",
+    "translations": [
+      "to get off (train/bus)"
+    ],
+    "example_de": "Ich steige in Zürich aus.",
+    "example_en": "I get off in Zurich.",
+    "domain": [
+      "travel",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "ankommen",
+    "translations": [
+      "to arrive"
+    ],
+    "example_de": "Ich komme um neun an.",
+    "example_en": "I arrive at nine.",
+    "domain": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "zurückkommen",
+    "translations": [
+      "to come back"
+    ],
+    "example_de": "Ich komme später zurück.",
+    "example_en": "I’ll come back later.",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "mitbringen",
+    "translations": [
+      "to bring along"
+    ],
+    "example_de": "Ich bringe die Unterlagen mit.",
+    "example_en": "I’ll bring the documents along.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "mitnehmen",
+    "translations": [
+      "to take along"
+    ],
+    "example_de": "Nimm den Laptop mit.",
+    "example_en": "Take the laptop with you.",
+    "domain": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verlassen",
+    "translations": [
+      "to leave (a place)"
+    ],
+    "example_de": "Ich verlasse das Büro um fünf.",
+    "example_en": "I leave the office at five.",
+    "domain": [
+      "work",
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "anrufen",
+    "translations": [
+      "to call (phone)"
+    ],
+    "example_de": "Ich rufe dich später an.",
+    "example_en": "I’ll call you later.",
+    "domain": [
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "zurückrufen",
+    "translations": [
+      "to call back"
+    ],
+    "example_de": "Ich rufe Sie gleich zurück.",
+    "example_en": "I’ll call you right back.",
+    "domain": [
+      "convo",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "vereinbaren",
+    "translations": [
+      "to arrange",
+      "to agree on"
+    ],
+    "example_de": "Lassen Sie uns einen Termin vereinbaren.",
+    "example_en": "Let’s arrange an appointment.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "bestätigen",
+    "translations": [
+      "to confirm"
+    ],
+    "example_de": "Können Sie bitte den Termin bestätigen?",
+    "example_en": "Could you please confirm the appointment?",
+    "domain": [
+      "work",
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "absagen",
+    "translations": [
+      "to cancel"
+    ],
+    "example_de": "Ich muss das Meeting absagen.",
+    "example_en": "I have to cancel the meeting.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verschieben",
+    "translations": [
+      "to postpone",
+      "to move"
+    ],
+    "example_de": "Wir verschieben die Besprechung.",
+    "example_en": "We’re postponing the meeting.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "einladen",
+    "translations": [
+      "to invite"
+    ],
+    "example_de": "Ich lade das Team ein.",
+    "example_en": "I’m inviting the team.",
+    "domain": [
+      "work",
+      "convo"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "akzeptieren",
+    "translations": [
+      "to accept"
+    ],
+    "example_de": "Ich akzeptiere den Vorschlag.",
+    "example_en": "I accept the proposal.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "ablehnen",
+    "translations": [
+      "to reject",
+      "to decline"
+    ],
+    "example_de": "Wir lehnen die Änderung ab.",
+    "example_en": "We reject the change.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "erlauben",
+    "translations": [
+      "to allow",
+      "to permit"
+    ],
+    "example_de": "Das System erlaubt Gastzugänge.",
+    "example_en": "The system allows guest access.",
+    "domain": [
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verbieten",
+    "translations": [
+      "to forbid"
+    ],
+    "example_de": "Das ist hier verboten.",
+    "example_en": "That is forbidden here.",
+    "domain": [
+      "daily"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "erreichen",
+    "translations": [
+      "to reach",
+      "to achieve"
+    ],
+    "example_de": "Wir erreichen bald den Meilenstein.",
+    "example_en": "We will reach the milestone soon.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "benötigen",
+    "translations": [
+      "to require",
+      "to need"
+    ],
+    "example_de": "Wir benötigen mehr Zeit.",
+    "example_en": "We require more time.",
+    "domain": [
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "verwenden",
+    "translations": [
+      "to use",
+      "to utilize"
+    ],
+    "example_de": "Wir verwenden SAP und Salesforce.",
+    "example_en": "We use SAP and Salesforce.",
+    "domain": [
+      "IT",
+      "work"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "übertragen",
+    "translations": [
+      "to transfer",
+      "to transmit"
+    ],
+    "example_de": "Die App überträgt die Daten an den Server.",
+    "example_en": "The app transfers the data to the server.",
+    "domain": [
+      "IT"
+    ]
+  },
+  {
+    "level": "common",
+    "term": "speichern",
+    "translations": [
+      "to save",
+      "to store"
+    ],
+    "example_de": "Die Anwendung speichert automatisch.",
+    "example_en": "The application saves automatically.",
+    "domain": [
+      "IT"
+    ]
+  }
+]

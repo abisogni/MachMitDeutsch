@@ -1,0 +1,485 @@
+[
+  {
+    "level": "common",
+    "phrase_de": "Wie geht es dir?",
+    "phrase_en": "How are you?",
+    "domain": "daily",
+    "note": "informal greeting"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Wie geht es Ihnen?",
+    "phrase_en": "How are you? (formal)",
+    "domain": "work",
+    "note": "used with colleagues or clients"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Mir geht es gut, danke.",
+    "phrase_en": "I’m fine, thank you.",
+    "domain": "daily",
+    "note": "response to 'How are you'"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Und dir?",
+    "phrase_en": "And you?",
+    "domain": "daily",
+    "note": "informal follow-up"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Schön, dich zu sehen.",
+    "phrase_en": "Nice to see you.",
+    "domain": "daily",
+    "note": "friendly greeting"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Guten Morgen!",
+    "phrase_en": "Good morning!",
+    "domain": "daily",
+    "note": "standard greeting"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Guten Tag!",
+    "phrase_en": "Good day!",
+    "domain": "daily",
+    "note": "neutral daytime greeting"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Guten Abend!",
+    "phrase_en": "Good evening!",
+    "domain": "daily",
+    "note": "evening greeting"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Bis später!",
+    "phrase_en": "See you later!",
+    "domain": "daily",
+    "note": "casual farewell"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Bis morgen!",
+    "phrase_en": "See you tomorrow!",
+    "domain": "work",
+    "note": "casual, used daily"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Schönen Tag noch!",
+    "phrase_en": "Have a nice day!",
+    "domain": "daily",
+    "note": "friendly farewell"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Schönes Wochenende!",
+    "phrase_en": "Have a nice weekend!",
+    "domain": "daily",
+    "note": "Friday farewell"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Danke, gleichfalls!",
+    "phrase_en": "Thanks, same to you!",
+    "domain": "daily",
+    "note": "response to wish"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Vielen Dank!",
+    "phrase_en": "Thank you very much!",
+    "domain": "daily",
+    "note": "polite thanks"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Danke schön!",
+    "phrase_en": "Thank you kindly!",
+    "domain": "daily",
+    "note": "common polite form"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Kein Problem.",
+    "phrase_en": "No problem.",
+    "domain": "daily",
+    "note": "casual reassurance"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Gern geschehen.",
+    "phrase_en": "You’re welcome.",
+    "domain": "daily",
+    "note": "standard polite response"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Alles klar?",
+    "phrase_en": "Everything alright?",
+    "domain": "daily",
+    "note": "casual check-in"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Alles gut.",
+    "phrase_en": "All good.",
+    "domain": "daily",
+    "note": "casual affirmation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich bin ein bisschen müde.",
+    "phrase_en": "I’m a little tired.",
+    "domain": "daily",
+    "note": "common self-expression"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Kein Stress.",
+    "phrase_en": "No stress.",
+    "domain": "daily",
+    "note": "reassuring phrase"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich verstehe.",
+    "phrase_en": "I understand.",
+    "domain": "work",
+    "note": "confirmation or acknowledgment"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich bin nicht sicher.",
+    "phrase_en": "I’m not sure.",
+    "domain": "work",
+    "note": "express uncertainty"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Können Sie das bitte wiederholen?",
+    "phrase_en": "Could you please repeat that?",
+    "domain": "work",
+    "note": "polite clarification"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Können Sie das bitte erklären?",
+    "phrase_en": "Could you please explain that?",
+    "domain": "work",
+    "note": "polite request for clarification"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich glaube, ich verstehe jetzt.",
+    "phrase_en": "I think I understand now.",
+    "domain": "work",
+    "note": "acknowledgment after clarification"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Was bedeutet das?",
+    "phrase_en": "What does that mean?",
+    "domain": "work",
+    "note": "asking meaning"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Wie sagt man das auf Deutsch?",
+    "phrase_en": "How do you say that in German?",
+    "domain": "daily",
+    "note": "language learning context"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich spreche noch nicht so gut Deutsch.",
+    "phrase_en": "I don’t speak German very well yet.",
+    "domain": "daily",
+    "note": "self-introduction"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Können wir bitte Englisch sprechen?",
+    "phrase_en": "Can we please speak English?",
+    "domain": "work",
+    "note": "fallback request"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Kein Problem, ich lerne noch.",
+    "phrase_en": "No problem, I’m still learning.",
+    "domain": "daily",
+    "note": "self-reassuring phrase"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich arbeite bei Saint‑Gobain.",
+    "phrase_en": "I work at Saint‑Gobain.",
+    "domain": "work",
+    "note": "professional introduction"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich arbeite in der IT‑Abteilung.",
+    "phrase_en": "I work in the IT department.",
+    "domain": "work",
+    "note": "professional intro variation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich bin im Büro in Bern.",
+    "phrase_en": "I’m at the office in Bern.",
+    "domain": "work",
+    "note": "location statement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Treffen wir uns hier oder in Zürich?",
+    "phrase_en": "Are we meeting here or in Zurich?",
+    "domain": "work",
+    "note": "meeting coordination"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Oder per Teams?",
+    "phrase_en": "Or via Teams?",
+    "domain": "work",
+    "note": "remote meeting context"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich habe gerade ein Meeting.",
+    "phrase_en": "I’m in a meeting right now.",
+    "domain": "work",
+    "note": "status update"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich melde mich später.",
+    "phrase_en": "I’ll get back to you later.",
+    "domain": "work",
+    "note": "follow-up commitment"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich schicke Ihnen die Datei.",
+    "phrase_en": "I’ll send you the file.",
+    "domain": "work",
+    "note": "common IT/email context"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Können wir das verschieben?",
+    "phrase_en": "Can we postpone that?",
+    "domain": "work",
+    "note": "reschedule request"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich habe eine Frage.",
+    "phrase_en": "I have a question.",
+    "domain": "work",
+    "note": "neutral opener"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Eine Sekunde, bitte.",
+    "phrase_en": "One moment, please.",
+    "domain": "work",
+    "note": "small pause request"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Das ist eine gute Idee.",
+    "phrase_en": "That’s a good idea.",
+    "domain": "work",
+    "note": "agreement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Das macht Sinn.",
+    "phrase_en": "That makes sense.",
+    "domain": "work",
+    "note": "agreement phrase"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich stimme zu.",
+    "phrase_en": "I agree.",
+    "domain": "work",
+    "note": "formal agreement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich bin nicht einverstanden.",
+    "phrase_en": "I disagree.",
+    "domain": "work",
+    "note": "formal disagreement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich muss darüber nachdenken.",
+    "phrase_en": "I have to think about it.",
+    "domain": "work",
+    "note": "neutral hesitation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich bin gleich zurück.",
+    "phrase_en": "I’ll be right back.",
+    "domain": "daily",
+    "note": "pause statement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich freue mich darauf.",
+    "phrase_en": "I’m looking forward to it.",
+    "domain": "daily",
+    "note": "anticipation phrase"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Kein Internet... schon wieder!",
+    "phrase_en": "No internet... again!",
+    "domain": "daily",
+    "note": "common frustration"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Alles funktioniert jetzt.",
+    "phrase_en": "Everything works now.",
+    "domain": "IT",
+    "note": "confirmation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Wir haben ein Problem gefunden.",
+    "phrase_en": "We found a problem.",
+    "domain": "IT",
+    "note": "issue report"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Es gibt ein Update.",
+    "phrase_en": "There is an update.",
+    "domain": "IT",
+    "note": "notification"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Bitte prüfen Sie das.",
+    "phrase_en": "Please check that.",
+    "domain": "work",
+    "note": "formal check request"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich arbeite daran.",
+    "phrase_en": "I’m working on it.",
+    "domain": "work",
+    "note": "status report"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich bin fertig.",
+    "phrase_en": "I’m done / finished.",
+    "domain": "daily",
+    "note": "task completion"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ich mache eine Pause.",
+    "phrase_en": "I’m taking a break.",
+    "domain": "daily",
+    "note": "casual workplace use"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Bis gleich.",
+    "phrase_en": "See you soon.",
+    "domain": "daily",
+    "note": "short separation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Kein Wunder.",
+    "phrase_en": "No wonder.",
+    "domain": "daily",
+    "note": "idiomatic reaction"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Ach so!",
+    "phrase_en": "Oh, I see!",
+    "domain": "daily",
+    "note": "common realization"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Genau.",
+    "phrase_en": "Exactly.",
+    "domain": "work",
+    "note": "agreement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Stimmt.",
+    "phrase_en": "That’s true.",
+    "domain": "daily",
+    "note": "agreement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Mal sehen.",
+    "phrase_en": "Let’s see.",
+    "domain": "daily",
+    "note": "neutral hesitation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Na klar.",
+    "phrase_en": "Of course.",
+    "domain": "daily",
+    "note": "casual affirmation"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Vielleicht später.",
+    "phrase_en": "Maybe later.",
+    "domain": "daily",
+    "note": "casual postponement"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Tut mir leid.",
+    "phrase_en": "I’m sorry.",
+    "domain": "daily",
+    "note": "apology"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Entschuldigung.",
+    "phrase_en": "Excuse me / Sorry.",
+    "domain": "daily",
+    "note": "polite apology"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Kein Problem, alles gut.",
+    "phrase_en": "No problem, all good.",
+    "domain": "daily",
+    "note": "reassuring reply"
+  },
+  {
+    "level": "common",
+    "phrase_de": "Bis bald!",
+    "phrase_en": "See you soon!",
+    "domain": "daily",
+    "note": "friendly farewell"
+  }
+]

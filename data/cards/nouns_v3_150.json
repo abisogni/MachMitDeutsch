@@ -1,0 +1,1160 @@
+[
+  {
+    "term": "der Benutzer",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "user"
+  },
+  {
+    "term": "die Anforderung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "requirement / request"
+  },
+  {
+    "term": "die Schnittstelle",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "interface"
+  },
+  {
+    "term": "der Bericht",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "report"
+  },
+  {
+    "term": "die Daten",
+    "gender": "die",
+    "plural": "–",
+    "gloss": "data"
+  },
+  {
+    "term": "das System",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "system"
+  },
+  {
+    "term": "der Prozess",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "process"
+  },
+  {
+    "term": "die Anwendung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "application"
+  },
+  {
+    "term": "das Problem",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "problem"
+  },
+  {
+    "term": "die Lösung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "solution"
+  },
+  {
+    "term": "der Stakeholder",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "stakeholder"
+  },
+  {
+    "term": "das Dokument",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "document"
+  },
+  {
+    "term": "die Tabelle",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "table / spreadsheet"
+  },
+  {
+    "term": "der Auftrag",
+    "gender": "der",
+    "plural": "träge",
+    "gloss": "order / work order"
+  },
+  {
+    "term": "die Integration",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "integration"
+  },
+  {
+    "term": "die Plattform",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "platform"
+  },
+  {
+    "term": "der Datensatz",
+    "gender": "der",
+    "plural": "ätze",
+    "gloss": "data record / dataset"
+  },
+  {
+    "term": "die Umgebung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "environment (system / test)"
+  },
+  {
+    "term": "das Ablaufdiagramm",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "process flow / flow chart"
+  },
+  {
+    "term": "die Freigabe",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "approval / release"
+  },
+  {
+    "term": "die Spezifikation",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "specification"
+  },
+  {
+    "term": "das Formular",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "form"
+  },
+  {
+    "term": "das Feld",
+    "gender": "das",
+    "plural": "er",
+    "gloss": "field (input)"
+  },
+  {
+    "term": "die Eingabe",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "input / entry"
+  },
+  {
+    "term": "die Ausgabe",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "output"
+  },
+  {
+    "term": "der Fehler",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "error / mistake"
+  },
+  {
+    "term": "das Fehlerprotokoll",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "error log"
+  },
+  {
+    "term": "die Meldung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "message / notification"
+  },
+  {
+    "term": "das Ticket",
+    "gender": "das",
+    "plural": "s",
+    "gloss": "ticket (support)"
+  },
+  {
+    "term": "die Rückmeldung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "feedback / response"
+  },
+  {
+    "term": "die Genehmigung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "approval / authorization"
+  },
+  {
+    "term": "die Ablehnung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "rejection"
+  },
+  {
+    "term": "der Entwurf",
+    "gender": "der",
+    "plural": "Entwürfe",
+    "gloss": "draft"
+  },
+  {
+    "term": "die Version",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "version"
+  },
+  {
+    "term": "die Änderung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "change / modification"
+  },
+  {
+    "term": "die Anweisung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "instruction"
+  },
+  {
+    "term": "die Dokumentation",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "documentation"
+  },
+  {
+    "term": "das Protokoll",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "minutes / log"
+  },
+  {
+    "term": "die Sitzung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "session / meeting"
+  },
+  {
+    "term": "die Besprechung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "meeting / discussion"
+  },
+  {
+    "term": "der Termin",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "appointment / meeting time"
+  },
+  {
+    "term": "die Frist",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "deadline"
+  },
+  {
+    "term": "der Umfang",
+    "gender": "der",
+    "plural": "Umfänge",
+    "gloss": "scope"
+  },
+  {
+    "term": "das Ziel",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "goal / objective"
+  },
+  {
+    "term": "die Priorität",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "priority"
+  },
+  {
+    "term": "der Aufwand",
+    "gender": "der",
+    "plural": "Aufwände",
+    "gloss": "effort"
+  },
+  {
+    "term": "der Nutzen",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "benefit / value"
+  },
+  {
+    "term": "die Voraussetzung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "prerequisite / requirement"
+  },
+  {
+    "term": "die Abhängigkeit",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "dependency"
+  },
+  {
+    "term": "die Rolle",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "role"
+  },
+  {
+    "term": "die Verantwortung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "responsibility"
+  },
+  {
+    "term": "der Eigentümer",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "owner (of process/ticket)"
+  },
+  {
+    "term": "der Administrator",
+    "gender": "der",
+    "plural": "en",
+    "gloss": "administrator"
+  },
+  {
+    "term": "der Entwickler",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "developer"
+  },
+  {
+    "term": "die Entwicklerin",
+    "gender": "die",
+    "plural": "nen",
+    "gloss": "developer (fem.)"
+  },
+  {
+    "term": "der Architekt",
+    "gender": "der",
+    "plural": "en",
+    "gloss": "architect"
+  },
+  {
+    "term": "die Architektur",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "architecture"
+  },
+  {
+    "term": "das Modul",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "module"
+  },
+  {
+    "term": "die Komponente",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "component"
+  },
+  {
+    "term": "die Schnittstellenbeschreibung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "interface specification"
+  },
+  {
+    "term": "die Verbindung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "connection / link"
+  },
+  {
+    "term": "die Latenz",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "latency"
+  },
+  {
+    "term": "die Leistung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "performance"
+  },
+  {
+    "term": "die Kapazität",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "capacity"
+  },
+  {
+    "term": "die Last",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "load"
+  },
+  {
+    "term": "die Skalierung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "scaling"
+  },
+  {
+    "term": "die Sicherheit",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "security / safety"
+  },
+  {
+    "term": "die Verschlüsselung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "encryption"
+  },
+  {
+    "term": "die Authentifizierung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "authentication"
+  },
+  {
+    "term": "die Autorisierung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "authorization"
+  },
+  {
+    "term": "das Kennwort",
+    "gender": "das",
+    "plural": "⸚er",
+    "gloss": "password (syn. Passwort)"
+  },
+  {
+    "term": "das Passwort",
+    "gender": "das",
+    "plural": "⸚er",
+    "gloss": "password"
+  },
+  {
+    "term": "der Benutzername",
+    "gender": "der",
+    "plural": "n",
+    "gloss": "username"
+  },
+  {
+    "term": "die Berechtigung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "permission / privilege"
+  },
+  {
+    "term": "die Ressource",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "resource"
+  },
+  {
+    "term": "die Vorlage",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "template"
+  },
+  {
+    "term": "das Beispiel",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "example"
+  },
+  {
+    "term": "die Ausnahme",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "exception"
+  },
+  {
+    "term": "der Sonderfall",
+    "gender": "der",
+    "plural": "fälle",
+    "gloss": "special case"
+  },
+  {
+    "term": "die Produktionsumgebung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "production environment"
+  },
+  {
+    "term": "die Testumgebung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "test environment"
+  },
+  {
+    "term": "die Entwicklungsumgebung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "development environment"
+  },
+  {
+    "term": "die Migration",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "migration"
+  },
+  {
+    "term": "das Zielsystem",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "target system"
+  },
+  {
+    "term": "das Quellsystem",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "source system"
+  },
+  {
+    "term": "die Stammdaten",
+    "gender": "die",
+    "plural": "—",
+    "gloss": "master data (pl.)"
+  },
+  {
+    "term": "die Bewegungsdaten",
+    "gender": "die",
+    "plural": "—",
+    "gloss": "transaction data (pl.)"
+  },
+  {
+    "term": "das Feldmapping",
+    "gender": "das",
+    "plural": "s",
+    "gloss": "field mapping"
+  },
+  {
+    "term": "die Konfiguration",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "configuration"
+  },
+  {
+    "term": "das Protokollfile",
+    "gender": "das",
+    "plural": "s",
+    "gloss": "log file"
+  },
+  {
+    "term": "die Wartung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "maintenance"
+  },
+  {
+    "term": "die Störung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "incident / outage"
+  },
+  {
+    "term": "der Ausfall",
+    "gender": "der",
+    "plural": "Ausfälle",
+    "gloss": "failure / outage"
+  },
+  {
+    "term": "der Zugriff",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "access"
+  },
+  {
+    "term": "die Anfrage",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "request / inquiry"
+  },
+  {
+    "term": "die Antwort",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "answer / response"
+  },
+  {
+    "term": "der Hinweis",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "note / hint"
+  },
+  {
+    "term": "die Notiz",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "note"
+  },
+  {
+    "term": "die Aufgabe",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "task / assignment"
+  },
+  {
+    "term": "das Zielbild",
+    "gender": "das",
+    "plural": "er",
+    "gloss": "target picture / future state"
+  },
+  {
+    "term": "die Roadmap",
+    "gender": "die",
+    "plural": "s",
+    "gloss": "roadmap"
+  },
+  {
+    "term": "der Meilenstein",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "milestone"
+  },
+  {
+    "term": "die Lieferung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "delivery (of work)"
+  },
+  {
+    "term": "die Abnahme",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "acceptance (UAT)"
+  },
+  {
+    "term": "der Testfall",
+    "gender": "der",
+    "plural": "fälle",
+    "gloss": "test case"
+  },
+  {
+    "term": "der Testplan",
+    "gender": "der",
+    "plural": "pläne",
+    "gloss": "test plan"
+  },
+  {
+    "term": "das Ergebnis",
+    "gender": "das",
+    "plural": "se",
+    "gloss": "result / outcome"
+  },
+  {
+    "term": "die Auswirkung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "impact / effect"
+  },
+  {
+    "term": "die Ursache",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "cause / root cause"
+  },
+  {
+    "term": "die Maßnahme",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "measure / action"
+  },
+  {
+    "term": "die Verbesserung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "improvement"
+  },
+  {
+    "term": "das Risiko",
+    "gender": "das",
+    "plural": "en",
+    "gloss": "risk"
+  },
+  {
+    "term": "die Chance",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "opportunity"
+  },
+  {
+    "term": "der Vertrag",
+    "gender": "der",
+    "plural": "träge",
+    "gloss": "contract"
+  },
+  {
+    "term": "die Vereinbarung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "agreement"
+  },
+  {
+    "term": "die Abteilung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "department"
+  },
+  {
+    "term": "die Fachabteilung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "business department"
+  },
+  {
+    "term": "die IT-Abteilung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "IT department"
+  },
+  {
+    "term": "der Helpdesk",
+    "gender": "der",
+    "plural": "s",
+    "gloss": "helpdesk / service desk"
+  },
+  {
+    "term": "das Anliegen",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "concern / request"
+  },
+  {
+    "term": "die Rückfrage",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "follow‑up question"
+  },
+  {
+    "term": "die Erklärung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "explanation"
+  },
+  {
+    "term": "die Übersicht",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "overview / summary"
+  },
+  {
+    "term": "die Zusammenfassung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "summary"
+  },
+  {
+    "term": "der Überblick",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "overview"
+  },
+  {
+    "term": "der Stand",
+    "gender": "der",
+    "plural": "stände",
+    "gloss": "status"
+  },
+  {
+    "term": "die Kapazitätsplanung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "capacity planning"
+  },
+  {
+    "term": "die Zeit",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "time"
+  },
+  {
+    "term": "der Tag",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "day"
+  },
+  {
+    "term": "die Woche",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "week"
+  },
+  {
+    "term": "der Monat",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "month"
+  },
+  {
+    "term": "das Jahr",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "year"
+  },
+  {
+    "term": "der Morgen",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "morning"
+  },
+  {
+    "term": "der Vormittag",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "late morning"
+  },
+  {
+    "term": "der Nachmittag",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "afternoon"
+  },
+  {
+    "term": "der Abend",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "evening"
+  },
+  {
+    "term": "die Nacht",
+    "gender": "die",
+    "plural": "nächte",
+    "gloss": "night"
+  },
+  {
+    "term": "das Büro",
+    "gender": "das",
+    "plural": "s",
+    "gloss": "office"
+  },
+  {
+    "term": "das Gebäude",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "building"
+  },
+  {
+    "term": "der Raum",
+    "gender": "der",
+    "plural": "räume",
+    "gloss": "room"
+  },
+  {
+    "term": "der Arbeitsplatz",
+    "gender": "der",
+    "plural": "plätze",
+    "gloss": "workplace / desk"
+  },
+  {
+    "term": "der Laptop",
+    "gender": "der",
+    "plural": "s",
+    "gloss": "laptop"
+  },
+  {
+    "term": "die Tastatur",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "keyboard"
+  },
+  {
+    "term": "die Maus",
+    "gender": "die",
+    "plural": "mäuse",
+    "gloss": "mouse"
+  },
+  {
+    "term": "der Bildschirm",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "screen / monitor"
+  },
+  {
+    "term": "das Netzteil",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "power adapter"
+  },
+  {
+    "term": "das Kabel",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "cable"
+  },
+  {
+    "term": "das Internet",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "internet"
+  },
+  {
+    "term": "das WLAN",
+    "gender": "das",
+    "plural": "s",
+    "gloss": "Wi‑Fi"
+  },
+  {
+    "term": "die E‑Mail",
+    "gender": "die",
+    "plural": "s",
+    "gloss": "email"
+  },
+  {
+    "term": "der Kalender",
+    "gender": "der",
+    "plural": "-",
+    "gloss": "calendar"
+  },
+  {
+    "term": "der Terminplan",
+    "gender": "der",
+    "plural": "pläne",
+    "gloss": "schedule"
+  },
+  {
+    "term": "die Pause",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "break"
+  },
+  {
+    "term": "das Mittagessen",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "lunch"
+  },
+  {
+    "term": "das Frühstück",
+    "gender": "das",
+    "plural": "e",
+    "gloss": "breakfast"
+  },
+  {
+    "term": "das Abendessen",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "dinner"
+  },
+  {
+    "term": "der Kaffee",
+    "gender": "der",
+    "plural": "s",
+    "gloss": "coffee"
+  },
+  {
+    "term": "der Tee",
+    "gender": "der",
+    "plural": "s",
+    "gloss": "tea"
+  },
+  {
+    "term": "das Wasser",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "water"
+  },
+  {
+    "term": "die Flasche",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "bottle"
+  },
+  {
+    "term": "das Glas",
+    "gender": "das",
+    "plural": "gläser",
+    "gloss": "glass"
+  },
+  {
+    "term": "der Zug",
+    "gender": "der",
+    "plural": "züge",
+    "gloss": "train"
+  },
+  {
+    "term": "der Bus",
+    "gender": "der",
+    "plural": "se",
+    "gloss": "bus"
+  },
+  {
+    "term": "das Auto",
+    "gender": "das",
+    "plural": "s",
+    "gloss": "car"
+  },
+  {
+    "term": "das Fahrrad",
+    "gender": "das",
+    "plural": "räder",
+    "gloss": "bicycle"
+  },
+  {
+    "term": "der Bahnhof",
+    "gender": "der",
+    "plural": "höfe",
+    "gloss": "train station"
+  },
+  {
+    "term": "die Haltestelle",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "stop (bus/tram)"
+  },
+  {
+    "term": "die Richtung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "direction"
+  },
+  {
+    "term": "die Verspätung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "delay"
+  },
+  {
+    "term": "die Stadt",
+    "gender": "die",
+    "plural": "städte",
+    "gloss": "city"
+  },
+  {
+    "term": "das Dorf",
+    "gender": "das",
+    "plural": "dörfer",
+    "gloss": "village"
+  },
+  {
+    "term": "die Straße",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "street"
+  },
+  {
+    "term": "die Adresse",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "address"
+  },
+  {
+    "term": "das Haus",
+    "gender": "das",
+    "plural": "häuser",
+    "gloss": "house"
+  },
+  {
+    "term": "die Wohnung",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "apartment"
+  },
+  {
+    "term": "das Zimmer",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "room"
+  },
+  {
+    "term": "die Küche",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "kitchen"
+  },
+  {
+    "term": "das Bad",
+    "gender": "das",
+    "plural": "bäder",
+    "gloss": "bathroom"
+  },
+  {
+    "term": "das Bett",
+    "gender": "das",
+    "plural": "en",
+    "gloss": "bed"
+  },
+  {
+    "term": "der Stuhl",
+    "gender": "der",
+    "plural": "stühle",
+    "gloss": "chair"
+  },
+  {
+    "term": "der Tisch",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "table"
+  },
+  {
+    "term": "das Fenster",
+    "gender": "das",
+    "plural": "-",
+    "gloss": "window"
+  },
+  {
+    "term": "die Tür",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "door"
+  },
+  {
+    "term": "der Freund",
+    "gender": "der",
+    "plural": "e",
+    "gloss": "friend (male)"
+  },
+  {
+    "term": "die Freundin",
+    "gender": "die",
+    "plural": "nen",
+    "gloss": "friend (female)"
+  },
+  {
+    "term": "die Frau",
+    "gender": "die",
+    "plural": "en",
+    "gloss": "wife / woman"
+  },
+  {
+    "term": "der Mann",
+    "gender": "der",
+    "plural": "männer",
+    "gloss": "man / husband"
+  },
+  {
+    "term": "das Kind",
+    "gender": "das",
+    "plural": "er",
+    "gloss": "child"
+  },
+  {
+    "term": "die Familie",
+    "gender": "die",
+    "plural": "n",
+    "gloss": "family"
+  },
+  {
+    "term": "der Kollege",
+    "gender": "der",
+    "plural": "n",
+    "gloss": "colleague (male)"
+  },
+  {
+    "term": "die Kollegin",
+    "gender": "die",
+    "plural": "nen",
+    "gloss": "colleague (female)"
+  },
+  {
+    "term": "der Kunde",
+    "gender": "der",
+    "plural": "n",
+    "gloss": "customer (male)"
+  },
+  {
+    "term": "die Kundin",
+    "gender": "die",
+    "plural": "nen",
+    "gloss": "customer (female)"
+  }
+]

@@ -1,0 +1,765 @@
+{
+  "version": "1.0",
+  "exported": "2025-11-11T09:43:56.418Z",
+  "cards": [
+    {
+      "word": "Wie geht es dir?",
+      "definition": "How are you?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "informal greeting"
+    },
+    {
+      "word": "Wie geht es Ihnen?",
+      "definition": "How are you? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "used with colleagues or clients"
+    },
+    {
+      "word": "Mir geht es gut, danke.",
+      "definition": "I’m fine, thank you.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "response to 'How are you'"
+    },
+    {
+      "word": "Und dir?",
+      "definition": "And you?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "informal follow-up"
+    },
+    {
+      "word": "Schön, dich zu sehen.",
+      "definition": "Nice to see you.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "friendly greeting"
+    },
+    {
+      "word": "Guten Morgen!",
+      "definition": "Good morning!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "standard greeting"
+    },
+    {
+      "word": "Guten Tag!",
+      "definition": "Good day!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "neutral daytime greeting"
+    },
+    {
+      "word": "Guten Abend!",
+      "definition": "Good evening!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "evening greeting"
+    },
+    {
+      "word": "Bis später!",
+      "definition": "See you later!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual farewell"
+    },
+    {
+      "word": "Bis morgen!",
+      "definition": "See you tomorrow!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "casual, used daily"
+    },
+    {
+      "word": "Schönen Tag noch!",
+      "definition": "Have a nice day!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "friendly farewell"
+    },
+    {
+      "word": "Schönes Wochenende!",
+      "definition": "Have a nice weekend!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "Friday farewell"
+    },
+    {
+      "word": "Danke, gleichfalls!",
+      "definition": "Thanks, same to you!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "response to wish"
+    },
+    {
+      "word": "Vielen Dank!",
+      "definition": "Thank you very much!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "polite thanks"
+    },
+    {
+      "word": "Danke schön!",
+      "definition": "Thank you kindly!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "common polite form"
+    },
+    {
+      "word": "Kein Problem.",
+      "definition": "No problem.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual reassurance"
+    },
+    {
+      "word": "Gern geschehen.",
+      "definition": "You’re welcome.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "standard polite response"
+    },
+    {
+      "word": "Alles klar?",
+      "definition": "Everything alright?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual check-in"
+    },
+    {
+      "word": "Alles gut.",
+      "definition": "All good.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual affirmation"
+    },
+    {
+      "word": "Ich bin ein bisschen müde.",
+      "definition": "I’m a little tired.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "common self-expression"
+    },
+    {
+      "word": "Kein Stress.",
+      "definition": "No stress.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "reassuring phrase"
+    },
+    {
+      "word": "Ich verstehe.",
+      "definition": "I understand.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "confirmation or acknowledgment"
+    },
+    {
+      "word": "Ich bin nicht sicher.",
+      "definition": "I’m not sure.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "express uncertainty"
+    },
+    {
+      "word": "Können Sie das bitte wiederholen?",
+      "definition": "Could you please repeat that?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "polite clarification"
+    },
+    {
+      "word": "Können Sie das bitte erklären?",
+      "definition": "Could you please explain that?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "polite request for clarification"
+    },
+    {
+      "word": "Ich glaube, ich verstehe jetzt.",
+      "definition": "I think I understand now.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "acknowledgment after clarification"
+    },
+    {
+      "word": "Was bedeutet das?",
+      "definition": "What does that mean?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "asking meaning"
+    },
+    {
+      "word": "Wie sagt man das auf Deutsch?",
+      "definition": "How do you say that in German?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "language learning context"
+    },
+    {
+      "word": "Ich spreche noch nicht so gut Deutsch.",
+      "definition": "I don’t speak German very well yet.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "self-introduction"
+    },
+    {
+      "word": "Können wir bitte Englisch sprechen?",
+      "definition": "Can we please speak English?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "fallback request"
+    },
+    {
+      "word": "Kein Problem, ich lerne noch.",
+      "definition": "No problem, I’m still learning.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "self-reassuring phrase"
+    },
+    {
+      "word": "Ich arbeite bei Saint‑Gobain.",
+      "definition": "I work at Saint‑Gobain.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "professional introduction"
+    },
+    {
+      "word": "Ich arbeite in der IT‑Abteilung.",
+      "definition": "I work in the IT department.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "professional intro variation"
+    },
+    {
+      "word": "Ich bin im Büro in Bern.",
+      "definition": "I’m at the office in Bern.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "location statement"
+    },
+    {
+      "word": "Treffen wir uns hier oder in Zürich?",
+      "definition": "Are we meeting here or in Zurich?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "meeting coordination"
+    },
+    {
+      "word": "Oder per Teams?",
+      "definition": "Or via Teams?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "remote meeting context"
+    },
+    {
+      "word": "Ich habe gerade ein Meeting.",
+      "definition": "I’m in a meeting right now.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "status update"
+    },
+    {
+      "word": "Ich melde mich später.",
+      "definition": "I’ll get back to you later.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "follow-up commitment"
+    },
+    {
+      "word": "Ich schicke Ihnen die Datei.",
+      "definition": "I’ll send you the file.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "common IT/email context"
+    },
+    {
+      "word": "Können wir das verschieben?",
+      "definition": "Can we postpone that?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "reschedule request"
+    },
+    {
+      "word": "Ich habe eine Frage.",
+      "definition": "I have a question.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "neutral opener"
+    },
+    {
+      "word": "Eine Sekunde, bitte.",
+      "definition": "One moment, please.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "small pause request"
+    },
+    {
+      "word": "Das ist eine gute Idee.",
+      "definition": "That’s a good idea.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "agreement"
+    },
+    {
+      "word": "Das macht Sinn.",
+      "definition": "That makes sense.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "agreement phrase"
+    },
+    {
+      "word": "Ich stimme zu.",
+      "definition": "I agree.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "formal agreement"
+    },
+    {
+      "word": "Ich bin nicht einverstanden.",
+      "definition": "I disagree.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "formal disagreement"
+    },
+    {
+      "word": "Ich muss darüber nachdenken.",
+      "definition": "I have to think about it.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "neutral hesitation"
+    },
+    {
+      "word": "Ich bin gleich zurück.",
+      "definition": "I’ll be right back.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "pause statement"
+    },
+    {
+      "word": "Ich freue mich darauf.",
+      "definition": "I’m looking forward to it.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "anticipation phrase"
+    },
+    {
+      "word": "Kein Internet... schon wieder!",
+      "definition": "No internet... again!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "common frustration"
+    },
+    {
+      "word": "Alles funktioniert jetzt.",
+      "definition": "Everything works now.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "IT"
+      ],
+      "context": "confirmation"
+    },
+    {
+      "word": "Wir haben ein Problem gefunden.",
+      "definition": "We found a problem.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "IT"
+      ],
+      "context": "issue report"
+    },
+    {
+      "word": "Es gibt ein Update.",
+      "definition": "There is an update.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "IT"
+      ],
+      "context": "notification"
+    },
+    {
+      "word": "Bitte prüfen Sie das.",
+      "definition": "Please check that.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "formal check request"
+    },
+    {
+      "word": "Ich arbeite daran.",
+      "definition": "I’m working on it.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "status report"
+    },
+    {
+      "word": "Ich bin fertig.",
+      "definition": "I’m done / finished.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "task completion"
+    },
+    {
+      "word": "Ich mache eine Pause.",
+      "definition": "I’m taking a break.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual workplace use"
+    },
+    {
+      "word": "Bis gleich.",
+      "definition": "See you soon.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "short separation"
+    },
+    {
+      "word": "Kein Wunder.",
+      "definition": "No wonder.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "idiomatic reaction"
+    },
+    {
+      "word": "Ach so!",
+      "definition": "Oh, I see!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "common realization"
+    },
+    {
+      "word": "Genau.",
+      "definition": "Exactly.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "work"
+      ],
+      "context": "agreement"
+    },
+    {
+      "word": "Stimmt.",
+      "definition": "That’s true.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "agreement"
+    },
+    {
+      "word": "Mal sehen.",
+      "definition": "Let’s see.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "neutral hesitation"
+    },
+    {
+      "word": "Na klar.",
+      "definition": "Of course.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual affirmation"
+    },
+    {
+      "word": "Vielleicht später.",
+      "definition": "Maybe later.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "casual postponement"
+    },
+    {
+      "word": "Tut mir leid.",
+      "definition": "I’m sorry.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "apology"
+    },
+    {
+      "word": "Entschuldigung.",
+      "definition": "Excuse me / Sorry.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "polite apology"
+    },
+    {
+      "word": "Kein Problem, alles gut.",
+      "definition": "No problem, all good.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "reassuring reply"
+    },
+    {
+      "word": "Bis bald!",
+      "definition": "See you soon!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Top 50 Phrases",
+      "tags": [
+        "daily"
+      ],
+      "context": "friendly farewell"
+    }
+  ]
+}
