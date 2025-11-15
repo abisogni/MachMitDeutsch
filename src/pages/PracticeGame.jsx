@@ -22,6 +22,7 @@ function PracticeGame() {
   const [showTagPrompt, setShowTagPrompt] = useState(false);
   const [tagName, setTagName] = useState('');
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 }); // Session tracking
+  const [shownCards, setShownCards] = useState(new Set()); // Track cards already shown this session
 
   // Redirect if no cards provided
   useEffect(() => {
@@ -45,6 +46,14 @@ function PracticeGame() {
     if (!cards || cards.length === 0) return;
 
     const currentCard = cards[currentCardIndex];
+
+    // Mark this card as shown
+    setShownCards(prev => {
+      const newSet = new Set(prev);
+      newSet.add(currentCard.id);
+      return newSet;
+    });
+
     const options = generateAnswerOptions(currentCard);
     setAnswerOptions(options);
     setSelectedAnswer(null);
@@ -142,33 +151,49 @@ function PracticeGame() {
 
     // Auto-advance after 3 seconds
     setTimeout(() => {
-      if (isLastCard || currentCardIndex === cards.length - 1) {
-        // Check if there are incorrect cards to tag
+      if (isLastCard) {
+        // User marked this as last card - end session
         if (incorrectCards.size > 0) {
           setShowTagPrompt(true);
         } else {
-          // Return to setup screen
           navigate('/practice/setup');
         }
-      } else {
-        // Check if we should show a flagged card (20% chance)
-        const shouldShowFlagged = flaggedCards.size > 0 && Math.random() < 0.2;
+        return;
+      }
 
-        if (shouldShowFlagged) {
-          // Pick a random flagged card
-          const flaggedArray = Array.from(flaggedCards);
-          const randomFlaggedId = flaggedArray[Math.floor(Math.random() * flaggedArray.length)];
-          const flaggedCardIndex = cards.findIndex(card => card.id === randomFlaggedId);
+      // Check if we should show a flagged card (20% chance)
+      const shouldShowFlagged = flaggedCards.size > 0 && Math.random() < 0.2;
 
-          if (flaggedCardIndex !== -1 && flaggedCardIndex !== currentCardIndex) {
-            // Show the flagged card
-            setCurrentCardIndex(flaggedCardIndex);
-            return;
-          }
+      if (shouldShowFlagged) {
+        // Pick a random flagged card (can be already shown)
+        const flaggedArray = Array.from(flaggedCards);
+        const randomFlaggedId = flaggedArray[Math.floor(Math.random() * flaggedArray.length)];
+        const flaggedCardIndex = cards.findIndex(card => card.id === randomFlaggedId);
+
+        if (flaggedCardIndex !== -1 && flaggedCardIndex !== currentCardIndex) {
+          // Show the flagged card
+          setCurrentCardIndex(flaggedCardIndex);
+          return;
         }
+      }
 
-        // Otherwise, move to next card normally
-        setCurrentCardIndex(prev => prev + 1);
+      // Find next unshown card
+      let nextIndex = currentCardIndex + 1;
+      while (nextIndex < cards.length) {
+        const nextCard = cards[nextIndex];
+        if (!shownCards.has(nextCard.id)) {
+          // Found an unshown card
+          setCurrentCardIndex(nextIndex);
+          return;
+        }
+        nextIndex++;
+      }
+
+      // All cards have been shown - end session
+      if (incorrectCards.size > 0) {
+        setShowTagPrompt(true);
+      } else {
+        navigate('/practice/setup');
       }
     }, 3000);
   };
