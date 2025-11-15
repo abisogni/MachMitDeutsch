@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { updateCard } from '../db/database';
 import '../styles/PracticeGame.css';
 
 function PracticeGame() {
@@ -17,6 +18,9 @@ function PracticeGame() {
   const [isLastCard, setIsLastCard] = useState(false);
   const [cardStats, setCardStats] = useState({});
   const [flaggedCards, setFlaggedCards] = useState(new Set()); // Cards flagged for review
+  const [incorrectCards, setIncorrectCards] = useState(new Set()); // Cards answered incorrectly
+  const [showTagPrompt, setShowTagPrompt] = useState(false);
+  const [tagName, setTagName] = useState('');
 
   // Redirect if no cards provided
   useEffect(() => {
@@ -86,12 +90,16 @@ function PracticeGame() {
     if (!cards || cards.length === 0) return;
     const currentCard = cards[currentCardIndex];
 
+    // Ensure we're working with the specific card ID only
+    const cardId = currentCard.id;
+
     setFlaggedCards(prev => {
       const newSet = new Set(prev);
-      if (newSet.has(currentCard.id)) {
-        newSet.delete(currentCard.id);
+      if (newSet.has(cardId)) {
+        newSet.delete(cardId);
       } else {
-        newSet.add(currentCard.id);
+        // Only add this specific card ID
+        newSet.add(cardId);
       }
       return newSet;
     });
@@ -106,6 +114,15 @@ function PracticeGame() {
     const selectedOption = answerOptions[selectedAnswer];
     const isCorrect = selectedOption.isCorrect;
 
+    // Track incorrect answers
+    if (!isCorrect) {
+      setIncorrectCards(prev => {
+        const newSet = new Set(prev);
+        newSet.add(currentCard.id);
+        return newSet;
+      });
+    }
+
     // Update card stats (in real app, this would update IndexedDB)
     const updatedStats = {
       ...cardStats,
@@ -119,8 +136,13 @@ function PracticeGame() {
     // Auto-advance after 3 seconds
     setTimeout(() => {
       if (isLastCard || currentCardIndex === cards.length - 1) {
-        // Return to setup screen
-        navigate('/practice/setup');
+        // Check if there are incorrect cards to tag
+        if (incorrectCards.size > 0) {
+          setShowTagPrompt(true);
+        } else {
+          // Return to setup screen
+          navigate('/practice/setup');
+        }
       } else {
         // Check if we should show a flagged card (20% chance)
         const shouldShowFlagged = flaggedCards.size > 0 && Math.random() < 0.2;
@@ -175,6 +197,43 @@ function PracticeGame() {
     if (!cards || cards.length === 0) return 0;
     const currentCard = cards[currentCardIndex];
     return cardStats[currentCard.id]?.cardScore ?? currentCard.cardScore;
+  };
+
+  const handleSkipTagging = () => {
+    setShowTagPrompt(false);
+    navigate('/practice/setup');
+  };
+
+  const handleSaveTag = async () => {
+    if (!tagName.trim()) {
+      alert('Please enter a tag name');
+      return;
+    }
+
+    try {
+      // Update each incorrect card with the new tag
+      const incorrectCardIds = Array.from(incorrectCards);
+
+      for (const cardId of incorrectCardIds) {
+        const card = allCards.find(c => c.id === cardId);
+        if (card) {
+          // Add the new tag to existing tags (avoid duplicates)
+          const existingTags = card.tags || [];
+          const updatedTags = existingTags.includes(tagName.trim())
+            ? existingTags
+            : [...existingTags, tagName.trim()];
+
+          await updateCard(cardId, { tags: updatedTags });
+        }
+      }
+
+      // Success - navigate away
+      setShowTagPrompt(false);
+      navigate('/practice/setup');
+    } catch (error) {
+      console.error('Error tagging cards:', error);
+      alert('Failed to tag cards. Please try again.');
+    }
   };
 
   if (!cards || cards.length === 0) {
@@ -296,6 +355,41 @@ function PracticeGame() {
               <span>Not quite. -1 point. The correct answer is highlighted above.</span>
             </>
           )}
+        </div>
+      )}
+
+      {/* Tag Incorrect Cards Modal */}
+      {showTagPrompt && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>Tag Incorrect Cards</h2>
+            <p>
+              You answered <strong>{incorrectCards.size}</strong> card{incorrectCards.size !== 1 ? 's' : ''} incorrectly.
+            </p>
+            <p>
+              Would you like to tag these cards for targeted practice later?
+            </p>
+            <div className="tag-input-group">
+              <label htmlFor="tag-input">Tag name:</label>
+              <input
+                id="tag-input"
+                type="text"
+                value={tagName}
+                onChange={(e) => setTagName(e.target.value)}
+                placeholder={`e.g., review-${new Date().toISOString().split('T')[0]}`}
+                autoFocus
+                onKeyDown={(e) => e.key === 'Enter' && handleSaveTag()}
+              />
+            </div>
+            <div className="modal-buttons">
+              <button className="btn-secondary" onClick={handleSkipTagging}>
+                Skip
+              </button>
+              <button className="btn-primary" onClick={handleSaveTag}>
+                Save Tag
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>
