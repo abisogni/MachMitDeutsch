@@ -102,6 +102,80 @@
 
 ---
 
+## 2025-11-11 (Continued) - User Testing, Templates v2 & GitHub Pages Deployment
+
+**Session ID:** SESSION-20251111-1400
+
+### Completed
+- **User Testing & Bug Discovery**
+  - User tested practice mode with 362 imported vocabulary cards
+  - Identified three issues for future implementation:
+    1. **Bug:** Flag for Review flagging multiple cards in a block (not just single card)
+    2. **Feature Request:** Tag incorrectly answered cards at session end for targeted practice
+    3. **Feature Request:** Expandable example sentences during practice (show/hide with ▶ button)
+- **Template v2 Creation**
+  - Created `CARD_TEMPLATE_v2.md` - Complete LLM guide with correct import format
+  - Created `card_template_v2.json` - Working example in app-ready format
+  - New format includes wrapper: `{ version, exported, cards: [...] }`
+  - Templates now generate cards that import directly (no conversion needed)
+  - Added CEFR level specifications (A1-C2, specialized)
+  - Includes all optional fields (verbType, partizipII, auxiliary, examples, context)
+- **GitHub Pages Deployment**
+  - Configured `vite.config.js` with base path `/MachMitDeutsch/`
+  - Installed `gh-pages` package (v6.3.0)
+  - Added `deploy` script to package.json
+  - Successfully built and deployed to gh-pages branch
+  - App accessible at: https://abisogni.github.io/MachMitDeutsch/
+- **Additional Vocabulary**
+  - User added expanded vocabulary files:
+    - nouns_top250_v2.json
+    - verbs_top200_v2.json
+    - phrases_top200_v2.json
+
+### Modified Files
+- `data/CARD_TEMPLATE_v2.md` (new - complete LLM guide)
+- `data/card_template_v2.json` (new - working example)
+- `vite.config.js` (updated - GitHub Pages base path)
+- `package.json` (updated - deploy script, gh-pages dependency)
+- `package-lock.json` (updated - gh-pages installation)
+- `data/cards/nouns_top250_v2.json` (new)
+- `data/cards/verbs_top200_v2.json` (new)
+- `data/cards/phrases_top200_v2.json` (new)
+- `ClaudeContext/CHANGELOG.md` (this file)
+
+### Next Session - Priority Fixes & Features
+1. **Bug Fix: Flag for Review**
+   - Investigate flagging logic in PracticeGame.jsx
+   - Ensure only the specific card ID gets flagged (not adjacent cards)
+   - Verify 20% boost applies only to flagged card
+2. **Feature: Tag Incorrect Cards at Session End**
+   - Track incorrect cards during practice session
+   - On exit/last card, prompt: "Tag X incorrect cards for review?"
+   - User provides custom tag name (e.g., "review-2025-11-11")
+   - Bulk update card records with new tag
+   - Enables targeted practice sessions
+3. **Feature: Expandable Example Sentences**
+   - Add expand/collapse state in PracticeGame
+   - Show ▶ button if card has examples
+   - On click, reveal example sentences
+   - Provides context without being too obvious
+4. **Complete Remaining Database Integration**
+   - CardForm component: implement addCard/updateCard calls
+   - PracticeGame: persist score updates after each answer
+   - NewCard page: connect to database
+   - Test full CRUD cycle end-to-end
+
+### Notes
+- **User testing successful** - All 362 cards imported and practiced
+- **App now live on GitHub Pages** - Accessible from any browser
+- **v2 templates ready** - LLMs can generate cards in correct format
+- **Three enhancements identified** - Flag bug + 2 learning features
+- **Deploy workflow established** - `npm run deploy` updates live site
+- Successfully pushed to GitHub: commits 6a13e08, b8b4dea
+- Live URL: https://abisogni.github.io/MachMitDeutsch/
+
+---
+
 ## 2025-11-02 - Phase 2 Complete: Practice Modes & Difficulty Settings
 
 **Session ID:** SESSION-20251102-0800
