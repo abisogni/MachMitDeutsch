@@ -1,0 +1,2160 @@
+{
+  "version": "2.0",
+  "exported": "2025-11-11T00:00:00Z",
+  "cards": [
+    {
+      "word": "Guten Morgen!",
+      "definition": "Good morning!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Guten Tag!",
+      "definition": "Good afternoon / Hello!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Guten Abend!",
+      "definition": "Good evening!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Wie geht es Ihnen?",
+      "definition": "How are you? (formal)",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wie geht es dir?",
+      "definition": "How are you? (informal)",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Mir geht es gut, danke.",
+      "definition": "I’m fine, thank you.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Und Ihnen?",
+      "definition": "And you? (formal)",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Und dir?",
+      "definition": "And you? (informal)",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Schön, Sie zu sehen.",
+      "definition": "Nice to see you. (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Schön, dich zu sehen.",
+      "definition": "Nice to see you. (informal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Lange nicht gesehen.",
+      "definition": "Long time no see.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Wie war Ihr Wochenende?",
+      "definition": "How was your weekend? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wie war dein Wochenende?",
+      "definition": "How was your weekend? (informal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk"
+      ]
+    },
+    {
+      "word": "Was gibt es Neues?",
+      "definition": "What’s new?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk"
+      ]
+    },
+    {
+      "word": "Alles klar bei Ihnen?",
+      "definition": "Everything alright with you? (formal)",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Alles gut bei dir?",
+      "definition": "Everything good with you? (informal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk"
+      ]
+    },
+    {
+      "word": "Schönen Tag noch!",
+      "definition": "Have a nice day!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Schönes Wochenende!",
+      "definition": "Have a nice weekend!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Ebenso, danke!",
+      "definition": "Same to you, thanks!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk"
+      ]
+    },
+    {
+      "word": "Danke, gleichfalls!",
+      "definition": "Thanks, same to you!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "small talk"
+      ]
+    },
+    {
+      "word": "Bis später!",
+      "definition": "See you later!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Bis bald!",
+      "definition": "See you soon!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Bis morgen!",
+      "definition": "See you tomorrow!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Bis gleich!",
+      "definition": "See you in a minute!",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "greeting",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Bitte.",
+      "definition": "Please.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Danke schön.",
+      "definition": "Thank you very much.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "word": "Vielen Dank.",
+      "definition": "Many thanks.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "word": "Gern geschehen.",
+      "definition": "You’re welcome.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "word": "Kein Problem.",
+      "definition": "No problem.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness",
+        "reassurance"
+      ]
+    },
+    {
+      "word": "Entschuldigung.",
+      "definition": "Excuse me / Sorry.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness",
+        "daily life"
+      ]
+    },
+    {
+      "word": "Tut mir leid.",
+      "definition": "I’m sorry.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness",
+        "apology"
+      ]
+    },
+    {
+      "word": "Alles klar.",
+      "definition": "All right / Got it.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "confirmation",
+        "small talk"
+      ]
+    },
+    {
+      "word": "Genau.",
+      "definition": "Exactly.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "word": "Stimmt.",
+      "definition": "That’s true.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "word": "Na klar.",
+      "definition": "Of course.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "word": "Mal sehen.",
+      "definition": "Let’s see.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "filler",
+        "hesitation"
+      ]
+    },
+    {
+      "word": "Na ja …",
+      "definition": "Well …",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "filler",
+        "hesitation"
+      ]
+    },
+    {
+      "word": "Einen Moment, bitte.",
+      "definition": "One moment, please.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "politeness",
+        "service"
+      ]
+    },
+    {
+      "word": "Ich bin gleich zurück.",
+      "definition": "I’ll be right back.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "service"
+      ]
+    },
+    {
+      "word": "Kein Stress.",
+      "definition": "No stress.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "reassurance"
+      ]
+    },
+    {
+      "word": "Kein Thema.",
+      "definition": "No worries.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "reassurance"
+      ]
+    },
+    {
+      "word": "Alles gut.",
+      "definition": "All good.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "reassurance"
+      ]
+    },
+    {
+      "word": "Ich verstehe.",
+      "definition": "I understand.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich bin nicht sicher.",
+      "definition": "I’m not sure.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification"
+      ]
+    },
+    {
+      "word": "Können Sie das bitte wiederholen?",
+      "definition": "Could you please repeat that? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Kannst du das bitte wiederholen?",
+      "definition": "Could you please repeat that? (informal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification"
+      ]
+    },
+    {
+      "word": "Können Sie das bitte erklären?",
+      "definition": "Could you please explain that? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich habe das anders verstanden.",
+      "definition": "I understood that differently.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification"
+      ]
+    },
+    {
+      "word": "Meinen Sie damit, dass …?",
+      "definition": "Do you mean that …?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich möchte sicherstellen, dass ich Sie richtig verstanden habe.",
+      "definition": "I want to make sure I understood you correctly.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Könnten Sie ein Beispiel geben?",
+      "definition": "Could you give an example?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wie sagt man das auf Deutsch?",
+      "definition": "How do you say that in German?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification",
+        "learning"
+      ]
+    },
+    {
+      "word": "Langsamer, bitte.",
+      "definition": "Slower, please.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "clarification"
+      ]
+    },
+    {
+      "word": "Können wir das zusammen durchgehen?",
+      "definition": "Can we go through this together?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "clarification"
+      ]
+    },
+    {
+      "word": "Das macht Sinn.",
+      "definition": "That makes sense.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "word": "Ich glaube, ich verstehe jetzt.",
+      "definition": "I think I understand now.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "word": "Können wir das konkretisieren?",
+      "definition": "Can we make that more concrete?",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "clarification"
+      ]
+    },
+    {
+      "word": "Welche Optionen haben wir?",
+      "definition": "Which options do we have?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "clarification"
+      ]
+    },
+    {
+      "word": "Was wäre eine Alternative?",
+      "definition": "What would be an alternative?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "clarification"
+      ]
+    },
+    {
+      "word": "Können Sie das bitte präzisieren?",
+      "definition": "Could you please be more precise?",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "clarification"
+      ]
+    },
+    {
+      "word": "Haben Sie kurz Zeit?",
+      "definition": "Do you have a moment? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Hast du kurz Zeit?",
+      "definition": "Do you have a moment? (informal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Können wir einen Termin vereinbaren?",
+      "definition": "Can we schedule an appointment?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Passt Ihnen morgen um 10 Uhr?",
+      "definition": "Does tomorrow at 10 work for you? (formal)",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Passt dir morgen um 10 Uhr?",
+      "definition": "Does tomorrow at 10 work for you? (informal)",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Ich habe um elf Uhr einen Termin.",
+      "definition": "I have an appointment at eleven.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Ich bin leider verhindert.",
+      "definition": "Unfortunately, I’m tied up.",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "politeness"
+      ]
+    },
+    {
+      "word": "Können wir das verschieben?",
+      "definition": "Can we postpone this?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Ich muss den Termin absagen.",
+      "definition": "I have to cancel the appointment.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Ich bestätige den Termin per E‑Mail.",
+      "definition": "I’ll confirm the appointment by email.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich schicke Ihnen eine Einladung.",
+      "definition": "I’ll send you an invitation.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Treffen wir uns vor Ort oder per Teams?",
+      "definition": "Shall we meet on-site or via Teams?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Ich komme fünf Minuten später.",
+      "definition": "I’ll be five minutes late.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "politeness"
+      ]
+    },
+    {
+      "word": "Die Besprechung dauert eine Stunde.",
+      "definition": "The meeting lasts one hour.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Können wir bei Punkt drei anfangen?",
+      "definition": "Can we start at item three?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich fasse am Ende kurz zusammen.",
+      "definition": "I’ll briefly summarize at the end.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Gibt es offene Punkte?",
+      "definition": "Are there any open items?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wer übernimmt das?",
+      "definition": "Who will take care of that?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich leite das an das Team weiter.",
+      "definition": "I’ll forward this to the team.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wir sprechen das morgen nochmal.",
+      "definition": "We’ll discuss this again tomorrow.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich arbeite gerade daran.",
+      "definition": "I’m working on it right now.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "status"
+      ]
+    },
+    {
+      "word": "Ich bin fast fertig.",
+      "definition": "I’m almost done.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "status"
+      ]
+    },
+    {
+      "word": "Ich brauche noch etwas Zeit.",
+      "definition": "I need a bit more time.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "status"
+      ]
+    },
+    {
+      "word": "Ich habe das Dokument aktualisiert.",
+      "definition": "I updated the document.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "IT"
+      ]
+    },
+    {
+      "word": "Können Sie das bitte prüfen?",
+      "definition": "Could you please check that? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "QA"
+      ]
+    },
+    {
+      "word": "Ich teile den Link im Chat.",
+      "definition": "I’ll share the link in the chat.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "online"
+      ]
+    },
+    {
+      "word": "Ich kann meinen Bildschirm teilen.",
+      "definition": "I can share my screen.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "online"
+      ]
+    },
+    {
+      "word": "Die Datei liegt im Ordner.",
+      "definition": "The file is in the folder.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "IT",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wir haben ein Problem gefunden.",
+      "definition": "We found a problem.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "IT",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich habe ein Ticket eröffnet.",
+      "definition": "I opened a ticket.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "IT",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Wir warten noch auf die Freigabe.",
+      "definition": "We’re still waiting for approval.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "process"
+      ]
+    },
+    {
+      "word": "Die Änderungen sind freigegeben.",
+      "definition": "The changes are approved.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "process"
+      ]
+    },
+    {
+      "word": "Ich stimme dem Vorschlag zu.",
+      "definition": "I agree with the proposal.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "decision"
+      ]
+    },
+    {
+      "word": "Ich bin nicht einverstanden.",
+      "definition": "I don’t agree.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "decision"
+      ]
+    },
+    {
+      "word": "Das klären wir mit der Fachabteilung.",
+      "definition": "We’ll clarify that with the business department.",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "process"
+      ]
+    },
+    {
+      "word": "Können wir das priorisieren?",
+      "definition": "Can we prioritize this?",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "process"
+      ]
+    },
+    {
+      "word": "Das ist im aktuellen Umfang nicht enthalten.",
+      "definition": "That isn’t in the current scope.",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "process"
+      ]
+    },
+    {
+      "word": "Können Sie mir ein Update geben?",
+      "definition": "Could you give me an update? (formal)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "status"
+      ]
+    },
+    {
+      "word": "Ich melde mich, sobald es Neuigkeiten gibt.",
+      "definition": "I’ll get back to you as soon as there’s news.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "status"
+      ]
+    },
+    {
+      "word": "Danke für die schnelle Rückmeldung.",
+      "definition": "Thanks for the quick feedback.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "work conversation",
+        "politeness"
+      ]
+    },
+    {
+      "word": "Wo ist der Bahnhof, bitte?",
+      "definition": "Where is the train station, please?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions",
+        "travel"
+      ]
+    },
+    {
+      "word": "Wie komme ich zum Flughafen?",
+      "definition": "How do I get to the airport?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions",
+        "travel"
+      ]
+    },
+    {
+      "word": "Ist es weit von hier?",
+      "definition": "Is it far from here?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions",
+        "travel"
+      ]
+    },
+    {
+      "word": "Gehen Sie geradeaus und dann links.",
+      "definition": "Go straight ahead and then left.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions"
+      ]
+    },
+    {
+      "word": "Die nächste Haltestelle ist dort vorne.",
+      "definition": "The next stop is up ahead.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "public transport"
+      ]
+    },
+    {
+      "word": "Ich habe den Zug verpasst.",
+      "definition": "I missed the train.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "word": "Der Zug hat Verspätung.",
+      "definition": "The train is delayed.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "public transport"
+      ]
+    },
+    {
+      "word": "Steigen Sie hier ein.",
+      "definition": "Board here.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "public transport",
+        "directions"
+      ]
+    },
+    {
+      "word": "Steigen Sie an der nächsten Station aus.",
+      "definition": "Get off at the next station.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "public transport",
+        "directions"
+      ]
+    },
+    {
+      "word": "Fährt dieser Bus zum Zentrum?",
+      "definition": "Does this bus go to the center?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "public transport",
+        "directions"
+      ]
+    },
+    {
+      "word": "Ich brauche eine Fahrkarte nach Zürich.",
+      "definition": "I need a ticket to Zurich.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "public transport"
+      ]
+    },
+    {
+      "word": "Einfach oder retour?",
+      "definition": "One-way or return?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "public transport"
+      ]
+    },
+    {
+      "word": "Gibt es eine direkte Verbindung?",
+      "definition": "Is there a direct connection?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "public transport"
+      ]
+    },
+    {
+      "word": "Wo kann ich parken?",
+      "definition": "Where can I park?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions",
+        "daily life"
+      ]
+    },
+    {
+      "word": "Gibt es hier in der Nähe ein Taxi?",
+      "definition": "Is there a taxi nearby?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "daily life"
+      ]
+    },
+    {
+      "word": "Wie lange dauert die Fahrt?",
+      "definition": "How long does the trip take?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "word": "Können Sie mir den Weg auf der Karte zeigen?",
+      "definition": "Can you show me the way on the map?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions",
+        "daily life"
+      ]
+    },
+    {
+      "word": "Ich steige in Olten um.",
+      "definition": "I change trains in Olten.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "public transport"
+      ]
+    },
+    {
+      "word": "Gibt es heute Stau?",
+      "definition": "Is there traffic today?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "travel",
+        "daily life"
+      ]
+    },
+    {
+      "word": "Ich komme ein bisschen später an.",
+      "definition": "I’ll arrive a little later.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "scheduling",
+        "travel"
+      ]
+    },
+    {
+      "word": "Der Bahnsteig ist dort rechts.",
+      "definition": "The platform is over there on the right.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "public transport",
+        "directions"
+      ]
+    },
+    {
+      "word": "Welcher Ausgang führt zur Straße?",
+      "definition": "Which exit leads to the street?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "directions",
+        "daily life"
+      ]
+    },
+    {
+      "word": "Ich hätte gern einen Kaffee.",
+      "definition": "I’d like a coffee.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "ordering"
+      ]
+    },
+    {
+      "word": "Zum Hieressen oder Mitnehmen?",
+      "definition": "For here or to go?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "service"
+      ]
+    },
+    {
+      "word": "Mit Milch und ohne Zucker, bitte.",
+      "definition": "With milk and without sugar, please.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "ordering"
+      ]
+    },
+    {
+      "word": "Die Rechnung, bitte.",
+      "definition": "The bill, please.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "service"
+      ]
+    },
+    {
+      "word": "Kann ich mit Karte zahlen?",
+      "definition": "Can I pay by card?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping",
+        "payment"
+      ]
+    },
+    {
+      "word": "Brauchen Sie eine Quittung?",
+      "definition": "Do you need a receipt?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping",
+        "service"
+      ]
+    },
+    {
+      "word": "Ich schaue mich nur um.",
+      "definition": "I’m just looking around.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Haben Sie das in Größe M?",
+      "definition": "Do you have this in size M?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Gibt es das in einer anderen Farbe?",
+      "definition": "Is this available in another color?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Das passt mir leider nicht.",
+      "definition": "Unfortunately, it doesn’t fit me.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Wo sind die Umkleidekabinen?",
+      "definition": "Where are the fitting rooms?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Kann ich das umtauschen?",
+      "definition": "Can I exchange this?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping",
+        "service"
+      ]
+    },
+    {
+      "word": "Ist das im Angebot?",
+      "definition": "Is this on sale?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Können Sie einen Rabatt geben?",
+      "definition": "Can you give a discount?",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping",
+        "negotiation"
+      ]
+    },
+    {
+      "word": "Ich nehme das.",
+      "definition": "I’ll take this.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "word": "Das schmeckt sehr gut.",
+      "definition": "That tastes very good.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "word": "Können Sie das empfehlen?",
+      "definition": "Can you recommend that?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "shopping"
+      ]
+    },
+    {
+      "word": "Haben Sie eine Speisekarte?",
+      "definition": "Do you have a menu?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant"
+      ]
+    },
+    {
+      "word": "Für zwei Personen, bitte.",
+      "definition": "For two people, please.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "reservation"
+      ]
+    },
+    {
+      "word": "Haben Sie einen Tisch am Fenster?",
+      "definition": "Do you have a table by the window?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "reservation"
+      ]
+    },
+    {
+      "word": "Stimmt so, danke.",
+      "definition": "Keep the change, thanks.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "payment"
+      ]
+    },
+    {
+      "word": "Können wir getrennt zahlen?",
+      "definition": "Can we pay separately?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "restaurant",
+        "payment"
+      ]
+    },
+    {
+      "word": "Ich muss einkaufen gehen.",
+      "definition": "I need to go shopping.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "errands"
+      ]
+    },
+    {
+      "word": "Ich mache heute sauber.",
+      "definition": "I’m cleaning today.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "home"
+      ]
+    },
+    {
+      "word": "Kannst du bitte den Müll rausbringen?",
+      "definition": "Can you please take out the trash?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "home"
+      ]
+    },
+    {
+      "word": "Ich koche heute Abend.",
+      "definition": "I’m cooking this evening.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "home"
+      ]
+    },
+    {
+      "word": "Ich hänge die Wäsche auf.",
+      "definition": "I’m hanging up the laundry.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "home"
+      ]
+    },
+    {
+      "word": "Ich habe keine Zeit heute.",
+      "definition": "I don’t have time today.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "time"
+      ]
+    },
+    {
+      "word": "Ich komme später nach Hause.",
+      "definition": "I’ll come home later.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "time"
+      ]
+    },
+    {
+      "word": "Ich bin unterwegs.",
+      "definition": "I’m on the way.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "travel"
+      ]
+    },
+    {
+      "word": "Ich brauche eine Pause.",
+      "definition": "I need a break.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "well‑being"
+      ]
+    },
+    {
+      "word": "Ich bin völlig fertig.",
+      "definition": "I’m completely exhausted.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "feelings"
+      ]
+    },
+    {
+      "word": "Das klappt nicht.",
+      "definition": "That’s not working.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "tech"
+      ]
+    },
+    {
+      "word": "Es hat geklappt!",
+      "definition": "It worked!",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "tech"
+      ]
+    },
+    {
+      "word": "Ich habe es eilig.",
+      "definition": "I’m in a hurry.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "time"
+      ]
+    },
+    {
+      "word": "Kein Empfang hier.",
+      "definition": "No reception here.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "phone"
+      ]
+    },
+    {
+      "word": "Der Akku ist fast leer.",
+      "definition": "The battery is almost empty.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "tech"
+      ]
+    },
+    {
+      "word": "Kannst du mir kurz helfen?",
+      "definition": "Can you help me quickly?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "help"
+      ]
+    },
+    {
+      "word": "Ich schaffe das schon.",
+      "definition": "I’ll manage.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "reassurance"
+      ]
+    },
+    {
+      "word": "Ich freue mich darauf.",
+      "definition": "I’m looking forward to it.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "daily life",
+        "feelings"
+      ]
+    },
+    {
+      "word": "Ich hätte gern einen Termin.",
+      "definition": "I’d like to make an appointment.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "appointments",
+        "service"
+      ]
+    },
+    {
+      "word": "Geht es auch nächste Woche?",
+      "definition": "Would next week work as well?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "appointments",
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Ich habe um zehn Uhr einen Termin.",
+      "definition": "I have an appointment at ten.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "appointments"
+      ]
+    },
+    {
+      "word": "Ich muss den Termin verschieben.",
+      "definition": "I have to reschedule the appointment.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "appointments"
+      ]
+    },
+    {
+      "word": "Ich muss den Termin absagen.",
+      "definition": "I need to cancel the appointment.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "appointments"
+      ]
+    },
+    {
+      "word": "Ich brauche ein Rezept vom Arzt.",
+      "definition": "I need a prescription from the doctor.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "pharmacy",
+        "health"
+      ]
+    },
+    {
+      "word": "Haben Sie dieses Medikament vorrätig?",
+      "definition": "Do you have this medication in stock?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "pharmacy",
+        "health"
+      ]
+    },
+    {
+      "word": "Wie oft soll ich das einnehmen?",
+      "definition": "How often should I take this?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "pharmacy",
+        "health"
+      ]
+    },
+    {
+      "word": "Gibt es Nebenwirkungen?",
+      "definition": "Are there side effects?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "pharmacy",
+        "health"
+      ]
+    },
+    {
+      "word": "Ich habe Schmerzen hier.",
+      "definition": "I have pain here.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "health",
+        "emergencies"
+      ]
+    },
+    {
+      "word": "Mir ist schwindlig.",
+      "definition": "I feel dizzy.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "health",
+        "emergencies"
+      ]
+    },
+    {
+      "word": "Ich brauche eine Überweisung.",
+      "definition": "I need a referral.",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "health",
+        "appointments"
+      ]
+    },
+    {
+      "word": "Ich möchte ein Paket abholen.",
+      "definition": "I’d like to pick up a package.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "post",
+        "service"
+      ]
+    },
+    {
+      "word": "Ich möchte ein Paket verschicken.",
+      "definition": "I’d like to send a package.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "post",
+        "service"
+      ]
+    },
+    {
+      "word": "Haben Sie einen Ausweis dabei?",
+      "definition": "Do you have an ID with you?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "post"
+      ]
+    },
+    {
+      "word": "Können Sie bitte dieses Formular ausfüllen?",
+      "definition": "Could you please fill out this form?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service"
+      ]
+    },
+    {
+      "word": "Wie lange dauert die Lieferung?",
+      "definition": "How long does the delivery take?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "deliveries",
+        "service"
+      ]
+    },
+    {
+      "word": "Kann ich einen Liefertermin auswählen?",
+      "definition": "Can I choose a delivery time?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "deliveries",
+        "service"
+      ]
+    },
+    {
+      "word": "Können Sie das bitte montieren?",
+      "definition": "Could you please assemble that?",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "home"
+      ]
+    },
+    {
+      "word": "Können Sie jemanden vorbeischicken?",
+      "definition": "Could you send someone over?",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "repair"
+      ]
+    },
+    {
+      "word": "Ich möchte das reklamieren.",
+      "definition": "I’d like to complain about this.",
+      "type": "phrase",
+      "level": "B2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "shopping"
+      ]
+    },
+    {
+      "word": "Gibt es eine Garantie?",
+      "definition": "Is there a warranty?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "shopping"
+      ]
+    },
+    {
+      "word": "Ich brauche eine Bestätigung.",
+      "definition": "I need a confirmation.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "appointments"
+      ]
+    },
+    {
+      "word": "Können Sie mir eine Quittung geben?",
+      "definition": "Could you give me a receipt?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "service",
+        "shopping"
+      ]
+    },
+    {
+      "word": "Ich rufe später zurück.",
+      "definition": "I’ll call back later.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "phone",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Können Sie mich verbinden?",
+      "definition": "Could you put me through?",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "phone",
+        "service"
+      ]
+    },
+    {
+      "word": "Die Verbindung ist schlecht.",
+      "definition": "The connection is bad.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "phone",
+        "online"
+      ]
+    },
+    {
+      "word": "Sie sind auf stumm.",
+      "definition": "You’re on mute.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich kann Sie nicht hören.",
+      "definition": "I can’t hear you.",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Sie sind eingefroren.",
+      "definition": "You’re frozen.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich teile meinen Bildschirm.",
+      "definition": "I’m sharing my screen.",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Können Sie den Link senden?",
+      "definition": "Could you send the link?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich habe den Anhang nicht bekommen.",
+      "definition": "I didn’t receive the attachment.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich lade die Datei hoch.",
+      "definition": "I’m uploading the file.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich lade die Datei herunter.",
+      "definition": "I’m downloading the file.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Können Sie bitte das Mikro ausschalten?",
+      "definition": "Could you please mute the mic?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Können wir die Kamera ausschalten?",
+      "definition": "Can we turn off the camera?",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    },
+    {
+      "word": "Ich poste das ins Team.",
+      "definition": "I’ll post that to the team.",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "Common Phrases (A2–B2)",
+      "tags": [
+        "online",
+        "work conversation"
+      ]
+    }
+  ]
+}

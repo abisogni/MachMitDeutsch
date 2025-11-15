@@ -1,0 +1,3602 @@
+{
+  "version": "2.0",
+  "exported": "2025-11-11T00:00:00Z",
+  "cards": [
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "haben",
+      "definition": "to have",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gehabt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich habe viele Aufgaben.",
+        "en": "I have many tasks."
+      }
+    },
+    {
+      "word": "werden",
+      "definition": "to become",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "state change"
+      ],
+      "verbType": "irregular",
+      "partizipII": "geworden",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich werde müde.",
+        "en": "I am becoming tired."
+      }
+    },
+    {
+      "word": "können",
+      "definition": "can / to be able to",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "modal",
+        "essential"
+      ],
+      "verbType": "modal",
+      "partizipII": "-",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich kann Deutsch sprechen.",
+        "en": "I can speak German."
+      }
+    },
+    {
+      "word": "müssen",
+      "definition": "must / to have to",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "modal",
+        "essential"
+      ],
+      "verbType": "modal",
+      "partizipII": "-",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich muss arbeiten.",
+        "en": "I have to work."
+      }
+    },
+    {
+      "word": "wollen",
+      "definition": "to want",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "modal",
+        "essential"
+      ],
+      "verbType": "modal",
+      "partizipII": "-",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich will Kaffee.",
+        "en": "I want coffee."
+      }
+    },
+    {
+      "word": "sollen",
+      "definition": "should / supposed to",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "modal"
+      ],
+      "verbType": "modal",
+      "partizipII": "-",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich soll das tun.",
+        "en": "I should do that."
+      }
+    },
+    {
+      "word": "dürfen",
+      "definition": "may / to be allowed",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "modal"
+      ],
+      "verbType": "modal",
+      "partizipII": "-",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich darf hier parken.",
+        "en": "I may park here."
+      }
+    },
+    {
+      "word": "mögen",
+      "definition": "to like",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "emotion"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gemocht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich mag Musik.",
+        "en": "I like music."
+      }
+    },
+    {
+      "word": "machen",
+      "definition": "to do / to make",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "regular",
+      "partizipII": "gemacht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich mache meine Hausaufgaben.",
+        "en": "I do my homework."
+      }
+    },
+    {
+      "word": "gehen",
+      "definition": "to go",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "movement",
+        "daily life"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gegangen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich gehe ins Büro.",
+        "en": "I go to the office."
+      }
+    },
+    {
+      "word": "kommen",
+      "definition": "to come",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "movement",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gekommen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich komme aus der Schweiz.",
+        "en": "I come from Switzerland."
+      }
+    },
+    {
+      "word": "sehen",
+      "definition": "to see",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "observation"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gesehen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich sehe den Bericht.",
+        "en": "I see the report."
+      }
+    },
+    {
+      "word": "arbeiten",
+      "definition": "to work",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "work",
+        "essential"
+      ],
+      "verbType": "regular",
+      "partizipII": "gearbeitet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich arbeite im Büro.",
+        "en": "I work in the office."
+      }
+    },
+    {
+      "word": "schreiben",
+      "definition": "to write",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "work",
+        "communication"
+      ],
+      "verbType": "irregular",
+      "partizipII": "geschrieben",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich schreibe eine E-Mail.",
+        "en": "I write an email."
+      }
+    },
+    {
+      "word": "lesen",
+      "definition": "to read",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "learning"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gelesen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich lese ein Buch.",
+        "en": "I read a book."
+      }
+    },
+    {
+      "word": "sprechen",
+      "definition": "to speak",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "communication",
+        "work"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gesprochen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich spreche mit meinem Kollegen.",
+        "en": "I speak with my colleague."
+      }
+    },
+    {
+      "word": "fragen",
+      "definition": "to ask",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "communication",
+        "essential"
+      ],
+      "verbType": "regular",
+      "partizipII": "gefragt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich frage meinen Chef.",
+        "en": "I ask my boss."
+      }
+    },
+    {
+      "word": "antworten",
+      "definition": "to answer",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "communication",
+        "work"
+      ],
+      "verbType": "regular",
+      "partizipII": "geantwortet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich antworte auf die E-Mail.",
+        "en": "I reply to the email."
+      }
+    },
+    {
+      "word": "hören",
+      "definition": "to hear",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "senses"
+      ],
+      "verbType": "regular",
+      "partizipII": "gehört",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich höre Musik.",
+        "en": "I hear music."
+      }
+    },
+    {
+      "word": "essen",
+      "definition": "to eat",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gegessen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich esse zu Mittag.",
+        "en": "I eat lunch."
+      }
+    },
+    {
+      "word": "trinken",
+      "definition": "to drink",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life"
+      ],
+      "verbType": "regular",
+      "partizipII": "getrunken",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich trinke Wasser.",
+        "en": "I drink water."
+      }
+    },
+    {
+      "word": "schlafen",
+      "definition": "to sleep",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life",
+        "rest"
+      ],
+      "verbType": "irregular",
+      "partizipII": "geschlafen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich habe gut geschlafen.",
+        "en": "I slept well."
+      }
+    },
+    {
+      "word": "stehen",
+      "definition": "to stand",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gestanden",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Der Laptop steht auf dem Tisch.",
+        "en": "The laptop is on the table."
+      }
+    },
+    {
+      "word": "sitzen",
+      "definition": "to sit",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life",
+        "work"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gesessen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich sitze im Büro.",
+        "en": "I sit in the office."
+      }
+    },
+    {
+      "word": "laufen",
+      "definition": "to run / walk",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "movement",
+        "health"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gelaufen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich laufe jeden Morgen.",
+        "en": "I walk every morning."
+      }
+    },
+    {
+      "word": "fahren",
+      "definition": "to drive / go (by transport)",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "movement",
+        "transport"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gefahren",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich fahre mit dem Zug.",
+        "en": "I go by train."
+      }
+    },
+    {
+      "word": "bleiben",
+      "definition": "to stay",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life",
+        "movement"
+      ],
+      "verbType": "irregular",
+      "partizipII": "geblieben",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bleibe zu Hause.",
+        "en": "I stay at home."
+      }
+    },
+    {
+      "word": "denken",
+      "definition": "to think",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "mental",
+        "reflection"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gedacht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich denke an meine Arbeit.",
+        "en": "I think about my work."
+      }
+    },
+    {
+      "word": "wissen",
+      "definition": "to know (a fact)",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "mental",
+        "knowledge"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewusst",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich weiß die Antwort.",
+        "en": "I know the answer."
+      }
+    },
+    {
+      "word": "kennen",
+      "definition": "to know (a person/place)",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "mental",
+        "relationship"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gekannt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich kenne ihn gut.",
+        "en": "I know him well."
+      }
+    },
+    {
+      "word": "brauchen",
+      "definition": "to need",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "necessity"
+      ],
+      "verbType": "regular",
+      "partizipII": "gebraucht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich brauche Hilfe.",
+        "en": "I need help."
+      }
+    },
+    {
+      "word": "geben",
+      "definition": "to give",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "transfer"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gegeben",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Er gibt mir das Dokument.",
+        "en": "He gives me the document."
+      }
+    },
+    {
+      "word": "nehmen",
+      "definition": "to take",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life",
+        "transport"
+      ],
+      "verbType": "irregular",
+      "partizipII": "genommen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich nehme den Bus.",
+        "en": "I take the bus."
+      }
+    },
+    {
+      "word": "bringen",
+      "definition": "to bring",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "daily life",
+        "work"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gebracht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich bringe den Laptop.",
+        "en": "I bring the laptop."
+      }
+    },
+    {
+      "word": "finden",
+      "definition": "to find",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "IT"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gefunden",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich finde die Datei.",
+        "en": "I find the file."
+      }
+    },
+    {
+      "word": "zeigen",
+      "definition": "to show",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "work",
+        "presentation"
+      ],
+      "verbType": "regular",
+      "partizipII": "gezeigt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich zeige dir den Bericht.",
+        "en": "I show you the report."
+      }
+    },
+    {
+      "word": "beginnen",
+      "definition": "to begin",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "work",
+        "time"
+      ],
+      "verbType": "irregular",
+      "partizipII": "begonnen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Das Meeting beginnt um 9 Uhr.",
+        "en": "The meeting begins at 9 o’clock."
+      }
+    },
+    {
+      "word": "anfangen",
+      "definition": "to start",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "work",
+        "process"
+      ],
+      "verbType": "separable",
+      "partizipII": "angefangen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich fange mit dem Projekt an.",
+        "en": "I start the project."
+      }
+    },
+    {
+      "word": "enden",
+      "definition": "to end",
+      "type": "verb",
+      "level": "A2",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "work",
+        "time"
+      ],
+      "verbType": "regular",
+      "partizipII": "geendet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Das Meeting endet um 10 Uhr.",
+        "en": "The meeting ends at 10."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    },
+    {
+      "word": "sein",
+      "definition": "to be",
+      "type": "verb",
+      "level": "A1",
+      "collection": "Common Verbs (A1–B2)",
+      "tags": [
+        "basic",
+        "essential"
+      ],
+      "verbType": "irregular",
+      "partizipII": "gewesen",
+      "auxiliary": "sein",
+      "examples": {
+        "de": "Ich bin müde.",
+        "en": "I am tired."
+      }
+    }
+  ]
+}

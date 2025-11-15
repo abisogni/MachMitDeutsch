@@ -1,0 +1,4135 @@
+{
+  "version": "2.0",
+  "exported": "2025-11-11T00:00:00Z",
+  "cards": [
+    {
+      "word": "der Benutzer",
+      "definition": "user",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "office"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Benutzer ist wichtig.",
+        "en": "The user is important."
+      }
+    },
+    {
+      "word": "die Anwendung",
+      "definition": "application",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich öffne die Anwendung.",
+        "en": "I open the application."
+      }
+    },
+    {
+      "word": "der Bericht",
+      "definition": "report",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "it"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Ich öffne den Bericht.",
+        "en": "I open the report."
+      }
+    },
+    {
+      "word": "die Schnittstelle",
+      "definition": "interface",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "integration"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich öffne die Schnittstelle.",
+        "en": "I open the interface."
+      }
+    },
+    {
+      "word": "das System",
+      "definition": "system",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Ich öffne das System.",
+        "en": "I open the system."
+      }
+    },
+    {
+      "word": "der Server",
+      "definition": "server",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Ich öffne den Server.",
+        "en": "I open the server."
+      }
+    },
+    {
+      "word": "die Datenbank",
+      "definition": "database",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "data"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich öffne die Datenbank.",
+        "en": "I open the database."
+      }
+    },
+    {
+      "word": "die Datei",
+      "definition": "file",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich öffne die Datei.",
+        "en": "I open the file."
+      }
+    },
+    {
+      "word": "der Ordner",
+      "definition": "folder",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "office"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Ordner ist wichtig.",
+        "en": "The folder is important."
+      }
+    },
+    {
+      "word": "das Netzwerk",
+      "definition": "network",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Netzwerk ist wichtig.",
+        "en": "The network is important."
+      }
+    },
+    {
+      "word": "die Verbindung",
+      "definition": "connection",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich öffne die Verbindung.",
+        "en": "I open the connection."
+      }
+    },
+    {
+      "word": "die Plattform",
+      "definition": "platform",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich öffne die Plattform.",
+        "en": "I open the platform."
+      }
+    },
+    {
+      "word": "das Modul",
+      "definition": "module",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Modul ist wichtig.",
+        "en": "The module is important."
+      }
+    },
+    {
+      "word": "die Komponente",
+      "definition": "component",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Komponente ist wichtig.",
+        "en": "The component is important."
+      }
+    },
+    {
+      "word": "die Konfiguration",
+      "definition": "configuration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich öffne die Konfiguration.",
+        "en": "I open the configuration."
+      }
+    },
+    {
+      "word": "der Fehler",
+      "definition": "error",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Fehler ist wichtig.",
+        "en": "The error is important."
+      }
+    },
+    {
+      "word": "das Protokoll",
+      "definition": "log / minutes",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "office"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Protokoll ist wichtig.",
+        "en": "The log / minutes is important."
+      }
+    },
+    {
+      "word": "die Logdatei",
+      "definition": "log file",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Logdatei ist wichtig.",
+        "en": "The log file is important."
+      }
+    },
+    {
+      "word": "die Umgebung",
+      "definition": "environment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Umgebung ist wichtig.",
+        "en": "The environment is important."
+      }
+    },
+    {
+      "word": "die Testumgebung",
+      "definition": "test environment",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Testumgebung ist wichtig.",
+        "en": "The test environment is important."
+      }
+    },
+    {
+      "word": "die Produktionsumgebung",
+      "definition": "production environment",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Produktionsumgebung ist wichtig.",
+        "en": "The production environment is important."
+      }
+    },
+    {
+      "word": "die Entwicklungsumgebung",
+      "definition": "development environment",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Entwicklungsumgebung ist wichtig.",
+        "en": "The development environment is important."
+      }
+    },
+    {
+      "word": "die Migration",
+      "definition": "migration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Migration ist wichtig.",
+        "en": "The migration is important."
+      }
+    },
+    {
+      "word": "die Integration",
+      "definition": "integration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Integration ist wichtig.",
+        "en": "The integration is important."
+      }
+    },
+    {
+      "word": "der Zugriff",
+      "definition": "access",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Zugriff ist wichtig.",
+        "en": "The access is important."
+      }
+    },
+    {
+      "word": "die Berechtigung",
+      "definition": "permission",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Berechtigung ist wichtig.",
+        "en": "The permission is important."
+      }
+    },
+    {
+      "word": "das Passwort",
+      "definition": "password",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "das",
+      "plural": "⸚er",
+      "examples": {
+        "de": "Das Passwort ist wichtig.",
+        "en": "The password is important."
+      }
+    },
+    {
+      "word": "der Benutzername",
+      "definition": "username",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "der",
+      "plural": "n",
+      "examples": {
+        "de": "Der Benutzername ist wichtig.",
+        "en": "The username is important."
+      }
+    },
+    {
+      "word": "die Rolle",
+      "definition": "role",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich öffne die Rolle.",
+        "en": "I open the role."
+      }
+    },
+    {
+      "word": "die Ressource",
+      "definition": "resource",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "projects"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich öffne die Ressource.",
+        "en": "I open the resource."
+      }
+    },
+    {
+      "word": "die Vorlage",
+      "definition": "template",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich öffne die Vorlage.",
+        "en": "I open the template."
+      }
+    },
+    {
+      "word": "das Beispiel",
+      "definition": "example",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education",
+        "office"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Beispiel ist wichtig.",
+        "en": "The example is important."
+      }
+    },
+    {
+      "word": "die Ausnahme",
+      "definition": "exception",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "logic"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Ausnahme ist wichtig.",
+        "en": "The exception is important."
+      }
+    },
+    {
+      "word": "der Sonderfall",
+      "definition": "special case",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "logic"
+      ],
+      "gender": "der",
+      "plural": "fälle",
+      "examples": {
+        "de": "Der Sonderfall ist wichtig.",
+        "en": "The special case is important."
+      }
+    },
+    {
+      "word": "das Ziel",
+      "definition": "goal",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "projects"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Ziel ist wichtig.",
+        "en": "The goal is important."
+      }
+    },
+    {
+      "word": "die Frist",
+      "definition": "deadline",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "projects"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Frist ist wichtig.",
+        "en": "The deadline is important."
+      }
+    },
+    {
+      "word": "die Priorität",
+      "definition": "priority",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "projects"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Priorität ist wichtig.",
+        "en": "The priority is important."
+      }
+    },
+    {
+      "word": "der Aufwand",
+      "definition": "effort",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "projects"
+      ],
+      "gender": "der",
+      "plural": "Aufwände",
+      "examples": {
+        "de": "Der Aufwand ist wichtig.",
+        "en": "The effort is important."
+      }
+    },
+    {
+      "word": "der Nutzen",
+      "definition": "benefit",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "projects"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Nutzen ist wichtig.",
+        "en": "The benefit is important."
+      }
+    },
+    {
+      "word": "die Voraussetzung",
+      "definition": "prerequisite",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "projects"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Voraussetzung ist wichtig.",
+        "en": "The prerequisite is important."
+      }
+    },
+    {
+      "word": "die Abhängigkeit",
+      "definition": "dependency",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "projects"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Abhängigkeit ist wichtig.",
+        "en": "The dependency is important."
+      }
+    },
+    {
+      "word": "die Leistung",
+      "definition": "performance",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Leistung ist wichtig.",
+        "en": "The performance is important."
+      }
+    },
+    {
+      "word": "die Kapazität",
+      "definition": "capacity",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Kapazität ist wichtig.",
+        "en": "The capacity is important."
+      }
+    },
+    {
+      "word": "die Latenz",
+      "definition": "latency",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Latenz ist wichtig.",
+        "en": "The latency is important."
+      }
+    },
+    {
+      "word": "die Skalierung",
+      "definition": "scaling",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "cloud"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Skalierung ist wichtig.",
+        "en": "The scaling is important."
+      }
+    },
+    {
+      "word": "die Sicherheit",
+      "definition": "security",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Sicherheit ist wichtig.",
+        "en": "The security is important."
+      }
+    },
+    {
+      "word": "die Verschlüsselung",
+      "definition": "encryption",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Verschlüsselung ist wichtig.",
+        "en": "The encryption is important."
+      }
+    },
+    {
+      "word": "die Authentifizierung",
+      "definition": "authentication",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Authentifizierung ist wichtig.",
+        "en": "The authentication is important."
+      }
+    },
+    {
+      "word": "die Autorisierung",
+      "definition": "authorization",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "security"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Autorisierung ist wichtig.",
+        "en": "The authorization is important."
+      }
+    },
+    {
+      "word": "das Projekt",
+      "definition": "project",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "projects"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Projekt ist wichtig.",
+        "en": "The project is important."
+      }
+    },
+    {
+      "word": "die Aufgabe",
+      "definition": "task",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Aufgabe ist wichtig.",
+        "en": "The task is important."
+      }
+    },
+    {
+      "word": "der Chef",
+      "definition": "boss (male)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Chef ist wichtig.",
+        "en": "The boss (male) is important."
+      }
+    },
+    {
+      "word": "die Chefin",
+      "definition": "boss (female)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Chefin ist wichtig.",
+        "en": "The boss (female) is important."
+      }
+    },
+    {
+      "word": "der Kollege",
+      "definition": "colleague (male)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "der",
+      "plural": "n",
+      "examples": {
+        "de": "Der Kollege ist wichtig.",
+        "en": "The colleague (male) is important."
+      }
+    },
+    {
+      "word": "die Kollegin",
+      "definition": "colleague (female)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Kollegin ist wichtig.",
+        "en": "The colleague (female) is important."
+      }
+    },
+    {
+      "word": "der Kunde",
+      "definition": "customer (male)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "der",
+      "plural": "n",
+      "examples": {
+        "de": "Der Kunde ist wichtig.",
+        "en": "The customer (male) is important."
+      }
+    },
+    {
+      "word": "die Kundin",
+      "definition": "customer (female)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Kundin ist wichtig.",
+        "en": "The customer (female) is important."
+      }
+    },
+    {
+      "word": "die Besprechung",
+      "definition": "meeting",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Besprechung ist wichtig.",
+        "en": "The meeting is important."
+      }
+    },
+    {
+      "word": "die Sitzung",
+      "definition": "session / meeting",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Sitzung ist wichtig.",
+        "en": "The session / meeting is important."
+      }
+    },
+    {
+      "word": "der Termin",
+      "definition": "appointment",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "scheduling"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Termin ist wichtig.",
+        "en": "The appointment is important."
+      }
+    },
+    {
+      "word": "die Agenda",
+      "definition": "agenda",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "s",
+      "examples": {
+        "de": "Die Agenda ist wichtig.",
+        "en": "The agenda is important."
+      }
+    },
+    {
+      "word": "der Prozess",
+      "definition": "process",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Prozess ist wichtig.",
+        "en": "The process is important."
+      }
+    },
+    {
+      "word": "die Dokumentation",
+      "definition": "documentation",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Dokumentation ist wichtig.",
+        "en": "The documentation is important."
+      }
+    },
+    {
+      "word": "der Entwurf",
+      "definition": "draft",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "der",
+      "plural": "Entwürfe",
+      "examples": {
+        "de": "Der Entwurf ist wichtig.",
+        "en": "The draft is important."
+      }
+    },
+    {
+      "word": "die Version",
+      "definition": "version",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Version ist wichtig.",
+        "en": "The version is important."
+      }
+    },
+    {
+      "word": "die Änderung",
+      "definition": "change",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Änderung ist wichtig.",
+        "en": "The change is important."
+      }
+    },
+    {
+      "word": "die Anweisung",
+      "definition": "instruction",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Anweisung ist wichtig.",
+        "en": "The instruction is important."
+      }
+    },
+    {
+      "word": "die Freigabe",
+      "definition": "approval / release",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Freigabe ist wichtig.",
+        "en": "The approval / release is important."
+      }
+    },
+    {
+      "word": "die Priorisierung",
+      "definition": "prioritization",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Priorisierung ist wichtig.",
+        "en": "The prioritization is important."
+      }
+    },
+    {
+      "word": "das Haus",
+      "definition": "house",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "Häuser",
+      "examples": {
+        "de": "Das Haus ist wichtig.",
+        "en": "The house is important."
+      }
+    },
+    {
+      "word": "die Wohnung",
+      "definition": "apartment",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Wohnung ist wichtig.",
+        "en": "The apartment is important."
+      }
+    },
+    {
+      "word": "das Zimmer",
+      "definition": "room",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Zimmer ist wichtig.",
+        "en": "The room is important."
+      }
+    },
+    {
+      "word": "die Küche",
+      "definition": "kitchen",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Küche ist wichtig.",
+        "en": "The kitchen is important."
+      }
+    },
+    {
+      "word": "das Bad",
+      "definition": "bathroom",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "Bäder",
+      "examples": {
+        "de": "Das Bad ist wichtig.",
+        "en": "The bathroom is important."
+      }
+    },
+    {
+      "word": "das Bett",
+      "definition": "bed",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "en",
+      "examples": {
+        "de": "Das Bett ist wichtig.",
+        "en": "The bed is important."
+      }
+    },
+    {
+      "word": "der Stuhl",
+      "definition": "chair",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "Stühle",
+      "examples": {
+        "de": "Der Stuhl ist wichtig.",
+        "en": "The chair is important."
+      }
+    },
+    {
+      "word": "der Tisch",
+      "definition": "table",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Tisch ist wichtig.",
+        "en": "The table is important."
+      }
+    },
+    {
+      "word": "das Fenster",
+      "definition": "window",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Fenster ist wichtig.",
+        "en": "The window is important."
+      }
+    },
+    {
+      "word": "die Tür",
+      "definition": "door",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Tür ist wichtig.",
+        "en": "The door is important."
+      }
+    },
+    {
+      "word": "die Treppe",
+      "definition": "stairs",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Treppe ist wichtig.",
+        "en": "The stairs is important."
+      }
+    },
+    {
+      "word": "der Aufzug",
+      "definition": "elevator",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "Aufzüge",
+      "examples": {
+        "de": "Der Aufzug ist wichtig.",
+        "en": "The elevator is important."
+      }
+    },
+    {
+      "word": "der Schlüssel",
+      "definition": "key",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Schlüssel funktioniert.",
+        "en": "The key works."
+      }
+    },
+    {
+      "word": "die Heizung",
+      "definition": "heating",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Heizung funktioniert.",
+        "en": "The heating works."
+      }
+    },
+    {
+      "word": "der Strom",
+      "definition": "electricity",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Strom funktioniert.",
+        "en": "The electricity works."
+      }
+    },
+    {
+      "word": "das Gas",
+      "definition": "gas",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Gas ist wichtig.",
+        "en": "The gas is important."
+      }
+    },
+    {
+      "word": "das Wasser",
+      "definition": "water",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Wasser ist wichtig.",
+        "en": "The water is important."
+      }
+    },
+    {
+      "word": "der Internetanschluss",
+      "definition": "internet connection",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home",
+        "it"
+      ],
+      "gender": "der",
+      "plural": "Internetanschlüsse",
+      "examples": {
+        "de": "Der Internetanschluss funktioniert.",
+        "en": "The internet connection works."
+      }
+    },
+    {
+      "word": "die Miete",
+      "definition": "rent",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "housing"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Miete ist wichtig.",
+        "en": "The rent is important."
+      }
+    },
+    {
+      "word": "die Nebenkosten",
+      "definition": "utilities (additional costs)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "housing"
+      ],
+      "gender": "die",
+      "plural": "-",
+      "examples": {
+        "de": "Die Nebenkosten ist wichtig.",
+        "en": "The utilities (additional costs) is important."
+      }
+    },
+    {
+      "word": "der Mietvertrag",
+      "definition": "rental contract",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "housing"
+      ],
+      "gender": "der",
+      "plural": "Mietverträge",
+      "examples": {
+        "de": "Der Mietvertrag ist wichtig.",
+        "en": "The rental contract is important."
+      }
+    },
+    {
+      "word": "der Balkon",
+      "definition": "balcony",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "housing"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Balkon ist wichtig.",
+        "en": "The balcony is important."
+      }
+    },
+    {
+      "word": "der Keller",
+      "definition": "basement / cellar",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "housing"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Keller ist wichtig.",
+        "en": "The basement / cellar is important."
+      }
+    },
+    {
+      "word": "der Kopf",
+      "definition": "head",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "Köpfe",
+      "examples": {
+        "de": "Der Kopf ist wichtig.",
+        "en": "The head is important."
+      }
+    },
+    {
+      "word": "das Auge",
+      "definition": "eye",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "das",
+      "plural": "n",
+      "examples": {
+        "de": "Das Auge ist wichtig.",
+        "en": "The eye is important."
+      }
+    },
+    {
+      "word": "die Ohren",
+      "definition": "ears",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "die",
+      "plural": "-",
+      "examples": {
+        "de": "Die Ohren ist wichtig.",
+        "en": "The ears is important."
+      }
+    },
+    {
+      "word": "das Ohr",
+      "definition": "ear",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "das",
+      "plural": "en",
+      "examples": {
+        "de": "Das Ohr ist wichtig.",
+        "en": "The ear is important."
+      }
+    },
+    {
+      "word": "die Hand",
+      "definition": "hand",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "die",
+      "plural": "Hände",
+      "examples": {
+        "de": "Die Hand ist wichtig.",
+        "en": "The hand is important."
+      }
+    },
+    {
+      "word": "der Fuß",
+      "definition": "foot",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "Füße",
+      "examples": {
+        "de": "Der Fuß ist wichtig.",
+        "en": "The foot is important."
+      }
+    },
+    {
+      "word": "das Bein",
+      "definition": "leg",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Bein ist wichtig.",
+        "en": "The leg is important."
+      }
+    },
+    {
+      "word": "der Arm",
+      "definition": "arm",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Arm ist wichtig.",
+        "en": "The arm is important."
+      }
+    },
+    {
+      "word": "der Rücken",
+      "definition": "back",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Rücken ist wichtig.",
+        "en": "The back is important."
+      }
+    },
+    {
+      "word": "die Schulter",
+      "definition": "shoulder",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Schulter ist wichtig.",
+        "en": "The shoulder is important."
+      }
+    },
+    {
+      "word": "das Knie",
+      "definition": "knee",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Knie ist wichtig.",
+        "en": "The knee is important."
+      }
+    },
+    {
+      "word": "der Finger",
+      "definition": "finger",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Finger ist wichtig.",
+        "en": "The finger is important."
+      }
+    },
+    {
+      "word": "der Zeh",
+      "definition": "toe",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "en",
+      "examples": {
+        "de": "Der Zeh ist wichtig.",
+        "en": "The toe is important."
+      }
+    },
+    {
+      "word": "der Zahn",
+      "definition": "tooth",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "Zähne",
+      "examples": {
+        "de": "Der Zahn ist wichtig.",
+        "en": "The tooth is important."
+      }
+    },
+    {
+      "word": "der Magen",
+      "definition": "stomach",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "Mägen",
+      "examples": {
+        "de": "Der Magen ist wichtig.",
+        "en": "The stomach is important."
+      }
+    },
+    {
+      "word": "das Herz",
+      "definition": "heart",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "das",
+      "plural": "en",
+      "examples": {
+        "de": "Das Herz ist wichtig.",
+        "en": "The heart is important."
+      }
+    },
+    {
+      "word": "die Lunge",
+      "definition": "lung",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Lunge ist wichtig.",
+        "en": "The lung is important."
+      }
+    },
+    {
+      "word": "die Haut",
+      "definition": "skin",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "die",
+      "plural": "-",
+      "examples": {
+        "de": "Die Haut ist wichtig.",
+        "en": "The skin is important."
+      }
+    },
+    {
+      "word": "der Hals",
+      "definition": "throat / neck",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "body"
+      ],
+      "gender": "der",
+      "plural": "Hälse",
+      "examples": {
+        "de": "Der Hals ist wichtig.",
+        "en": "The throat / neck is important."
+      }
+    },
+    {
+      "word": "der Arzt",
+      "definition": "doctor (male)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "service"
+      ],
+      "gender": "der",
+      "plural": "Ärzte",
+      "examples": {
+        "de": "Ich brauche den Arzt.",
+        "en": "I need the doctor (male)."
+      }
+    },
+    {
+      "word": "die Ärztin",
+      "definition": "doctor (female)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "service"
+      ],
+      "gender": "die",
+      "plural": "Ärztinnen",
+      "examples": {
+        "de": "Ich brauche die Ärztin.",
+        "en": "I need the doctor (female)."
+      }
+    },
+    {
+      "word": "das Krankenhaus",
+      "definition": "hospital",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "service"
+      ],
+      "gender": "das",
+      "plural": "Krankenhäuser",
+      "examples": {
+        "de": "Ich brauche das Krankenhaus.",
+        "en": "I need the hospital."
+      }
+    },
+    {
+      "word": "die Apotheke",
+      "definition": "pharmacy",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "service"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich brauche die Apotheke.",
+        "en": "I need the pharmacy."
+      }
+    },
+    {
+      "word": "das Rezept",
+      "definition": "prescription",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Ich brauche das Rezept.",
+        "en": "I need the prescription."
+      }
+    },
+    {
+      "word": "die Tablette",
+      "definition": "tablet / pill",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich brauche die Tablette.",
+        "en": "I need the tablet / pill."
+      }
+    },
+    {
+      "word": "die Salbe",
+      "definition": "ointment",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Salbe ist wichtig.",
+        "en": "The ointment is important."
+      }
+    },
+    {
+      "word": "das Pflaster",
+      "definition": "band‑aid / plaster",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "pharmacy"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Pflaster ist wichtig.",
+        "en": "The band‑aid / plaster is important."
+      }
+    },
+    {
+      "word": "die Untersuchung",
+      "definition": "examination",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich brauche die Untersuchung.",
+        "en": "I need the examination."
+      }
+    },
+    {
+      "word": "der Schmerz",
+      "definition": "pain",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health"
+      ],
+      "gender": "der",
+      "plural": "en",
+      "examples": {
+        "de": "Ich brauche den Schmerz.",
+        "en": "I need the pain."
+      }
+    },
+    {
+      "word": "das Fieber",
+      "definition": "fever",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Ich brauche das Fieber.",
+        "en": "I need the fever."
+      }
+    },
+    {
+      "word": "der Husten",
+      "definition": "cough",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Husten ist wichtig.",
+        "en": "The cough is important."
+      }
+    },
+    {
+      "word": "die Erkältung",
+      "definition": "cold (illness)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Erkältung ist wichtig.",
+        "en": "The cold (illness) is important."
+      }
+    },
+    {
+      "word": "die Allergie",
+      "definition": "allergy",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich brauche die Allergie.",
+        "en": "I need the allergy."
+      }
+    },
+    {
+      "word": "die Notaufnahme",
+      "definition": "emergency room",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "emergencies"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich brauche die Notaufnahme.",
+        "en": "I need the emergency room."
+      }
+    },
+    {
+      "word": "die Versicherungskarte",
+      "definition": "insurance card",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "health",
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich brauche die Versicherungskarte.",
+        "en": "I need the insurance card."
+      }
+    },
+    {
+      "word": "der Preis",
+      "definition": "price",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Ich brauche den Preis.",
+        "en": "I need the price."
+      }
+    },
+    {
+      "word": "der Rabatt",
+      "definition": "discount",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Ich brauche den Rabatt.",
+        "en": "I need the discount."
+      }
+    },
+    {
+      "word": "das Angebot",
+      "definition": "offer / promotion",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Ich brauche das Angebot.",
+        "en": "I need the offer / promotion."
+      }
+    },
+    {
+      "word": "die Ware",
+      "definition": "goods / merchandise",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Ware ist wichtig.",
+        "en": "The goods / merchandise is important."
+      }
+    },
+    {
+      "word": "die Kasse",
+      "definition": "checkout / cash desk",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Kasse ist wichtig.",
+        "en": "The checkout / cash desk is important."
+      }
+    },
+    {
+      "word": "die Rechnung",
+      "definition": "invoice / bill",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping",
+        "banking"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich brauche die Rechnung.",
+        "en": "I need the invoice / bill."
+      }
+    },
+    {
+      "word": "die Quittung",
+      "definition": "receipt",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping",
+        "banking"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich brauche die Quittung.",
+        "en": "I need the receipt."
+      }
+    },
+    {
+      "word": "der Betrag",
+      "definition": "amount",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "der",
+      "plural": "Beträge",
+      "examples": {
+        "de": "Ich brauche den Betrag.",
+        "en": "I need the amount."
+      }
+    },
+    {
+      "word": "die Bank",
+      "definition": "bank",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Bank ist wichtig.",
+        "en": "The bank is important."
+      }
+    },
+    {
+      "word": "das Konto",
+      "definition": "account",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "das",
+      "plural": "Konten",
+      "examples": {
+        "de": "Ich brauche das Konto.",
+        "en": "I need the account."
+      }
+    },
+    {
+      "word": "die IBAN",
+      "definition": "IBAN",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "die",
+      "plural": "-",
+      "examples": {
+        "de": "Ich brauche die IBAN.",
+        "en": "I need the IBAN."
+      }
+    },
+    {
+      "word": "die Überweisung",
+      "definition": "bank transfer",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich brauche die Überweisung.",
+        "en": "I need the bank transfer."
+      }
+    },
+    {
+      "word": "die Kreditkarte",
+      "definition": "credit card",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Kreditkarte ist wichtig.",
+        "en": "The credit card is important."
+      }
+    },
+    {
+      "word": "der Geldautomat",
+      "definition": "cash machine / ATM",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "banking"
+      ],
+      "gender": "der",
+      "plural": "en",
+      "examples": {
+        "de": "Der Geldautomat ist wichtig.",
+        "en": "The cash machine / ATM is important."
+      }
+    },
+    {
+      "word": "der Zug",
+      "definition": "train",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "der",
+      "plural": "Züge",
+      "examples": {
+        "de": "Ich nehme den Zug.",
+        "en": "I take the train."
+      }
+    },
+    {
+      "word": "der Bus",
+      "definition": "bus",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "der",
+      "plural": "Busse",
+      "examples": {
+        "de": "Ich nehme den Bus.",
+        "en": "I take the bus."
+      }
+    },
+    {
+      "word": "die Tram",
+      "definition": "tram",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "die",
+      "plural": "s",
+      "examples": {
+        "de": "Ich nehme die Tram.",
+        "en": "I take the tram."
+      }
+    },
+    {
+      "word": "das Auto",
+      "definition": "car",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "das",
+      "plural": "s",
+      "examples": {
+        "de": "Ich nehme das Auto.",
+        "en": "I take the car."
+      }
+    },
+    {
+      "word": "das Fahrrad",
+      "definition": "bicycle",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "das",
+      "plural": "Fahrräder",
+      "examples": {
+        "de": "Das Fahrrad ist wichtig.",
+        "en": "The bicycle is important."
+      }
+    },
+    {
+      "word": "der Bahnhof",
+      "definition": "train station",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "der",
+      "plural": "Bahnhöfe",
+      "examples": {
+        "de": "Ich nehme den Bahnhof.",
+        "en": "I take the train station."
+      }
+    },
+    {
+      "word": "die Haltestelle",
+      "definition": "(bus/tram) stop",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich nehme die Haltestelle.",
+        "en": "I take the (bus/tram) stop."
+      }
+    },
+    {
+      "word": "das Ticket",
+      "definition": "ticket",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "das",
+      "plural": "s",
+      "examples": {
+        "de": "Ich nehme das Ticket.",
+        "en": "I take the ticket."
+      }
+    },
+    {
+      "word": "die Fahrkarte",
+      "definition": "travel ticket",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Fahrkarte ist wichtig.",
+        "en": "The travel ticket is important."
+      }
+    },
+    {
+      "word": "der Bahnsteig",
+      "definition": "platform",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Ich nehme den Bahnsteig.",
+        "en": "I take the platform."
+      }
+    },
+    {
+      "word": "die Richtung",
+      "definition": "direction",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich nehme die Richtung.",
+        "en": "I take the direction."
+      }
+    },
+    {
+      "word": "die Verspätung",
+      "definition": "delay",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Verspätung ist wichtig.",
+        "en": "The delay is important."
+      }
+    },
+    {
+      "word": "der Stau",
+      "definition": "traffic jam",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Stau ist wichtig.",
+        "en": "The traffic jam is important."
+      }
+    },
+    {
+      "word": "der Fahrer",
+      "definition": "driver (male)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Fahrer ist wichtig.",
+        "en": "The driver (male) is important."
+      }
+    },
+    {
+      "word": "die Fahrerin",
+      "definition": "driver (female)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "transport"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Fahrerin ist wichtig.",
+        "en": "The driver (female) is important."
+      }
+    },
+    {
+      "word": "die Gemeinde",
+      "definition": "municipality / commune",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich gehe zur Gemeinde.",
+        "en": "I am going to the municipality / commune."
+      }
+    },
+    {
+      "word": "die Anmeldung",
+      "definition": "registration",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich gehe zur Anmeldung.",
+        "en": "I am going to the registration."
+      }
+    },
+    {
+      "word": "die Abmeldung",
+      "definition": "deregistration",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich gehe zur Abmeldung.",
+        "en": "I am going to the deregistration."
+      }
+    },
+    {
+      "word": "die Bestätigung",
+      "definition": "confirmation",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich gehe zur Bestätigung.",
+        "en": "I am going to the confirmation."
+      }
+    },
+    {
+      "word": "die Anmeldebestätigung",
+      "definition": "registration confirmation",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich gehe zur Anmeldebestätigung.",
+        "en": "I am going to the registration confirmation."
+      }
+    },
+    {
+      "word": "die Bewilligung",
+      "definition": "permit / authorization",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich gehe zur Bewilligung.",
+        "en": "I am going to the permit / authorization."
+      }
+    },
+    {
+      "word": "die Aufenthaltserlaubnis",
+      "definition": "residence permit",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "se",
+      "examples": {
+        "de": "Ich gehe zur Aufenthaltserlaubnis.",
+        "en": "I am going to the residence permit."
+      }
+    },
+    {
+      "word": "das Formular",
+      "definition": "form",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic",
+        "office"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Ich gehe zur Formular.",
+        "en": "I am going to the form."
+      }
+    },
+    {
+      "word": "das Amt",
+      "definition": "office (authority)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "das",
+      "plural": "Ämter",
+      "examples": {
+        "de": "Ich gehe zur Amt.",
+        "en": "I am going to the office (authority)."
+      }
+    },
+    {
+      "word": "die Behörde",
+      "definition": "authority",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich gehe zur Behörde.",
+        "en": "I am going to the authority."
+      }
+    },
+    {
+      "word": "der Ausweis",
+      "definition": "ID card",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Ich gehe zur Ausweis.",
+        "en": "I am going to the ID card."
+      }
+    },
+    {
+      "word": "der Pass",
+      "definition": "passport",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic"
+      ],
+      "gender": "der",
+      "plural": "Pässe",
+      "examples": {
+        "de": "Der Pass ist wichtig.",
+        "en": "The passport is important."
+      }
+    },
+    {
+      "word": "die Steuer",
+      "definition": "tax",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic",
+        "finance"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Steuer ist wichtig.",
+        "en": "The tax is important."
+      }
+    },
+    {
+      "word": "das Steueramt",
+      "definition": "tax office",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic",
+        "finance"
+      ],
+      "gender": "das",
+      "plural": "Ämter",
+      "examples": {
+        "de": "Das Steueramt ist wichtig.",
+        "en": "The tax office is important."
+      }
+    },
+    {
+      "word": "die Versicherung",
+      "definition": "insurance",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic",
+        "finance"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Versicherung ist wichtig.",
+        "en": "The insurance is important."
+      }
+    },
+    {
+      "word": "die Krankenkasse",
+      "definition": "health insurance provider",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic",
+        "health"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Krankenkasse ist wichtig.",
+        "en": "The health insurance provider is important."
+      }
+    },
+    {
+      "word": "die Sonne",
+      "definition": "sun",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Sonne ist wichtig.",
+        "en": "The sun is important."
+      }
+    },
+    {
+      "word": "der Regen",
+      "definition": "rain",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Regen ist wichtig.",
+        "en": "The rain is important."
+      }
+    },
+    {
+      "word": "der Schnee",
+      "definition": "snow",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Schnee ist wichtig.",
+        "en": "The snow is important."
+      }
+    },
+    {
+      "word": "der Wind",
+      "definition": "wind",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Wind ist wichtig.",
+        "en": "The wind is important."
+      }
+    },
+    {
+      "word": "die Wolke",
+      "definition": "cloud",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Wolke ist wichtig.",
+        "en": "The cloud is important."
+      }
+    },
+    {
+      "word": "der Himmel",
+      "definition": "sky",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Himmel ist wichtig.",
+        "en": "The sky is important."
+      }
+    },
+    {
+      "word": "die Temperatur",
+      "definition": "temperature",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Temperatur ist wichtig.",
+        "en": "The temperature is important."
+      }
+    },
+    {
+      "word": "das Wetter",
+      "definition": "weather",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Wetter ist wichtig.",
+        "en": "The weather is important."
+      }
+    },
+    {
+      "word": "der Sturm",
+      "definition": "storm",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "weather"
+      ],
+      "gender": "der",
+      "plural": "Stürme",
+      "examples": {
+        "de": "Der Sturm ist wichtig.",
+        "en": "The storm is important."
+      }
+    },
+    {
+      "word": "der Kurs",
+      "definition": "course",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Kurs ist wichtig.",
+        "en": "The course is important."
+      }
+    },
+    {
+      "word": "der Lehrer",
+      "definition": "teacher (male)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Lehrer ist wichtig.",
+        "en": "The teacher (male) is important."
+      }
+    },
+    {
+      "word": "die Lehrerin",
+      "definition": "teacher (female)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Lehrerin ist wichtig.",
+        "en": "The teacher (female) is important."
+      }
+    },
+    {
+      "word": "die Sprache",
+      "definition": "language",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Sprache ist wichtig.",
+        "en": "The language is important."
+      }
+    },
+    {
+      "word": "das Wort",
+      "definition": "word (vocabulary item)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "das",
+      "plural": "Wörter",
+      "examples": {
+        "de": "Das Wort ist wichtig.",
+        "en": "The word (vocabulary item) is important."
+      }
+    },
+    {
+      "word": "die Übung",
+      "definition": "exercise",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Übung ist wichtig.",
+        "en": "The exercise is important."
+      }
+    },
+    {
+      "word": "das Buch",
+      "definition": "book",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "das",
+      "plural": "Bücher",
+      "examples": {
+        "de": "Das Buch ist wichtig.",
+        "en": "The book is important."
+      }
+    },
+    {
+      "word": "der Schüler",
+      "definition": "student/pupil (male)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Schüler ist wichtig.",
+        "en": "The student/pupil (male) is important."
+      }
+    },
+    {
+      "word": "die Schülerin",
+      "definition": "student/pupil (female)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Schülerin ist wichtig.",
+        "en": "The student/pupil (female) is important."
+      }
+    },
+    {
+      "word": "die Prüfung",
+      "definition": "exam",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Prüfung ist wichtig.",
+        "en": "The exam is important."
+      }
+    },
+    {
+      "word": "das Zertifikat",
+      "definition": "certificate",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Zertifikat ist wichtig.",
+        "en": "The certificate is important."
+      }
+    },
+    {
+      "word": "der Unterricht",
+      "definition": "lessons / classes",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "education"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Unterricht ist wichtig.",
+        "en": "The lessons / classes is important."
+      }
+    },
+    {
+      "word": "das Essen",
+      "definition": "food / meal",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Essen ist wichtig.",
+        "en": "The food / meal is important."
+      }
+    },
+    {
+      "word": "das Getränk",
+      "definition": "drink / beverage",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Getränk ist wichtig.",
+        "en": "The drink / beverage is important."
+      }
+    },
+    {
+      "word": "der Kaffee",
+      "definition": "coffee",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Kaffee ist wichtig.",
+        "en": "The coffee is important."
+      }
+    },
+    {
+      "word": "das Brot",
+      "definition": "bread",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Brot ist wichtig.",
+        "en": "The bread is important."
+      }
+    },
+    {
+      "word": "die Suppe",
+      "definition": "soup",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Suppe ist wichtig.",
+        "en": "The soup is important."
+      }
+    },
+    {
+      "word": "das Frühstück",
+      "definition": "breakfast",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Frühstück ist wichtig.",
+        "en": "The breakfast is important."
+      }
+    },
+    {
+      "word": "die Speisekarte",
+      "definition": "menu",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food",
+        "restaurant"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Speisekarte ist wichtig.",
+        "en": "The menu is important."
+      }
+    },
+    {
+      "word": "der Kellner",
+      "definition": "waiter (male)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "restaurant"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Kellner ist wichtig.",
+        "en": "The waiter (male) is important."
+      }
+    },
+    {
+      "word": "die Kellnerin",
+      "definition": "waitress (female)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "restaurant"
+      ],
+      "gender": "die",
+      "plural": "nen",
+      "examples": {
+        "de": "Die Kellnerin ist wichtig.",
+        "en": "The waitress (female) is important."
+      }
+    },
+    {
+      "word": "die Rechnung",
+      "definition": "bill",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "restaurant"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Rechnung ist wichtig.",
+        "en": "The bill is important."
+      }
+    },
+    {
+      "word": "der Laptop",
+      "definition": "laptop",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "it"
+      ],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Laptop ist wichtig.",
+        "en": "The laptop is important."
+      }
+    },
+    {
+      "word": "die Tastatur",
+      "definition": "keyboard",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "it"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Tastatur ist wichtig.",
+        "en": "The keyboard is important."
+      }
+    },
+    {
+      "word": "die Maus",
+      "definition": "mouse (computer)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "it"
+      ],
+      "gender": "die",
+      "plural": "mäuse",
+      "examples": {
+        "de": "Die Maus ist wichtig.",
+        "en": "The mouse (computer) is important."
+      }
+    },
+    {
+      "word": "der Bildschirm",
+      "definition": "monitor / screen",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "it"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Bildschirm ist wichtig.",
+        "en": "The monitor / screen is important."
+      }
+    },
+    {
+      "word": "das Kabel",
+      "definition": "cable",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "it"
+      ],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Das Kabel ist wichtig.",
+        "en": "The cable is important."
+      }
+    },
+    {
+      "word": "der Kalender",
+      "definition": "calendar",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Kalender ist wichtig.",
+        "en": "The calendar is important."
+      }
+    },
+    {
+      "word": "die Ordnung",
+      "definition": "order / tidiness",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home",
+        "daily life"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Ordnung ist wichtig.",
+        "en": "The order / tidiness is important."
+      }
+    },
+    {
+      "word": "der Staubsauger",
+      "definition": "vacuum cleaner",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Staubsauger ist wichtig.",
+        "en": "The vacuum cleaner is important."
+      }
+    },
+    {
+      "word": "der Müll",
+      "definition": "trash",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Müll ist wichtig.",
+        "en": "The trash is important."
+      }
+    },
+    {
+      "word": "der Mülleimer",
+      "definition": "trash can",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Mülleimer ist wichtig.",
+        "en": "The trash can is important."
+      }
+    },
+    {
+      "word": "der Einkauf",
+      "definition": "shopping (groceries)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "der",
+      "plural": "Einkäufe",
+      "examples": {
+        "de": "Der Einkauf ist wichtig.",
+        "en": "The shopping (groceries) is important."
+      }
+    },
+    {
+      "word": "der Supermarkt",
+      "definition": "supermarket",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping"
+      ],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Supermarkt ist wichtig.",
+        "en": "The supermarket is important."
+      }
+    },
+    {
+      "word": "die Bäckerei",
+      "definition": "bakery",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping",
+        "food"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Bäckerei ist wichtig.",
+        "en": "The bakery is important."
+      }
+    },
+    {
+      "word": "die Metzgerei",
+      "definition": "butcher’s shop",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping",
+        "food"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Metzgerei ist wichtig.",
+        "en": "The butcher’s shop is important."
+      }
+    },
+    {
+      "word": "der Apfel",
+      "definition": "apple",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "food"
+      ],
+      "gender": "der",
+      "plural": "Äpfel",
+      "examples": {
+        "de": "Der Apfel ist wichtig.",
+        "en": "The apple is important."
+      }
+    },
+    {
+      "word": "die Wasserflasche",
+      "definition": "water bottle",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life",
+        "food"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Wasserflasche ist wichtig.",
+        "en": "The water bottle is important."
+      }
+    },
+    {
+      "word": "das Glas",
+      "definition": "glass",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home",
+        "food"
+      ],
+      "gender": "das",
+      "plural": "gläser",
+      "examples": {
+        "de": "Das Glas ist wichtig.",
+        "en": "The glass is important."
+      }
+    },
+    {
+      "word": "die Flasche",
+      "definition": "bottle",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "home",
+        "food"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Flasche ist wichtig.",
+        "en": "The bottle is important."
+      }
+    },
+    {
+      "word": "die Adresse",
+      "definition": "address",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "civic",
+        "daily life"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Adresse ist wichtig.",
+        "en": "The address is important."
+      }
+    },
+    {
+      "word": "die Straße",
+      "definition": "street",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life",
+        "directions"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Straße ist wichtig.",
+        "en": "The street is important."
+      }
+    },
+    {
+      "word": "die Stadt",
+      "definition": "city",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life",
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "städte",
+      "examples": {
+        "de": "Die Stadt ist wichtig.",
+        "en": "The city is important."
+      }
+    },
+    {
+      "word": "das Dorf",
+      "definition": "village",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life",
+        "civic"
+      ],
+      "gender": "das",
+      "plural": "dörfer",
+      "examples": {
+        "de": "Das Dorf ist wichtig.",
+        "en": "The village is important."
+      }
+    },
+    {
+      "word": "die Telefonnummer",
+      "definition": "phone number",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Telefonnummer ist wichtig.",
+        "en": "The phone number is important."
+      }
+    },
+    {
+      "word": "die E‑Mail",
+      "definition": "email",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "online"
+      ],
+      "gender": "die",
+      "plural": "s",
+      "examples": {
+        "de": "Die E‑Mail ist wichtig.",
+        "en": "The email is important."
+      }
+    },
+    {
+      "word": "der Link",
+      "definition": "link",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "online",
+        "it"
+      ],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Link ist wichtig.",
+        "en": "The link is important."
+      }
+    },
+    {
+      "word": "der Browser",
+      "definition": "browser",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "online",
+        "it"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Browser ist wichtig.",
+        "en": "The browser is important."
+      }
+    },
+    {
+      "word": "das Zielsystem",
+      "definition": "target system",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Zielsystem ist wichtig.",
+        "en": "The target system is important."
+      }
+    },
+    {
+      "word": "das Quellsystem",
+      "definition": "source system",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Quellsystem ist wichtig.",
+        "en": "The source system is important."
+      }
+    },
+    {
+      "word": "das Feld",
+      "definition": "field (input)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "forms"
+      ],
+      "gender": "das",
+      "plural": "er",
+      "examples": {
+        "de": "Das Feld ist wichtig.",
+        "en": "The field (input) is important."
+      }
+    },
+    {
+      "word": "die Eingabe",
+      "definition": "input / entry",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "forms"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Eingabe ist wichtig.",
+        "en": "The input / entry is important."
+      }
+    },
+    {
+      "word": "die Ausgabe",
+      "definition": "output",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "forms"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Ausgabe ist wichtig.",
+        "en": "The output is important."
+      }
+    },
+    {
+      "word": "das Pflichtfeld",
+      "definition": "required field",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "forms"
+      ],
+      "gender": "das",
+      "plural": "er",
+      "examples": {
+        "de": "Das Pflichtfeld ist wichtig.",
+        "en": "The required field is important."
+      }
+    },
+    {
+      "word": "das Fehlerprotokoll",
+      "definition": "error log",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Fehlerprotokoll ist wichtig.",
+        "en": "The error log is important."
+      }
+    },
+    {
+      "word": "die Meldung",
+      "definition": "message / notification",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Meldung ist wichtig.",
+        "en": "The message / notification is important."
+      }
+    },
+    {
+      "word": "das Ticket",
+      "definition": "ticket (support)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "it",
+        "support"
+      ],
+      "gender": "das",
+      "plural": "s",
+      "examples": {
+        "de": "Das Ticket ist wichtig.",
+        "en": "The ticket (support) is important."
+      }
+    },
+    {
+      "word": "die Rückmeldung",
+      "definition": "feedback / response",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Rückmeldung ist wichtig.",
+        "en": "The feedback / response is important."
+      }
+    },
+    {
+      "word": "die Genehmigung",
+      "definition": "approval / authorization",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Genehmigung ist wichtig.",
+        "en": "The approval / authorization is important."
+      }
+    },
+    {
+      "word": "die Ablehnung",
+      "definition": "rejection",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Ablehnung ist wichtig.",
+        "en": "The rejection is important."
+      }
+    },
+    {
+      "word": "der Ratgeber",
+      "definition": "guide / advisor (booklet)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life",
+        "education"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Ratgeber ist wichtig.",
+        "en": "The guide / advisor (booklet) is important."
+      }
+    },
+    {
+      "word": "die Beratung",
+      "definition": "consultation",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "service",
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Beratung ist wichtig.",
+        "en": "The consultation is important."
+      }
+    },
+    {
+      "word": "die Lieferung",
+      "definition": "delivery",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "shopping",
+        "service"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Lieferung ist wichtig.",
+        "en": "The delivery is important."
+      }
+    },
+    {
+      "word": "das Paket",
+      "definition": "package / parcel",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "post",
+        "service"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Paket ist wichtig.",
+        "en": "The package / parcel is important."
+      }
+    },
+    {
+      "word": "die Post",
+      "definition": "post office / mail",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "post",
+        "service"
+      ],
+      "gender": "die",
+      "plural": "-",
+      "examples": {
+        "de": "Die Post ist wichtig.",
+        "en": "The post office / mail is important."
+      }
+    },
+    {
+      "word": "der Paketshop",
+      "definition": "parcel shop",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "post",
+        "service"
+      ],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Paketshop ist wichtig.",
+        "en": "The parcel shop is important."
+      }
+    },
+    {
+      "word": "der Versand",
+      "definition": "shipping / dispatch",
+      "type": "noun",
+      "level": "B1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "post",
+        "service"
+      ],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Der Versand ist wichtig.",
+        "en": "The shipping / dispatch is important."
+      }
+    },
+    {
+      "word": "die Abteilung",
+      "definition": "department",
+      "type": "noun",
+      "level": "A2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office",
+        "civic"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Abteilung ist wichtig.",
+        "en": "The department is important."
+      }
+    },
+    {
+      "word": "die Fachabteilung",
+      "definition": "business department",
+      "type": "noun",
+      "level": "B2",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "office"
+      ],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Fachabteilung ist wichtig.",
+        "en": "The business department is important."
+      }
+    },
+    {
+      "word": "die Hilfe",
+      "definition": "help",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life"
+      ],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Hilfe ist wichtig.",
+        "en": "The help is important."
+      }
+    },
+    {
+      "word": "das Problem",
+      "definition": "problem",
+      "type": "noun",
+      "level": "A1",
+      "collection": "Essential Nouns for Daily & Work Life",
+      "tags": [
+        "daily life",
+        "office"
+      ],
+      "gender": "das",
+      "plural": "e",
+      "examples": {
+        "de": "Das Problem ist wichtig.",
+        "en": "The problem is important."
+      }
+    }
+  ]
+}
