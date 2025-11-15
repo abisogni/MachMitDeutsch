@@ -21,6 +21,7 @@ function PracticeGame() {
   const [incorrectCards, setIncorrectCards] = useState(new Set()); // Cards answered incorrectly
   const [showTagPrompt, setShowTagPrompt] = useState(false);
   const [tagName, setTagName] = useState('');
+  const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 }); // Session tracking
 
   // Redirect if no cards provided
   useEffect(() => {
@@ -113,6 +114,12 @@ function PracticeGame() {
     const currentCard = cards[currentCardIndex];
     const selectedOption = answerOptions[selectedAnswer];
     const isCorrect = selectedOption.isCorrect;
+
+    // Track session stats
+    setSessionStats(prev => ({
+      correct: prev.correct + (isCorrect ? 1 : 0),
+      incorrect: prev.incorrect + (isCorrect ? 0 : 1)
+    }));
 
     // Track incorrect answers
     if (!isCorrect) {
@@ -252,7 +259,7 @@ function PracticeGame() {
             Card {currentCardIndex + 1} of {cards.length}
           </span>
           <span className="current-score">
-            Score: {getCurrentCardScore()}
+            ✓ {sessionStats.correct} | ✗ {sessionStats.incorrect}
           </span>
         </div>
         <div className="progress-bar">
