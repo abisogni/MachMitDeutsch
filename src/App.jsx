@@ -11,7 +11,7 @@ import PracticeGame from './pages/PracticeGame';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MachMitDeutsch">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
