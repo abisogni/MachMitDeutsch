@@ -5,34 +5,41 @@ This directory contains documentation to help Claude understand and work on this
 ## How to Navigate This Project
 
 ### Core Documentation
+- **NEXT.md** - 🔥 **START HERE** - Current priorities and critical context (lightweight, token-efficient)
 - **PROJECT.md** - Project goals, specifications, and architecture for the German vocabulary webapp
 - **STYLE.md** - Complete design system (colors, typography, components, dark theme)
-- **CHANGELOG.md** - Session-based development history
-- **DECISIONS.md** - Important design and architecture decisions (ADR format)
-- **sessions/** - Detailed notes from individual work sessions
+- **CHANGELOG.md** - Session-based development history (archival - read only at session end)
+- **DECISIONS.md** - Important design and architecture decisions (archival - reference only)
+- **sessions/** - Detailed notes from individual work sessions (optional deep dives)
 
 ### When Starting a Session
 
 **BEST PRACTICE:** Use `/project-start` slash command, which will:
-1. Read the most recent CHANGELOG.md entry
-2. Review PROJECT.md for overall context
-3. Show what was accomplished last session
+1. Read **NEXT.md** (lightweight priority list - token efficient!)
+2. Show current high-priority tasks
+3. Display any blockers or critical context
 4. Suggest where to begin
 
-**Manual approach:**
-1. Read the most recent CHANGELOG.md entry (reverse chronological)
-2. Review PROJECT.md for overall context and current phase
-3. Check DECISIONS.md for relevant design decisions
-4. Review session snapshots if needed for deeper context
+**Token-Efficient Design:**
+- NEXT.md is kept under 20 lines
+- Contains only current priorities (1-3 items)
+- Includes critical "don't break this" context
+- Replaces need to read full CHANGELOG at session start
+
+**Manual approach (if needed):**
+1. Read NEXT.md first
+2. Review PROJECT.md for overall context only if needed
+3. Check DECISIONS.md only if specific decision is referenced
 
 ### When Ending a Session
 
 **BEST PRACTICE:** Use `/project-end` slash command, which will:
-1. Update CHANGELOG.md with session summary
-2. Generate session ID for tracking
-3. Document completed work and next steps
-4. Preserve critical context
+1. Update **NEXT.md** with new priorities for next session
+2. Update CHANGELOG.md with full session summary (archival)
+3. Generate session ID for tracking
+4. Document completed work and next steps
 5. Optionally create detailed session snapshot
+6. Update DECISIONS.md if new architectural decisions were made
 
 ## Project-Specific Notes
 
