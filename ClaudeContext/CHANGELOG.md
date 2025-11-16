@@ -4,6 +4,73 @@
 
 ---
 
+## 2025-11-15 - GitHub Pages Deployment & Practice Mode Bug Fixes
+
+**Session ID:** SESSION-20251115-1345
+
+### Completed
+- **GitHub Pages Deployment Fixed**
+  - Fixed BrowserRouter basename issue (added `/MachMitDeutsch` basename)
+  - Added `.nojekyll` file to prevent Jekyll processing
+  - Updated deploy script with `--dotfiles --nojekyll` flags
+  - App now loads correctly at https://abisogni.github.io/MachMitDeutsch/
+- **Bug Fix: Flag for Review**
+  - Improved flagging logic to explicitly use card IDs (not indices)
+  - Fixed issue where multiple cards could be flagged instead of just one
+  - Ensured only the specific viewed card gets flagged
+- **Feature: Tag Incorrect Cards at Session End**
+  - Tracks incorrectly answered cards during practice session
+  - Shows modal prompt when session ends if any cards were answered incorrectly
+  - Users can create custom tags (e.g., `review-2025-11-15`) for targeted practice
+  - Tags persist to IndexedDB via `updateCard()` function
+  - Supports Enter key for quick tag saving
+  - Tags added to existing tags array (no duplicates)
+- **Bug Fix: Flag Boost Card Progression**
+  - Fixed issue where flagged cards disrupted normal progression
+  - Now tracks shown cards to prevent repeats during normal flow
+  - Flagged cards can still reappear (20% boost) for review
+  - After answering flagged card, progression continues to next unshown card
+  - Session automatically ends when all unique cards have been shown
+- **Session Score Display Update**
+  - Changed score box from card-specific score to session tracking
+  - Now displays: `✓ X | ✗ Y` (correct/incorrect answers)
+  - Updates in real-time during practice
+  - More useful for tracking session progress
+
+### Modified Files
+- `src/App.jsx` (added basename to BrowserRouter)
+- `public/.nojekyll` (new - prevents Jekyll processing)
+- `package.json` (updated deploy script)
+- `vite.config.js` (already had base path configured)
+- `src/pages/PracticeGame.jsx` (flag fixes, tag feature, progression fix, session stats)
+- `src/styles/PracticeGame.css` (added modal styling - 157 lines)
+
+### Next Session
+- **Feature: Expandable Example Sentences**
+  - Add expand/collapse state in PracticeGame
+  - Show ▶ button if card has examples
+  - On click, reveal example sentences
+  - Provides context without being too obvious
+- **Complete Database Integration**
+  - CardForm component: implement addCard/updateCard calls
+  - PracticeGame: persist score updates to IndexedDB (currently in-memory)
+  - NewCard page: connect to database
+  - Test full CRUD cycle end-to-end
+- **Testing & Polish**
+  - Test import with all vocabulary files
+  - Test tag filtering in PracticeSetup
+  - Cross-browser testing (Chrome, Safari, Firefox)
+  - Mobile responsiveness validation
+
+### Notes
+- User tested flag boost and identified the card progression bug
+- All features working as expected on live GitHub Pages site
+- Three git commits pushed: deployment fix, feature additions, progression fix
+- ✅ All changes committed and pushed to GitHub
+- App accessible at: https://abisogni.github.io/MachMitDeutsch/
+
+---
+
 ## 2025-11-11 - Phase 3 Complete: IndexedDB Integration & Import System
 
 **Session ID:** SESSION-20251111-0900
