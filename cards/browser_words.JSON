@@ -1,0 +1,976 @@
+{
+  "version": "1.0",
+  "exported": "2025-11-18T12:00:00Z",
+  "cards": [
+    {
+      "word": "Zurück",
+      "definition": "Back (go to previous page)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "browser", "navigation"],
+      "context": "Browser command to go one page back."
+    },
+    {
+      "word": "Vorwärts",
+      "definition": "Forward (go to next page)",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "browser", "navigation"],
+      "context": "Browser command to go forward in history."
+    },
+    {
+      "word": "Neu laden",
+      "definition": "Reload the current page",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "browser", "navigation"],
+      "context": "Refresh the current website."
+    },
+    {
+      "word": "Speichern unter...",
+      "definition": "Save the page as a file",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "file", "browser"],
+      "context": "Save the current page or file under a new name."
+    },
+    {
+      "word": "Drucken...",
+      "definition": "Print the current page",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "print", "browser"],
+      "context": "Open the print dialog for the current page."
+    },
+    {
+      "word": "Streamen...",
+      "definition": "Cast the tab to another device",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "media", "browser"],
+      "context": "Send the tab or desktop to a TV or other device."
+    },
+    {
+      "word": "Mit Google Lens suchen",
+      "definition": "Search this image with Google Lens",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "search", "image"],
+      "context": "Use Google Lens to analyse an image on the page."
+    },
+    {
+      "word": "Im Lesemodus öffnen",
+      "definition": "Open this page in reading mode",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "reading", "browser"],
+      "context": "Show a simplified view of the article for reading."
+    },
+    {
+      "word": "QR-Code für diese Seite erstellen",
+      "definition": "Create a QR code for this page",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "sharing", "browser"],
+      "context": "Generate a QR code that links to the current page."
+    },
+    {
+      "word": "Übersetzen in English",
+      "definition": "Translate this page into English",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "translation", "browser"],
+      "context": "Translate page content into English using Google."
+    },
+    {
+      "word": "1Password – Passwort-Manager",
+      "definition": "Open the 1Password password manager",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "security", "extension"],
+      "context": "Access the 1Password browser extension."
+    },
+    {
+      "word": "Seitenquelltext anzeigen",
+      "definition": "Show the HTML source of this page",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "developer", "browser"],
+      "context": "Open a tab with the page's HTML source code."
+    },
+    {
+      "word": "Untersuchen",
+      "definition": "Inspect this element in DevTools",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "developer", "browser"],
+      "context": "Open DevTools and highlight the selected element."
+    },
+    {
+      "word": "Bearbeiten",
+      "definition": "Edit this bookmark",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit", "bookmarks"],
+      "context": "Change the name or URL of the bookmark."
+    },
+    {
+      "word": "Löschen",
+      "definition": "Delete this item",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "delete", "browser"],
+      "context": "Remove the selected bookmark or item."
+    },
+    {
+      "word": "Ausschneiden",
+      "definition": "Cut the selected item",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit", "clipboard"],
+      "context": "Cut a bookmark or text to move it elsewhere."
+    },
+    {
+      "word": "Kopieren",
+      "definition": "Copy the selected item",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit", "clipboard"],
+      "context": "Copy a bookmark, link, or text."
+    },
+    {
+      "word": "Einfügen",
+      "definition": "Paste the copied item",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit", "clipboard"],
+      "context": "Paste a previously cut or copied item."
+    },
+    {
+      "word": "In Inkognitofenster öffnen",
+      "definition": "Open this link in an incognito window",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "privacy", "browser"],
+      "context": "Open the selected link in a private window."
+    },
+    {
+      "word": "In neuer Tabgruppe öffnen",
+      "definition": "Open this in a new tab group",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tabs", "browser"],
+      "context": "Create a new tab group with this page."
+    },
+    {
+      "word": "In neuem Tab öffnen",
+      "definition": "Open this in a new tab",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tabs", "browser"],
+      "context": "Open the link in another tab."
+    },
+    {
+      "word": "In neuem Fenster öffnen",
+      "definition": "Open this in a new window",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "window", "browser"],
+      "context": "Open the link in a separate browser window."
+    },
+    {
+      "word": "Neuer Tab",
+      "definition": "Open a new tab",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tabs", "browser"],
+      "context": "Create an empty tab in the browser."
+    },
+    {
+      "word": "Neues Fenster",
+      "definition": "Open a new window",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "window", "browser"],
+      "context": "Create a new browser window."
+    },
+    {
+      "word": "Neues Inkognitofenster",
+      "definition": "Open a new incognito window",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "privacy", "browser"],
+      "context": "Start browsing in a private window."
+    },
+    {
+      "word": "Mein Chrome",
+      "definition": "My Chrome (profile and settings)",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "profile", "browser"],
+      "context": "Access profile-related Chrome options."
+    },
+    {
+      "word": "Passwörter und Autofill",
+      "definition": "Manage passwords and autofill data",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "security", "settings"],
+      "context": "Open settings for saved passwords and forms."
+    },
+    {
+      "word": "Verlauf",
+      "definition": "View browsing history",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "history", "browser"],
+      "context": "Open the page with past visited sites."
+    },
+    {
+      "word": "Downloads",
+      "definition": "Open the downloads page",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "files", "browser"],
+      "context": "Show files you downloaded in Chrome."
+    },
+    {
+      "word": "Lesezeichen und Listen",
+      "definition": "Manage bookmarks and reading lists",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "bookmarks", "browser"],
+      "context": "Open tools for bookmarks and reading lists."
+    },
+    {
+      "word": "Tabgruppen",
+      "definition": "Manage tab groups",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tabs", "browser"],
+      "context": "Group tabs together by colour and name."
+    },
+    {
+      "word": "Erweiterungen",
+      "definition": "Manage browser extensions",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "extensions", "browser"],
+      "context": "Open the list of installed extensions."
+    },
+    {
+      "word": "Browserdaten löschen...",
+      "definition": "Clear browsing data",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "privacy", "browser"],
+      "context": "Delete cookies, history, and cached files."
+    },
+    {
+      "word": "Zoomen",
+      "definition": "Change the zoom level",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "view", "browser"],
+      "context": "Make the page content larger or smaller."
+    },
+    {
+      "word": "Übersetzen...",
+      "definition": "Translate the current page",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "translation", "browser"],
+      "context": "Translate page content into another language."
+    },
+    {
+      "word": "Suchen und bearbeiten",
+      "definition": "Search and edit on the page",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "search", "edit"],
+      "context": "Find text and possibly change it (e.g. PDFs)."
+    },
+    {
+      "word": "Streamen, speichern und teilen",
+      "definition": "Cast, save, and share this page",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "sharing", "media"],
+      "context": "Options to cast, save, or share the page."
+    },
+    {
+      "word": "Weitere Tools",
+      "definition": "More tools and options",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tools", "browser"],
+      "context": "Opens a submenu with extra tools."
+    },
+    {
+      "word": "Hilfe",
+      "definition": "Help and support",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "help", "browser"],
+      "context": "Access Chrome help and documentation."
+    },
+    {
+      "word": "Einstellungen",
+      "definition": "Open Chrome settings",
+      "type": "phrase",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "settings", "browser"],
+      "context": "Open the main settings page."
+    },
+    {
+      "word": "Beenden",
+      "definition": "Quit the browser",
+      "type": "phrase",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "system", "browser"],
+      "context": "Close all Chrome windows."
+    },
+    {
+      "word": "Von deiner Organisation verwaltet",
+      "definition": "Managed by your organisation",
+      "type": "phrase",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "admin", "browser"],
+      "context": "Indicates that IT controls some settings."
+    },
+
+    /* NOUN CARDS */
+
+    {
+      "word": "die Browserdaten",
+      "definition": "browsing data (history, cache, cookies)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "privacy", "browser"],
+      "gender": "die",
+      "plural": "-",
+      "examples": {
+        "de": "Ich lösche regelmäßig meine Browserdaten.",
+        "en": "I regularly delete my browsing data."
+      }
+    },
+    {
+      "word": "das Lesezeichen",
+      "definition": "bookmark (in a browser or book)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "bookmarks", "browser"],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Ich speichere die Seite als Lesezeichen.",
+        "en": "I save the page as a bookmark."
+      }
+    },
+    {
+      "word": "die Liste",
+      "definition": "list",
+      "type": "noun",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "general"],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Ich schreibe eine Liste mit Aufgaben.",
+        "en": "I write a list of tasks."
+      }
+    },
+    {
+      "word": "der Quelltext",
+      "definition": "source code (text of a program or page)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "developer"],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Der Quelltext der Seite ist sehr lang.",
+        "en": "The page's source code is very long."
+      }
+    },
+    {
+      "word": "der QR-Code",
+      "definition": "QR code",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "sharing"],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Ich scanne den QR-Code mit meinem Handy.",
+        "en": "I scan the QR code with my phone."
+      }
+    },
+    {
+      "word": "die Seite",
+      "definition": "page (web page or sheet of paper)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "browser"],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Die Seite lädt sehr langsam.",
+        "en": "The page loads very slowly."
+      }
+    },
+    {
+      "word": "der Passwort-Manager",
+      "definition": "password manager",
+      "type": "noun",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "security"],
+      "gender": "der",
+      "plural": "-",
+      "examples": {
+        "de": "Ein Passwort-Manager speichert alle Passwörter.",
+        "en": "A password manager stores all passwords."
+      }
+    },
+    {
+      "word": "das Fenster",
+      "definition": "window (building or program)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "ui"],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Ich schließe das Fenster mit dem Fehler.",
+        "en": "I close the window with the error."
+      }
+    },
+    {
+      "word": "das Inkognitofenster",
+      "definition": "incognito window (private browsing window)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "privacy"],
+      "gender": "das",
+      "plural": "-",
+      "examples": {
+        "de": "Im Inkognitofenster werden keine Cookies gespeichert.",
+        "en": "No cookies are saved in an incognito window."
+      }
+    },
+    {
+      "word": "der Tab",
+      "definition": "tab (in a browser)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tabs"],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Ich öffne einen neuen Tab.",
+        "en": "I open a new tab."
+      }
+    },
+    {
+      "word": "die Tabgruppe",
+      "definition": "tab group",
+      "type": "noun",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tabs"],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "Jede Tabgruppe hat eine eigene Farbe.",
+        "en": "Each tab group has its own colour."
+      }
+    },
+    {
+      "word": "die Erweiterung",
+      "definition": "extension (add-on for an app)",
+      "type": "noun",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "extensions"],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Ich installiere eine neue Erweiterung.",
+        "en": "I install a new extension."
+      }
+    },
+    {
+      "word": "der Verlauf",
+      "definition": "history (list of past actions)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "history"],
+      "gender": "der",
+      "plural": "e",
+      "examples": {
+        "de": "Ich lösche den Verlauf für heute.",
+        "en": "I delete today's history."
+      }
+    },
+    {
+      "word": "der Download",
+      "definition": "download (file you downloaded)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "files"],
+      "gender": "der",
+      "plural": "s",
+      "examples": {
+        "de": "Der Download ist noch nicht fertig.",
+        "en": "The download is not finished yet."
+      }
+    },
+    {
+      "word": "das Tool",
+      "definition": "tool (software function or program)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "tools"],
+      "gender": "das",
+      "plural": "s",
+      "examples": {
+        "de": "Dieses Tool hilft beim Debuggen.",
+        "en": "This tool helps with debugging."
+      }
+    },
+    {
+      "word": "die Hilfe",
+      "definition": "help (support or documentation)",
+      "type": "noun",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "help"],
+      "gender": "die",
+      "plural": "n",
+      "examples": {
+        "de": "In der Hilfe finde ich eine Anleitung.",
+        "en": "In the help section I find instructions."
+      }
+    },
+    {
+      "word": "die Einstellung",
+      "definition": "setting (configuration option)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "settings"],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Diese Einstellung ändert die Startseite.",
+        "en": "This setting changes the start page."
+      }
+    },
+    {
+      "word": "die Organisation",
+      "definition": "organisation (company or group)",
+      "type": "noun",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "company"],
+      "gender": "die",
+      "plural": "en",
+      "examples": {
+        "de": "Die Organisation verwaltet den Browser.",
+        "en": "The organisation manages the browser."
+      }
+    },
+    {
+      "word": "das Passwort",
+      "definition": "password",
+      "type": "noun",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "security"],
+      "gender": "das",
+      "plural": "er",
+      "examples": {
+        "de": "Bitte ändern Sie Ihr Passwort regelmäßig.",
+        "en": "Please change your password regularly."
+      }
+    },
+
+    /* VERB CARDS */
+
+    {
+      "word": "laden",
+      "definition": "to load / to download",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "browser"],
+      "verbType": "irregular",
+      "partizipII": "geladen",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Die Seite lädt sehr langsam.",
+        "en": "The page loads very slowly."
+      }
+    },
+    {
+      "word": "speichern",
+      "definition": "to save / to store (data)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "files"],
+      "verbType": "regular",
+      "partizipII": "gespeichert",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich speichere das Dokument lokal.",
+        "en": "I save the document locally."
+      }
+    },
+    {
+      "word": "drucken",
+      "definition": "to print (a page or document)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "print"],
+      "verbType": "regular",
+      "partizipII": "gedruckt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Wir drucken den Bericht direkt aus Chrome.",
+        "en": "We print the report directly from Chrome."
+      }
+    },
+    {
+      "word": "streamen",
+      "definition": "to stream / to cast media",
+      "type": "verb",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "media"],
+      "verbType": "regular",
+      "partizipII": "gestreamt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich streame den Tab auf den Fernseher.",
+        "en": "I stream the tab to the TV."
+      }
+    },
+    {
+      "word": "suchen",
+      "definition": "to search / to look for",
+      "type": "verb",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "search"],
+      "verbType": "regular",
+      "partizipII": "gesucht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich suche einen Fehler im Log.",
+        "en": "I search for an error in the log."
+      }
+    },
+    {
+      "word": "öffnen",
+      "definition": "to open (door/data file/window)",
+      "type": "verb",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "ui"],
+      "verbType": "regular",
+      "partizipII": "geöffnet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich öffne den Link in einem neuen Tab.",
+        "en": "I open the link in a new tab."
+      }
+    },
+    {
+      "word": "erstellen",
+      "definition": "to create / to generate",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "files"],
+      "verbType": "regular",
+      "partizipII": "erstellt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Chrome erstellt einen QR-Code für die Seite.",
+        "en": "Chrome creates a QR code for the page."
+      }
+    },
+    {
+      "word": "übersetzen",
+      "definition": "to translate (text or speech)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "translation"],
+      "verbType": "regular",
+      "partizipII": "übersetzt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Der Browser übersetzt die Seite automatisch.",
+        "en": "The browser automatically translates the page."
+      }
+    },
+    {
+      "word": "anzeigen",
+      "definition": "to display / to show (on screen)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "ui"],
+      "verbType": "separable",
+      "partizipII": "angezeigt",
+      "auxiliary": "haben",
+      "separablePrefix": "an",
+      "examples": {
+        "de": "Der Browser zeigt den Quelltext an.",
+        "en": "The browser displays the source code."
+      }
+    },
+    {
+      "word": "untersuchen",
+      "definition": "to inspect / to examine closely",
+      "type": "verb",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "developer"],
+      "verbType": "regular",
+      "partizipII": "untersucht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich untersuche das Element mit den DevTools.",
+        "en": "I inspect the element with DevTools."
+      }
+    },
+    {
+      "word": "bearbeiten",
+      "definition": "to edit / to process",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit"],
+      "verbType": "regular",
+      "partizipII": "bearbeitet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich bearbeite das Lesezeichen-Namenfeld.",
+        "en": "I edit the bookmark name field."
+      }
+    },
+    {
+      "word": "löschen",
+      "definition": "to delete / to erase (data)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "delete"],
+      "verbType": "regular",
+      "partizipII": "gelöscht",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich lösche alte Browserdaten.",
+        "en": "I delete old browsing data."
+      }
+    },
+    {
+      "word": "ausschneiden",
+      "definition": "to cut out / to cut (text, file)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit"],
+      "verbType": "separable",
+      "partizipII": "ausgeschnitten",
+      "auxiliary": "haben",
+      "separablePrefix": "aus",
+      "examples": {
+        "de": "Ich schneide den Text aus und füge ihn ein.",
+        "en": "I cut the text out and paste it in."
+      }
+    },
+    {
+      "word": "kopieren",
+      "definition": "to copy (text, file, link)",
+      "type": "verb",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit"],
+      "verbType": "regular",
+      "partizipII": "kopiert",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich kopiere die URL für meinen Kollegen.",
+        "en": "I copy the URL for my colleague."
+      }
+    },
+    {
+      "word": "einfügen",
+      "definition": "to paste / to insert (text, file)",
+      "type": "verb",
+      "level": "A1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "edit"],
+      "verbType": "separable",
+      "partizipII": "eingefügt",
+      "auxiliary": "haben",
+      "separablePrefix": "ein",
+      "examples": {
+        "de": "Ich füge den kopierten Text in die Mail ein.",
+        "en": "I paste the copied text into the email."
+      }
+    },
+    {
+      "word": "zoomen",
+      "definition": "to zoom in / to zoom out",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "view"],
+      "verbType": "regular",
+      "partizipII": "gezoomt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich zoome die Seite auf 125 Prozent.",
+        "en": "I zoom the page to 125 percent."
+      }
+    },
+    {
+      "word": "teilen",
+      "definition": "to share (a link or file)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "sharing"],
+      "verbType": "regular",
+      "partizipII": "geteilt",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich teile den Link im Teams-Chat.",
+        "en": "I share the link in the Teams chat."
+      }
+    },
+    {
+      "word": "verwalten",
+      "definition": "to manage / to administer",
+      "type": "verb",
+      "level": "B1",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "admin"],
+      "verbType": "regular",
+      "partizipII": "verwaltet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Die IT verwaltet alle Chrome-Einstellungen.",
+        "en": "IT manages all Chrome settings."
+      }
+    },
+    {
+      "word": "beenden",
+      "definition": "to end / to quit (a program)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "system"],
+      "verbType": "regular",
+      "partizipII": "beendet",
+      "auxiliary": "haben",
+      "examples": {
+        "de": "Ich beende den Browser und starte ihn neu.",
+        "en": "I quit the browser and start it again."
+      }
+    },
+    {
+      "word": "zurückgehen",
+      "definition": "to go back (in history or space)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "navigation"],
+      "verbType": "irregular",
+      "partizipII": "zurückgegangen",
+      "auxiliary": "sein",
+      "separablePrefix": "zurück",
+      "examples": {
+        "de": "Ich gehe eine Seite im Verlauf zurück.",
+        "en": "I go back one page in the history."
+      }
+    },
+    {
+      "word": "vorwärtsgehen",
+      "definition": "to go forward (in history or space)",
+      "type": "verb",
+      "level": "A2",
+      "collection": "App Menu Commands",
+      "tags": ["#AppMenuCommands", "navigation"],
+      "verbType": "regular",
+      "partizipII": "vorwärtsgegangen",
+      "auxiliary": "sein",
+      "separablePrefix": "vorwärts",
+      "examples": {
+        "de": "Ich gehe im Browser wieder vorwärts.",
+        "en": "I go forward again in the browser."
+      }
+    }
+  ]
+}
