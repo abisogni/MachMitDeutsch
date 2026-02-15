@@ -8,10 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist --dotfiles --nojekyll"
+    "deploy": "vite build && gh-pages -d dist --dotfiles --nojekyll",
+    "import-cards": "node scripts/import-cards-to-supabase.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
     "dexie": "^4.2.1",
+    "dotenv": "^17.3.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.5"

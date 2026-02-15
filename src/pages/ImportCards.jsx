@@ -1,9 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { importCards, getStats } from '../db/database';
+import { useAuth } from '../contexts/AuthContext';
 import '../styles/ImportCards.css';
 
 function ImportCards() {
+  const { isSupabaseConfigured } = useAuth();
   const [file, setFile] = useState(null);
   const [parsedData, setParsedData] = useState(null);
   const [error, setError] = useState(null);
@@ -86,12 +88,36 @@ function ImportCards() {
       <div className="import-header">
         <h1>Import Vocabulary Cards</h1>
         <p className="import-subtitle">
-          Upload a JSON file to import your German vocabulary cards
+          {isSupabaseConfigured
+            ? 'Card imports are managed by administrators'
+            : 'Upload a JSON file to import your German vocabulary cards'}
         </p>
       </div>
 
-      {/* File Upload Section */}
-      {!parsedData && !importResults && (
+      {/* Admin Notice (when Supabase is configured) */}
+      {isSupabaseConfigured && (
+        <div className="admin-notice">
+          <h2>🔒 Admin-Only Feature</h2>
+          <p>
+            When using Supabase cloud sync, vocabulary cards are centrally managed
+            to ensure consistency across all users.
+          </p>
+          <p>
+            Card imports are handled by administrators using the backend import script.
+            This ensures all users have access to the same high-quality vocabulary database.
+          </p>
+          <div className="admin-info">
+            <strong>For administrators:</strong>
+            <pre className="admin-command">npm run import-cards</pre>
+            <p className="admin-note">
+              Requires <code>.env</code> file with <code>SUPABASE_SERVICE_ROLE_KEY</code>
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* File Upload Section (offline mode only) */}
+      {!isSupabaseConfigured && !parsedData && !importResults && (
         <div className="import-card">
           <div className="upload-area">
             <div className="upload-icon">📤</div>
@@ -146,8 +172,8 @@ function ImportCards() {
         </div>
       )}
 
-      {/* Preview Section */}
-      {parsedData && !importResults && (
+      {/* Preview Section (offline mode only) */}
+      {!isSupabaseConfigured && parsedData && !importResults && (
         <div className="import-card">
           <div className="preview-section">
             <h2>Import Preview</h2>
@@ -202,8 +228,8 @@ function ImportCards() {
         </div>
       )}
 
-      {/* Results Section */}
-      {importResults && (
+      {/* Results Section (offline mode only) */}
+      {!isSupabaseConfigured && importResults && (
         <div className="import-card">
           <div className="results-section">
             <div className="results-icon">✅</div>

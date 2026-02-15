@@ -1,9 +1,14 @@
 import { useState, useEffect } from 'react';
 import { getAllCards } from '../db/database';
+import { useAuth } from '../contexts/AuthContext';
+import { useSync } from '../contexts/SyncContext';
 import '../styles/Dashboard.css';
 
 function Dashboard() {
+  const { user, isSupabaseConfigured, logout } = useAuth();
+  const { syncStatus, lastSyncTime, refreshCache } = useSync();
   const [cards, setCards] = useState([]);
+  const [isRefreshing, setIsRefreshing] = useState(false);
   const [metrics, setMetrics] = useState({
     totalCards: 0,
     byType: {
@@ -90,11 +95,73 @@ function Dashboard() {
     }
   };
 
+  const handleRefresh = async () => {
+    if (!user || !isSupabaseConfigured) return;
+
+    setIsRefreshing(true);
+    try {
+      await refreshCache();
+      const loadedCards = await getAllCards();
+      setCards(loadedCards);
+      calculateMetrics(loadedCards);
+    } catch (error) {
+      console.error('Error refreshing data:', error);
+    } finally {
+      setIsRefreshing(false);
+    }
+  };
+
+  const handleLogout = async () => {
+    try {
+      await logout();
+    } catch (error) {
+      console.error('Error logging out:', error);
+    }
+  };
+
+  const formatSyncTime = (time) => {
+    if (!time) return 'Never';
+    const now = new Date();
+    const diff = Math.floor((now - time) / 1000); // seconds
+
+    if (diff < 60) return 'Just now';
+    if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+    if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+    return time.toLocaleDateString();
+  };
+
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
-        <h1>Performance Dashboard</h1>
-        <p className="dashboard-subtitle">Track your German vocabulary learning progress</p>
+        <div className="dashboard-title-section">
+          <h1>Performance Dashboard</h1>
+          <p className="dashboard-subtitle">Track your German vocabulary learning progress</p>
+        </div>
+        <div className="dashboard-actions">
+          {isSupabaseConfigured && user && (
+            <>
+              <div className="sync-status">
+                <span className={`sync-indicator ${syncStatus.online ? 'online' : 'offline'}`}>
+                  {syncStatus.syncing ? '🔄 Syncing...' : syncStatus.online ? '✓ Online' : '⚠ Offline'}
+                </span>
+                <span className="sync-time">
+                  Last sync: {formatSyncTime(lastSyncTime)}
+                </span>
+              </div>
+              <button
+                onClick={handleRefresh}
+                disabled={isRefreshing}
+                className="btn-refresh"
+                title="Refresh data from cloud"
+              >
+                {isRefreshing ? '🔄' : '↻'}
+              </button>
+              <button onClick={handleLogout} className="btn-logout">
+                Logout
+              </button>
+            </>
+          )}
+        </div>
       </div>
 
       {/* Overview Stats */}

@@ -8,6 +8,12 @@ db.version(1).stores({
   cards: '++id, word, type, collection, cardScore, *tags, createdDate'
 });
 
+// Version 2: Add sync queue for offline changes
+db.version(2).stores({
+  cards: '++id, word, type, collection, cardScore, *tags, createdDate',
+  syncQueue: '++id, timestamp, type, status'
+});
+
 // Card class (optional - adds type hints and methods)
 db.cards.mapToClass(class Card {
   constructor(data) {
@@ -231,4 +237,76 @@ export async function getStats() {
     collections: await getCollections(),
     tags: await getTags(),
   };
+}
+
+// ============================================
+// Sync Queue Operations (for offline support)
+// ============================================
+
+/**
+ * Add operation to sync queue
+ * @param {Object} operation - Operation to queue
+ * @returns {Promise<number>} - Queue item ID
+ */
+export async function addToSyncQueue(operation) {
+  const queueItem = {
+    ...operation,
+    timestamp: Date.now(),
+    status: 'pending',
+  };
+
+  return await db.syncQueue.add(queueItem);
+}
+
+/**
+ * Get all pending sync operations
+ * @returns {Promise<Array>} - Pending operations
+ */
+export async function getPendingSyncOperations() {
+  return await db.syncQueue.where('status').equals('pending').toArray();
+}
+
+/**
+ * Mark sync operation as completed
+ * @param {number} id - Queue item ID
+ */
+export async function markSyncCompleted(id) {
+  await db.syncQueue.update(id, { status: 'completed' });
+}
+
+/**
+ * Remove completed sync operations
+ */
+export async function cleanupSyncQueue() {
+  await db.syncQueue.where('status').equals('completed').delete();
+}
+
+/**
+ * Update card with progress and queue sync
+ * @param {string} cardId - Card ID
+ * @param {Object} progressData - Progress data (cardScore, viewCount)
+ * @param {Object} syncContext - Optional sync context (userId)
+ */
+export async function updateCardProgress(cardId, progressData, syncContext = null) {
+  // Update local card immediately
+  await updateCard(cardId, progressData);
+
+  // Queue sync if context provided
+  if (syncContext?.userId && syncContext?.queueSync) {
+    const scoreDelta = progressData.cardScore !== undefined ? progressData.cardScore : 0;
+    const viewDelta = progressData.viewCount !== undefined ? 1 : 0;
+
+    syncContext.queueSync({
+      id: `progress-${cardId}-${Date.now()}`,
+      type: 'UPDATE_PROGRESS',
+      data: {
+        userId: syncContext.userId,
+        cardId,
+        scoreDelta,
+        viewDelta,
+      },
+    });
+  }
+
+  return await getCard(cardId);
 }

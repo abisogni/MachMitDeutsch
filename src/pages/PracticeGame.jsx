@@ -1,11 +1,15 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { updateCard } from '../db/database';
+import { useAuth } from '../contexts/AuthContext';
+import { useSync } from '../contexts/SyncContext';
 import '../styles/PracticeGame.css';
 
 function PracticeGame() {
   const location = useLocation();
   const navigate = useNavigate();
+  const { user } = useAuth();
+  const { queueProgressUpdate } = useSync();
 
   // Get data passed from setup screen
   const { cards, gameMode, difficulty, allCards } = location.state || {};
@@ -139,15 +143,33 @@ function PracticeGame() {
       });
     }
 
-    // Update card stats (in real app, this would update IndexedDB)
+    // Update card stats and persist to database
+    const scoreDelta = isCorrect ? 1 : -1;
+    const newCardScore = (cardStats[currentCard.id]?.cardScore || currentCard.cardScore || 0) + scoreDelta;
+    const newViewCount = (cardStats[currentCard.id]?.viewCount || currentCard.viewCount || 0) + 1;
+
     const updatedStats = {
       ...cardStats,
       [currentCard.id]: {
-        cardScore: (cardStats[currentCard.id]?.cardScore || currentCard.cardScore) + (isCorrect ? 1 : -1),
-        viewCount: (cardStats[currentCard.id]?.viewCount || currentCard.viewCount) + 1
+        cardScore: newCardScore,
+        viewCount: newViewCount
       }
     };
     setCardStats(updatedStats);
+
+    // Persist to IndexedDB
+    updateCard(currentCard.id, {
+      cardScore: newCardScore,
+      viewCount: newViewCount,
+      lastPracticedAt: new Date().toISOString()
+    }).catch(error => {
+      console.error('Error updating card:', error);
+    });
+
+    // Queue sync to Supabase if user is authenticated
+    if (user) {
+      queueProgressUpdate(currentCard.id, scoreDelta, 1);
+    }
 
     // Auto-advance after 3 seconds
     setTimeout(() => {
