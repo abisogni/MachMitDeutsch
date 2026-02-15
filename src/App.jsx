@@ -16,7 +16,7 @@ import PracticeGame from './pages/PracticeGame';
 
 function App() {
   return (
-    <BrowserRouter basename="/MachMitDeutsch">
+    <BrowserRouter>
       <AuthProvider>
         <SyncProvider>
           <MigrationPrompt />
