@@ -13,6 +13,7 @@ import EditCard from './pages/EditCard';
 import ImportCards from './pages/ImportCards';
 import PracticeSetup from './pages/PracticeSetup';
 import PracticeGame from './pages/PracticeGame';
+import Sudoku from './pages/Sudoku';
 
 function App() {
   return (
@@ -64,6 +65,11 @@ function App() {
               <Route path="practice/game" element={
                 <ProtectedRoute>
                   <PracticeGame />
+                </ProtectedRoute>
+              } />
+              <Route path="sudoku" element={
+                <ProtectedRoute>
+                  <Sudoku />
                 </ProtectedRoute>
               } />
             </Route>

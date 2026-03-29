@@ -57,6 +57,14 @@ function Home() {
             Test your knowledge with Word Up! and Define It! game modes. Track your progress with scoring.
           </p>
         </Link>
+
+        <Link to="/sudoku" className="action-card">
+          <span className="action-icon">🔢</span>
+          <h2 className="action-title">Sudoku</h2>
+          <p className="action-description">
+            Play Sudoku at Easy, Medium, Hard, or Expert difficulty. Pick a number then tap cells to fill them.
+          </p>
+        </Link>
       </div>
 
       <div className="home-features">
